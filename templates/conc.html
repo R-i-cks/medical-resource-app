@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="card">
+    <div class="card-body">
+        <h2><b>{{designacao}}</b></h2>
+        {% for rel in conceito.relacionado %}
+          <span class="badge text-bg-info">{{ rel }}</span>
+        {% endfor %}
+    </div>
+  </div>
+<div class="card">
+    <div class="card-body">
+        {{conceito.definicao}}
+    </div>
+  </div>
+
+
+{% endblock %}
