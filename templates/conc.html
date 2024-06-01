@@ -4,17 +4,49 @@
 
 <div class="card">
     <div class="card-body">
-        <h2><b>{{designacao}}</b></h2>
+        <h2><b>{{conceito.Termo}}</b></h2>
         {% for rel in conceito.relacionado %}
           <span class="badge text-bg-info">{{ rel }}</span>
         {% endfor %}
     </div>
   </div>
+{% if conceito.definicao %}
 <div class="card">
     <div class="card-body">
         {{conceito.definicao}}
     </div>
   </div>
+{% endif %}
 
+{% if conceito.Fontes %}
+<div class="card">
+    <div class="card-body">
+        {{conceito.Fontes}}
+    </div>
+  </div>
+{% endif %}
 
+{% if conceito.Nota %}
+<div class="card">
+    <div class="card-body">
+        <p> Nota: {{conceito.Nota}}</p>
+    </div>
+  </div>
+{% endif %}
+
+{% if cat_gram %}
+<div class="card">
+    <div class="card-body">
+        <p> Cat gramatical: {{cat_gram}}</p>
+    </div>
+  </div>
+{% endif %}
+
+{% if area %}
+<div class="card">
+    <div class="card-body">
+        <p> Area: {{area}}</p>
+    </div>
+  </div>
+{% endif %}
 {% endblock %}
