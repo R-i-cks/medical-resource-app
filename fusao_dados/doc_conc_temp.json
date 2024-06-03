@@ -1,0 +1,28 @@
+{
+    "7904": {
+        "definicao": "A prediction on how a person's disease will progress in the future.",
+        "sinonimos": [
+            "diagnosis",
+            "prediction",
+            "prognostication",
+            "projection",
+            "cast",
+            "expectation",
+            "foretelling",
+            "guess",
+            "prevision",
+            "prophecy",
+            "speculation",
+            "surmise"
+        ],
+        "Traduções": {
+            "pt": "prognóstico * ",
+            "es": "pronóstico * ",
+            "en": "prognosis"
+        },
+        "Termo": "prognosis",
+        "Fontes": [
+            "Harvard Medical School"
+        ]
+    }
+}
