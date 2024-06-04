@@ -1,12 +1,48 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-<div class="list-group">
-    {% for conceito in conceitos %}
-    <a href="/conceitos/{{conceito}}" class="list-group-item list-group-item-action">{{conceito}}</a>
-        
-    {% endfor %}
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary"  style="background-color: #5a441a;">
+    <div class="container-fluid">
+
+<ul class="nav justify-content-end">
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ url_for('change_language', lang='en') }}">En</a>
+   </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="{{ url_for('change_language', lang='pt') }}">Pt</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active"   href="{{ url_for('change_language', lang='es') }}">Es</a>
+    </li>
+  </ul>
+
 </div>
+</nav>
+
+
+
+
+
+<h1>Tabela de procura de conceitos</h1>
+<br>
+<br>
+<table id="dados" class="display">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Conceito</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for conceito in conceitos %}
+        <tr>
+            <td><a href="/conceitos/{{lang}}/{{conceito}}">{{conceito}}</a></td>
+            <td>{{conceitos[conceito].Termo}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
 
 {% endblock %}
 
