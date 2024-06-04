@@ -52,9 +52,12 @@ def adicionaTermo(info, termo, dicionario, idioma, indice_global):
 
 
 for termo in gms:
+    
     print('GMS', termo)
+
     termoen = GoogleTranslator(source="pt", target="en").translate(termo)
     termoes = GoogleTranslator(source="pt", target="es").translate(termo)
+
     pt, indice_global = adicionaTermo(gms[termo], termo, pt, 'pt', indice_global)
     en, indice_global = adicionaTermo(gms[termo], termoen, en, 'en', indice_global)
     es, indice_global = adicionaTermo(gms[termo], termoes, es, 'es', indice_global)
