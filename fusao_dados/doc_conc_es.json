@@ -1,4 +1,4832 @@
-{
+{"1": {
+    "Termo": "ala",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Anatomía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_1": {
+    "Termo": "A",
+    "Index_Remissivo": "79"
+},
+"2": {
+    "Termo": "a término",
+    "Categoria gramatical": "a",
+    "Área(s) de aplicação": [
+        "Fisioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"3": {
+    "Termo": "abdomen; panza [pop.]; región abdominal",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Anatomía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "rexión abdominal (f); panza [pop.]"
+    ]
+},
+"4": {
+    "Termo": "abdomen agudo",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_2": {
+    "Termo": "abdome distendido",
+    "Index_Remissivo": "6"
+},
+"5": {
+    "Termo": "abdomen en tabla",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "ventre de madeira"
+    ]
+},
+"6": {
+    "Termo": "abdomen distendido; abdomen globuloso; abdomen prominente",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "abdome prominente; abdome distendido"
+    ]
+},
+"r_3": {
+    "Termo": "abdome prominente",
+    "Index_Remissivo": "6"
+},
+"r_4": {
+    "Termo": "*abducción",
+    "Index_Remissivo": "7"
+},
+"7": {
+    "Termo": "abducción; separación",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Fisioloxía",
+        "Anatomía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "separación",
+        "secuestro * ",
+        "violación * ",
+        "seizure * ",
+        "robo * ",
+        "apropiación * "
+    ],
+    "Definicao": "Movimiento de una parte del cuerpo, como un brazo o una pierna, lejos del centro del cuerpo. * "
+},
+"r_5": {
+    "Termo": "aberración cromosómica",
+    "Index_Remissivo": "230"
+},
+"8": {
+    "Termo": "estrecho inferior de la pelvis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Anatomía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "estreito inferior da pelve (m)"
+    ]
+},
+"9": {
+    "Termo": "estrecho superior de la pelvis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Anatomía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "estreito superior da pelve (m)"
+    ]
+},
+"10": {
+    "Termo": "ablación",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "abscisión * ",
+        "corte * ",
+        "extirpación * ",
+        "eliminación * "
+    ],
+    "Definicao": "Una forma de tratamiento que utiliza energía eléctrica, calor, frío, alcohol u otras modalidades para destruir una pequeña sección de tejido dañado. * "
+},
+"r_6": {
+    "Termo": "ablación do clítoris",
+    "Index_Remissivo": null
+},
+"11": {
+    "Termo": "abordaje",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_7": {
+    "Termo": "abrasión",
+    "Index_Remissivo": null
+},
+"12": {
+    "Termo": "absceso",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Semioloxía",
+        "Anatomía patolóxica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "úlcera * ",
+        "hervir * ",
+        "ántrax * ",
+        "pústula * "
+    ],
+    "Definicao": "Una acumulación de pus, que generalmente ocurre como resultado de una infección. El pus está formado por glóbulos blancos viejos y células de tejido descompuestas. Los abscesos pueden ser muy dolorosos y es posible que sea necesario drenarlos. * "
+},
+"13": {
+    "Termo": "abulia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"14": {
+    "Termo": "abuso de sustancias",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Termos xerais"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "abuso de alcohol * ",
+        "abuso de drogas * ",
+        "el consumo de drogas * ",
+        "adiccion * ",
+        "adicción al alcohol * ",
+        "alcoholismo * ",
+        "abuso de sustancias químicas * ",
+        "dipsomanía * ",
+        "dependencia de drogas * ",
+        "hábito de drogas * ",
+        "hábito * ",
+        "abuso de narcóticos * ",
+        "abuso de solventes * "
+    ],
+    "Definicao": "Uso continuo de sustancias a pesar de los problemas sociales o interpersonales relacionados con las sustancias. * "
+},
+"r_8": {
+    "Termo": "Ac",
+    "Index_Remissivo": "279"
+},
+"r_9": {
+    "Termo": "ACA",
+    "Index_Remissivo": null
+},
+"r_10": {
+    "Termo": "acabado -da de nacer",
+    "Index_Remissivo": null
+},
+"15": {
+    "Termo": "acalasia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"16": {
+    "Termo": "acantolisis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"17": {
+    "Termo": "acantosis nigricans",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"18": {
+    "Termo": "ácaro",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_11": {
+    "Termo": "acceso",
+    "Index_Remissivo": null
+},
+"r_12": {
+    "Termo": "accidente cerebrovascular",
+    "Index_Remissivo": null
+},
+"19": {
+    "Termo": "accidente de trabajo; accidente laboral",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Termos xerais"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "accidente laboral"
+    ]
+},
+"20": {
+    "Termo": "accidente isquémico transitorio; AIT (sg); ataque isquémico transitorio",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Semioloxía",
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "ataque isquémico transitorio; AIT (sg)"
+    ]
+},
+"r_13": {
+    "Termo": "accidente laboral",
+    "Index_Remissivo": "19"
+},
+"r_14": {
+    "Termo": "accidente vascular cerebral",
+    "Index_Remissivo": null
+},
+"r_15": {
+    "Termo": "acedía",
+    "Index_Remissivo": null
+},
+"r_16": {
+    "Termo": "acedume",
+    "Index_Remissivo": null
+},
+"21": {
+    "Termo": "aceptación",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Fisioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"22": {
+    "Termo": "acetábulo; cavidad cotiloidea",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Anatomía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "cavidade cotiloide (f)"
+    ]
+},
+"r_17": {
+    "Termo": "acetaminofén",
+    "Index_Remissivo": null
+},
+"r_18": {
+    "Termo": "acetil-CoA",
+    "Index_Remissivo": "23"
+},
+"23": {
+    "Termo": "acetil-CoA; acetil-coenzima A",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "acetil-CoA"
+    ]
+},
+"24": {
+    "Termo": "acetilcolina",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Bioquímica",
+        "Fisioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "ACh (sb)"
+    ],
+    "Definicao": "Un neurotransmisor (un mensajero químico que envía señales entre las células cerebrales) que desempeña funciones en la atención, el aprendizaje y la memoria. * "
+},
+"r_19": {
+    "Termo": "ACh",
+    "Index_Remissivo": "24"
+},
+"r_20": {
+    "Termo": "acía",
+    "Index_Remissivo": null
+},
+"25": {
+    "Termo": "acidemia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_21": {
+    "Termo": "acidez",
+    "Index_Remissivo": null
+},
+"26": {
+    "Termo": "acidificación",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"27": {
+    "Termo": "acidificante",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"28": {
+    "Termo": "ácido acetilsalicílico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_22": {
+    "Termo": "ácido aminoacético",
+    "Index_Remissivo": null
+},
+"29": {
+    "Termo": "ácido aminosalicílico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"30": {
+    "Termo": "ácido araquidónico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_23": {
+    "Termo": "ácido ascórbico",
+    "Index_Remissivo": null
+},
+"31": {
+    "Termo": "ácido aspártico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "Asp (sb)"
+    ]
+},
+"32": {
+    "Termo": "ácido biliar",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"33": {
+    "Termo": "ácido clorhídrico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica",
+        "Fisioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "HCl (sb)"
+    ]
+},
+"34": {
+    "Termo": "ácido desoxirribonucleico; ADN (sg); DNA (sg)",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "ADN; (sg) DNA (sg)"
+    ]
+},
+"35": {
+    "Termo": "ácido fólico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"36": {
+    "Termo": "ácido gamma-aminobutírico; GABA (sg)",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica",
+        "Fisioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "GABA (sg)"
+    ]
+},
+"37": {
+    "Termo": "ácido glutámico; glutamato",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica",
+        "Fisioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "glutamato; Glu (sb)"
+    ]
+},
+"38": {
+    "Termo": "ácido graso; AG (sg)",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "AG (sg)"
+    ]
+},
+"39": {
+    "Termo": "ácido láctico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_24": {
+    "Termo": "ácido nicotínico",
+    "Index_Remissivo": null
+},
+"40": {
+    "Termo": "ácido nucleico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"41": {
+    "Termo": "ácido ribonucleico; ARN (sg); RNA (sg)",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "ARN (sg); RNA (sg)"
+    ]
+},
+"42": {
+    "Termo": "ácido salicílico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"43": {
+    "Termo": "ácido úrico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"44": {
+    "Termo": "acidosis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"45": {
+    "Termo": "aciduria",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"46": {
+    "Termo": "acinesia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"47": {
+    "Termo": "acino",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Histoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_25": {
+    "Termo": "*aclaramento",
+    "Index_Remissivo": null
+},
+"r_26": {
+    "Termo": "*aclaramento de creatinina",
+    "Index_Remissivo": null
+},
+"r_27": {
+    "Termo": "*aclaramento de urea",
+    "Index_Remissivo": null
+},
+"48": {
+    "Termo": "aclorhidria; anaclorhidria",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia",
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Variante": "anaclorhidria"
+},
+"r_28": {
+    "Termo": "ACM",
+    "Index_Remissivo": null
+},
+"49": {
+    "Termo": "acné; acné vulgar",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "acne vulgar"
+    ]
+},
+"r_29": {
+    "Termo": "*acné",
+    "Index_Remissivo": "49"
+},
+"50": {
+    "Termo": "acné rosácea; rosácea",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "rosácea"
+    ]
+},
+"r_30": {
+    "Termo": "acne vulgar",
+    "Index_Remissivo": "49"
+},
+"51": {
+    "Termo": "acolia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"52": {
+    "Termo": "acomodación",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Fisioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "compromiso * ",
+        "reconciliación * ",
+        "adaptación * ",
+        "cumplimiento * ",
+        "composición * ",
+        "conformidad * ",
+        "adecuado * ",
+        "modificación * ",
+        "asentamiento * ",
+        "trato cincuenta y cincuenta * "
+    ],
+    "Definicao": "La capacidad del ojo para enfocar objetos que están cerca. * "
+},
+"53": {
+    "Termo": "acomodación",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Fisioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "compromiso * ",
+        "reconciliación * ",
+        "adaptación * ",
+        "cumplimiento * ",
+        "composición * ",
+        "conformidad * ",
+        "adecuado * ",
+        "modificación * ",
+        "asentamiento * ",
+        "trato cincuenta y cincuenta * "
+    ],
+    "Definicao": "La capacidad del ojo para enfocar objetos que están cerca. * "
+},
+"54": {
+    "Termo": "acondroplasia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"55": {
+    "Termo": "consejo genético",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Xenética"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "consello xenético"
+    ]
+},
+"56": {
+    "Termo": "evento; suceso",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Epidemioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "evento"
+    ]
+},
+"57": {
+    "Termo": "evento centinela; suceso centinela",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Epidemioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "evento sentinela"
+    ]
+},
+"r_31": {
+    "Termo": "ACP",
+    "Index_Remissivo": null
+},
+"58": {
+    "Termo": "acrocianosis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías",
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_32": {
+    "Termo": "acrocinese",
+    "Index_Remissivo": "59"
+},
+"59": {
+    "Termo": "acrocinesia; acrocinesis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Variante": "acrocinese"
+},
+"r_33": {
+    "Termo": "acromasia",
+    "Index_Remissivo": "61"
+},
+"r_34": {
+    "Termo": "acromatopsia parcial",
+    "Index_Remissivo": null
+},
+"60": {
+    "Termo": "acromegalia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías",
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_35": {
+    "Termo": "acromelalxia",
+    "Index_Remissivo": null
+},
+"61": {
+    "Termo": "acromasia; acromía",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Variante": "acromasia"
+},
+"62": {
+    "Termo": "acromion; apófisis acromial",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Anatomía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "apófise acromial (f)"
+    ]
+},
+"63": {
+    "Termo": "acropaquia; dedos en palillo de tambor; hipocratismo digital",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "hipocratismo dixital (m)"
+    ]
+},
+"r_36": {
+    "Termo": "acroscleroderma",
+    "Index_Remissivo": null
+},
+"64": {
+    "Termo": "acrosoma",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Histoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"65": {
+    "Termo": "acroosteolisis; acrosteolisis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_37": {
+    "Termo": "ACTH",
+    "Index_Remissivo": null
+},
+"66": {
+    "Termo": "actina",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Una de las proteínas que permite que las células se muevan y los músculos se contraigan. * "
+},
+"67": {
+    "Termo": "actinomicina",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"68": {
+    "Termo": "actinomicosis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"69": {
+    "Termo": "actinoterapia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"70": {
+    "Termo": "actitud fetal",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Anatomía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"71": {
+    "Termo": "acto médico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Termos xerais"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"72": {
+    "Termo": "acueducto",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Anatomía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"73": {
+    "Termo": "acúfeno; tinnitus",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "tinnitus"
+    ],
+    "Definicao": "Un zumbido en los oídos o algún otro sonido que no tiene causa externa. * "
+},
+"74": {
+    "Termo": "acuidad visual; agudeza visual",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Fisioloxía",
+        "Probas complementarias"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "agudeza visual",
+        "visión 20/20 * ",
+        "vista aguda * ",
+        "perspicacia * ",
+        "claridad * ",
+        "vista aguda * ",
+        "visión veinte-veinte * "
+    ],
+    "Definicao": "Capacidad del ojo para ver con nitidez, que suele medirse en comparación con lo que un ojo normal vería a 20 pies de distancia. Los problemas de agudeza visual suelen corregirse con anteojos. * "
+},
+"75": {
+    "Termo": "acupuntura",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Un tratamiento basado en la medicina china. Se insertan agujas finas en la piel en puntos específicos del cuerpo. Esta terapia se utiliza para tratar el dolor y diversos problemas de salud y para reducir el estrés. * "
+},
+"r_38": {
+    "Termo": "ACV",
+    "Index_Remissivo": null
+},
+"r_39": {
+    "Termo": "adamantinoma pituitario",
+    "Index_Remissivo": null
+},
+"r_40": {
+    "Termo": "adamantoblastoma",
+    "Index_Remissivo": "162"
+},
+"76": {
+    "Termo": "adaptación",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Fisioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_41": {
+    "Termo": "addución",
+    "Index_Remissivo": "97"
+},
+"77": {
+    "Termo": "adenectomía",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"78": {
+    "Termo": "adenilciclasa",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"79": {
+    "Termo": "adenina",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "A (sb)"
+    ]
+},
+"80": {
+    "Termo": "adenitis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"81": {
+    "Termo": "adenohipófisis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Histoloxía",
+        "Anatomía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"82": {
+    "Termo": "adenoidectomía",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_42": {
+    "Termo": "adenoma do conduto biliar",
+    "Index_Remissivo": null
+},
+"r_43": {
+    "Termo": "adenoma insular",
+    "Index_Remissivo": null
+},
+"r_44": {
+    "Termo": "adenoma langerhansiano",
+    "Index_Remissivo": null
+},
+"r_45": {
+    "Termo": "adenoma oxifílico",
+    "Index_Remissivo": null
+},
+"83": {
+    "Termo": "adenopatía",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Anatomía patolóxica",
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"84": {
+    "Termo": "adenosis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Anatomía patolóxica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"85": {
+    "Termo": "adenosina",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"86": {
+    "Termo": "adenosinmonofosfato cíclico; AMPc (sg)",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "AMPc (sg); AMP cíclico"
+    ]
+},
+"87": {
+    "Termo": "adenosina trifosfato; adenosintrifosfato; adenosín- trifosfato; ATP (sg); trifosfato de adenosina",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "trifosfato de adenosina; ATP (sg)"
+    ]
+},
+"88": {
+    "Termo": "adenovirus; mastadenovirus",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "mastadenovirus"
+    ]
+},
+"r_46": {
+    "Termo": "ADH",
+    "Index_Remissivo": null
+},
+"89": {
+    "Termo": "adhesina",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"90": {
+    "Termo": "adhesión celular",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Fisioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"91": {
+    "Termo": "adicción; dependencia física",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "dependencia física"
+    ]
+},
+"r_47": {
+    "Termo": "adicción ás drogas",
+    "Index_Remissivo": null
+},
+"92": {
+    "Termo": "adipocito",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Histoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_48": {
+    "Termo": "ADN",
+    "Index_Remissivo": "34"
+},
+"93": {
+    "Termo": "adolescencia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Fisioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "niñez * ",
+        "adolescentes * ",
+        "niñez * ",
+        "verdura * ",
+        "juventud * ",
+        "minoría * ",
+        "pubescencia * ",
+        "primavera * ",
+        "juventud * ",
+        "juventud * "
+    ],
+    "Definicao": "Cuando eres demasiado mayor para ser niño y no lo suficientemente mayor para ser adulto. Generalmente usamos la palabra adolescencia para describir el momento en que eres un adolescente. * "
+},
+"r_49": {
+    "Termo": "adrenalectomía",
+    "Index_Remissivo": null
+},
+"94": {
+    "Termo": "adrenalina; epinefrina",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Bioquímica",
+        "Fisioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "epinefrina"
+    ]
+},
+"95": {
+    "Termo": "adrenalitis; adrenitis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Variante": "adrenite"
+},
+"r_50": {
+    "Termo": "adrenite",
+    "Index_Remissivo": "95"
+},
+"r_51": {
+    "Termo": "adrenocorticotropina",
+    "Index_Remissivo": null
+},
+"96": {
+    "Termo": "adsorbente",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"97": {
+    "Termo": "adducción; aducción; aproximación",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Fisioloxía",
+        "Anatomía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "aproximación"
+    ],
+    "Definicao": "Movimiento de una parte del cuerpo hacia o a través de la línea media. * ",
+    "Variante": "addución"
+},
+"98": {
+    "Termo": "aerofagia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "gastrospiria"
+    ]
+},
+"99": {
+    "Termo": "aerosol; esprái",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "spray"
+    ]
+},
+"100": {
+    "Termo": "afasia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Dificultad para hablar o comprender el lenguaje; una ocurrencia común después de un derrame cerebral que afecta el hemisferio izquierdo del cerebro, donde se procesa el lenguaje. * "
+},
+"101": {
+    "Termo": "afasia amnésica; afasia anómica; disnomia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "afasia anómica; disnomia"
+    ]
+},
+"r_52": {
+    "Termo": "afasia anómica",
+    "Index_Remissivo": "101"
+},
+"102": {
+    "Termo": "afagia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_53": {
+    "Termo": "afección",
+    "Index_Remissivo": null
+},
+"103": {
+    "Termo": "afonía",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_54": {
+    "Termo": "aforrador de potasio",
+    "Index_Remissivo": null
+},
+"r_55": {
+    "Termo": "AFP",
+    "Index_Remissivo": "138"
+},
+"104": {
+    "Termo": "afta",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"105": {
+    "Termo": "afta oral",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"106": {
+    "Termo": "aftosis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_56": {
+    "Termo": "AG",
+    "Index_Remissivo": "38"
+},
+"107": {
+    "Termo": "agammaglobulinemia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"108": {
+    "Termo": "aglutinación",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Probas complementarias",
+        "Etiopatoxenia"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"109": {
+    "Termo": "agnosia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Una enfermedad rara en la que una persona no puede reconocer objetos, formas o personas. A menudo se debe a una afección cerebral o neurológica. * "
+},
+"r_57": {
+    "Termo": "agnosia simultánea",
+    "Index_Remissivo": null
+},
+"r_58": {
+    "Termo": "agnosia táctil",
+    "Index_Remissivo": null
+},
+"110": {
+    "Termo": "agonista",
+    "Categoria gramatical": "s",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "1) Sustancia que desencadena una respuesta fisiológica cuando se combina con un receptor. 2) Un músculo a cuya contracción se opone otro músculo. * "
+},
+"111": {
+    "Termo": "agonista adrenérgico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"112": {
+    "Termo": "agrafestesia; grafanestesia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "grafanestesia"
+    ]
+},
+"113": {
+    "Termo": "agrafía",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_59": {
+    "Termo": "agranulocitopenia",
+    "Index_Remissivo": "114"
+},
+"114": {
+    "Termo": "agranulocitopenia; agranulocitosis; neutropenia maligna",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "agranulocitopenia; neutropenia maligna"
+    ]
+},
+"115": {
+    "Termo": "agresividad",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_60": {
+    "Termo": "agudeza visual",
+    "Index_Remissivo": "74"
+},
+"116": {
+    "Termo": "agudo",
+    "Categoria gramatical": "a",
+    "Área(s) de aplicação": [
+        "Termos xerais"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "intenso * ",
+        "afecto * ",
+        "afilado * ",
+        "sutil * ",
+        "sensible * ",
+        "elegante * ",
+        "astuto * ",
+        "astuto * ",
+        "inteligente * ",
+        "perspicaz * ",
+        "discriminante * ",
+        "incisivo * ",
+        "ingenioso * ",
+        "perspicaz * ",
+        "intuitivo * ",
+        "juicioso * ",
+        "observante * ",
+        "penetrante * ",
+        "perspicaz * ",
+        "perforación * ",
+        "ingenioso * "
+    ],
+    "Definicao": "Si es agudo, es fuerte o intenso o aparece repentinamente. * "
+},
+"117": {
+    "Termo": "aguja",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Instrumental"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_61": {
+    "Termo": "AINE",
+    "Index_Remissivo": null
+},
+"r_62": {
+    "Termo": "AIT",
+    "Index_Remissivo": null
+},
+"r_63": {
+    "Termo": "Ala",
+    "Index_Remissivo": "118"
+},
+"118": {
+    "Termo": "alanina",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "Ala (sb)"
+    ]
+},
+"r_64": {
+    "Termo": "alantíase",
+    "Index_Remissivo": null
+},
+"119": {
+    "Termo": "albinismo",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Grupo de afecciones hereditarias que suelen aparecer como una reducción o ausencia de pigmentos de melanina en la piel, el cabello y los ojos. * "
+},
+"r_65": {
+    "Termo": "albinismo adquirido",
+    "Index_Remissivo": null
+},
+"r_66": {
+    "Termo": "albuginea oculi",
+    "Index_Remissivo": null
+},
+"120": {
+    "Termo": "albúmina",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Una proteína producida por el hígado. Los niveles anormales de esta sustancia pueden indicar enfermedad hepática o renal. * "
+},
+"121": {
+    "Termo": "albuminuria",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Cantidades elevadas de albúmina (una proteína producida por el hígado) en la orina, lo que posiblemente indique disfunción renal. * "
+},
+"r_67": {
+    "Termo": "albuxínea",
+    "Index_Remissivo": null
+},
+"122": {
+    "Termo": "alcalinización; alcalización",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Variante": "alcalización"
+},
+"r_68": {
+    "Termo": "alcalización",
+    "Index_Remissivo": "122"
+},
+"123": {
+    "Termo": "alcaloide",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"124": {
+    "Termo": "alcalosis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"125": {
+    "Termo": "alquitrán",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"126": {
+    "Termo": "alcohol",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Variante": "alcol"
+},
+"127": {
+    "Termo": "alcoholemia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"128": {
+    "Termo": "alcoholismo",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "adiccion * ",
+        "abuso de alcohol * ",
+        "adicción al alcohol * ",
+        "dependencia al alcohol * ",
+        "abuso de sustancias * ",
+        "problema con la bebida * ",
+        "crápula * ",
+        "dipsomanía * ",
+        "metomanía * "
+    ],
+    "Definicao": "Otro término para la dependencia del alcohol. Una enfermedad crónica y progresiva caracterizada por consumo excesivo y a menudo compulsivo de alcohol, control deficiente del consumo de alcohol, consumo de alcohol a pesar de las consecuencias adversas y síntomas de abstinencia cuando se suspende el consumo de alcohol. También conocido como alcoholismo. * "
+},
+"r_69": {
+    "Termo": "alcol",
+    "Index_Remissivo": "126"
+},
+"129": {
+    "Termo": "aldosterona",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Bioquímica",
+        "Fisioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Hormona secretada por las glándulas suprarrenales que ayuda a regular la presión arterial controlando los niveles de sodio y potasio en el cuerpo. * "
+},
+"130": {
+    "Termo": "aleatorización",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Epidemioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_70": {
+    "Termo": "aleitamento artificial",
+    "Index_Remissivo": null
+},
+"r_71": {
+    "Termo": "aleitamento materno",
+    "Index_Remissivo": null
+},
+"131": {
+    "Termo": "alelo",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Xenética"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Una de dos o más versiones de un gen. Diferentes alelos producen variaciones en las características hereditarias, como el color de los ojos. * "
+},
+"r_72": {
+    "Termo": "alento hepático",
+    "Index_Remissivo": null
+},
+"132": {
+    "Termo": "aliento urémico; fetor urémico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "fetor uremicus"
+    ]
+},
+"133": {
+    "Termo": "alergólogo",
+    "Categoria gramatical": "s",
+    "Área(s) de aplicação": [
+        "Organización sanitaria"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"134": {
+    "Termo": "alergología",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Organización sanitaria"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"135": {
+    "Termo": "alérgeno",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "anafilactóxeno; sensibilinóxeno",
+        "antígeno * ",
+        "caspa * ",
+        "irritante * ",
+        "polen * ",
+        "ambrosía * ",
+        "los ácaros del polvo * ",
+        "Sustancia desconocida * ",
+        "disparador inmunológico * "
+    ],
+    "Definicao": "Algo que causa una reacción alérgica. * "
+},
+"136": {
+    "Termo": "alergia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia",
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "fiebre del heno * ",
+        "aversión * ",
+        "hipersensibilidad * ",
+        "sensibilidad * ",
+        "susceptibilidad * ",
+        "vulnerabilidad * ",
+        "reacción alérgica * "
+    ],
+    "Definicao": "Mucha gente tiene alergias. Son algo a lo que su cuerpo reacciona y, a menudo, incluyen alimentos y materiales con los que entra en contacto. Generalmente son inofensivos, pero para algunas personas pueden ser mucho más graves y enfermar gravemente. * "
+},
+"137": {
+    "Termo": "alexia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_73": {
+    "Termo": "alfa-1-antitripsina",
+    "Index_Remissivo": null
+},
+"138": {
+    "Termo": "AFP (sg); alfa fetoproteína",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "AFP (sg)"
+    ]
+},
+"139": {
+    "Termo": "algor mortis",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Termos xerais"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"140": {
+    "Termo": "alimentación artificial",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_74": {
+    "Termo": "alimentación parenteral",
+    "Index_Remissivo": null
+},
+"r_75": {
+    "Termo": "almorrá",
+    "Index_Remissivo": null
+},
+"141": {
+    "Termo": "alodinia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Dolor resultante de algo que normalmente no es doloroso, como un toque ligero. * "
+},
+"142": {
+    "Termo": "aloinjerto; homoinjerto; injerto alógeno",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "enxerto alóxeno; homoenxerto"
+    ]
+},
+"r_76": {
+    "Termo": "alopecia androxenética",
+    "Index_Remissivo": "143"
+},
+"143": {
+    "Termo": "alopecia androgenética; alopecia androgénica",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Variante": "alopecia androxenética"
+},
+"144": {
+    "Termo": "alopecia areata",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "",
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Una afección autoinmune que aparece como una pérdida de cabello en parches en el cuero cabelludo que puede provocar una caída permanente del cabello. * "
+},
+"145": {
+    "Termo": "alotipo",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"146": {
+    "Termo": "alotrasplante; homotransplante",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "homotransplante"
+    ]
+},
+"r_77": {
+    "Termo": "alotriofaxia",
+    "Index_Remissivo": null
+},
+"147": {
+    "Termo": "alquilante",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"148": {
+    "Termo": "alta hospitalaria",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Termos xerais"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"149": {
+    "Termo": "alta médica",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Termos xerais"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"150": {
+    "Termo": "altruismo",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Fisioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"151": {
+    "Termo": "alucinación",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "espejismo * ",
+        "fantasma * ",
+        "aberración * ",
+        "aparición * ",
+        "fantasía * ",
+        "espejismo * ",
+        "fantasma * ",
+        "fantasmagoría * ",
+        "viaje * ",
+        "visión * ",
+        "fantasma * ",
+        "producto de la imaginación * ",
+        "viaje de cabeza * "
+    ],
+    "Definicao": "Una percepción de algo que realmente no existe. * "
+},
+"152": {
+    "Termo": "alucinogéno",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"153": {
+    "Termo": "alveolitis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_78": {
+    "Termo": "alveolite fibrosante criptoxénica",
+    "Index_Remissivo": null
+},
+"154": {
+    "Termo": "alveolo; alvéolo",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Histoloxía",
+        "Anatomía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"155": {
+    "Termo": "amaurosis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía",
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"156": {
+    "Termo": "ambliopía; ojo vago",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía",
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "ollo vago (m) [pop.]; ollo preguiceiro (m) [pop.]"
+    ]
+},
+"157": {
+    "Termo": "ambulancia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Organización sanitaria"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "EMS * ",
+        "rescate * ",
+        "transporte * ",
+        "vagón hospitalario * "
+    ],
+    "Definicao": "El vehículo que te lleva hacia y desde el hospital. Hay dos tipos: uno es un vehículo de respuesta a emergencias, que contiene todo el equipo para atenderle inmediatamente después de un accidente. El otro tipo no contiene tanto equipo pero lo lleva hacia y desde las citas en el hospital. * "
+},
+"r_79": {
+    "Termo": "ambulatorio",
+    "Index_Remissivo": null
+},
+"158": {
+    "Termo": "amenaza de aborto",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"159": {
+    "Termo": "amebiasis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"160": {
+    "Termo": "amebicida",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"161": {
+    "Termo": "ameloblasto",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Histoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"162": {
+    "Termo": "adamantoblastoma; ameloblastoma",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Anatomía patolóxica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "adamantoblastoma"
+    ]
+},
+"163": {
+    "Termo": "amenorrea",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"164": {
+    "Termo": "almidón",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"165": {
+    "Termo": "amígdala; tonsila",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Anatomía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "tonsila"
+    ]
+},
+"166": {
+    "Termo": "amigdalectomía; tonsilectomía",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "tonsilectomía"
+    ]
+},
+"167": {
+    "Termo": "amigdalitis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "tonsilite"
+    ]
+},
+"168": {
+    "Termo": "amilasa",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Enzima secretada por el páncreas que descompone el almidón en azúcar. * "
+},
+"r_80": {
+    "Termo": "amilase salivar",
+    "Index_Remissivo": null
+},
+"169": {
+    "Termo": "amiloidosis; amilosis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Variante": "amilose"
+},
+"r_81": {
+    "Termo": "amilose",
+    "Index_Remissivo": "169"
+},
+"170": {
+    "Termo": "aminoácido",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"171": {
+    "Termo": "aminoglucósido",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"172": {
+    "Termo": "amnesia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "apagón * ",
+        "fuga * ",
+        "estupor * "
+    ],
+    "Definicao": "Pérdida inusual de memoria u olvido. * "
+},
+"173": {
+    "Termo": "amniocentesis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica",
+        "Probas complementarias"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_82": {
+    "Termo": "AMP cíclico",
+    "Index_Remissivo": "86"
+},
+"r_83": {
+    "Termo": "AMPc",
+    "Index_Remissivo": null
+},
+"174": {
+    "Termo": "amplificación",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Xenética"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"175": {
+    "Termo": "ampolla",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"176": {
+    "Termo": "ampolla; bulla; flictena",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "flictena; bocha [pop.]; vexiga [pop.]"
+    ]
+},
+"r_84": {
+    "Termo": "ampuloma",
+    "Index_Remissivo": null
+},
+"177": {
+    "Termo": "amputación",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "La extirpación quirúrgica de una extremidad u otra parte del cuerpo. * "
+},
+"178": {
+    "Termo": "anabolismo",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"179": {
+    "Termo": "agente anabólico; agente anabolizante; anabolizante",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "axente anabólico; axente anabolizante"
+    ]
+},
+"r_85": {
+    "Termo": "anaclorhidria",
+    "Index_Remissivo": "48"
+},
+"r_86": {
+    "Termo": "anadipsia",
+    "Index_Remissivo": null
+},
+"180": {
+    "Termo": "anafase",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Histoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_87": {
+    "Termo": "anafilactóxeno",
+    "Index_Remissivo": "135"
+},
+"r_88": {
+    "Termo": "anafilaxe",
+    "Index_Remissivo": null
+},
+"r_89": {
+    "Termo": "anafilaxia",
+    "Index_Remissivo": null
+},
+"181": {
+    "Termo": "análisis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Probas complementarias"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_90": {
+    "Termo": "análise de LCR",
+    "Index_Remissivo": null
+},
+"182": {
+    "Termo": "análisis de LCR; análisis de líquido cefalorraquídeo; examen de LCR; examen de líquido cefalorraquídeo",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "",
+        "Probas complementarias"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "análise de LCR; exame de líquido cefalorraquídeo (m); exame de LCR (m)"
+    ]
+},
+"r_91": {
+    "Termo": "*análise de mexo",
+    "Index_Remissivo": null
+},
+"r_92": {
+    "Termo": "*análise de ouriños",
+    "Index_Remissivo": null
+},
+"183": {
+    "Termo": "análisis de sangre",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Probas complementarias"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"184": {
+    "Termo": "análisis de orina",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Probas complementarias"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"185": {
+    "Termo": "analista",
+    "Categoria gramatical": "s",
+    "Área(s) de aplicação": [
+        "Organización sanitaria"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"186": {
+    "Termo": "analgesia; analgia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Variante": "analxia"
+},
+"187": {
+    "Termo": "analgésico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "anestésico * ",
+        "anodino * ",
+        "analgésico * ",
+        "chupete * "
+    ],
+    "Definicao": "Medicamento u otra sustancia como aspirina, paracetamol o morfina que se utiliza para aliviar el dolor. * "
+},
+"r_93": {
+    "Termo": "analxia",
+    "Index_Remissivo": "186"
+},
+"188": {
+    "Termo": "anamnesia; anamnesis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Termos xerais"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"189": {
+    "Termo": "enanismo; microplasia",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "microplasia (f)"
+    ]
+},
+"190": {
+    "Termo": "anaplasia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Anatomía patolóxica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"191": {
+    "Termo": "anartria",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"192": {
+    "Termo": "anasarca; hidropesía",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "hidropisía (f)"
+    ]
+},
+"193": {
+    "Termo": "anastomosis; derivación; shunt",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "derivación; shunt (m)"
+    ]
+},
+"194": {
+    "Termo": "anatomía",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Termos xerais"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "análisis * ",
+        "biología * ",
+        "citología * ",
+        "diagnóstico * ",
+        "disección * ",
+        "división * ",
+        "embriología * ",
+        "etiología * ",
+        "examen * ",
+        "genética * ",
+        "histología * ",
+        "consulta * ",
+        "investigación * ",
+        "medicamento * ",
+        "morfología * ",
+        "fisiología * ",
+        "zoología * "
+    ],
+    "Definicao": "La ciencia de dónde está cada cosa en tu cuerpo y cómo se forma. * "
+},
+"195": {
+    "Termo": "anatomía patológica; anatomopatología",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Organización sanitaria"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "patoanatomía; anatomopatoloxía"
+    ]
+},
+"196": {
+    "Termo": "anatomopatólogo",
+    "Categoria gramatical": "s",
+    "Área(s) de aplicação": [
+        "Organización sanitaria"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_94": {
+    "Termo": "anatomopatoloxía",
+    "Index_Remissivo": "195"
+},
+"197": {
+    "Termo": "androblastoma; arrenoblastoma del ovario",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Anatomía patolóxica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "arrenoblastoma de ovario"
+    ]
+},
+"198": {
+    "Termo": "andropausia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Fisioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "climaterio masculino (m)"
+    ]
+},
+"199": {
+    "Termo": "andrógeno",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica",
+        "Fisioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Cualquiera de un grupo de hormonas sexuales masculinas, incluida la testosterona, que controla características masculinas como el crecimiento de la barba. * "
+},
+"200": {
+    "Termo": "anecogenicidad",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"201": {
+    "Termo": "anillo",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Anatomía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"202": {
+    "Termo": "anillo corneal",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_95": {
+    "Termo": "anel crural",
+    "Index_Remissivo": "203"
+},
+"203": {
+    "Termo": "anillo crural; anillo femoral",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Anatomía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anel crural"
+    ]
+},
+"204": {
+    "Termo": "anillo vaginal",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"205": {
+    "Termo": "anemia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"206": {
+    "Termo": "anemia aplásica; anemia aplástica",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Variante": "anemia aplástica"
+},
+"r_96": {
+    "Termo": "anemia aplástica",
+    "Index_Remissivo": null
+},
+"r_97": {
+    "Termo": "anemia carencial",
+    "Index_Remissivo": null
+},
+"r_98": {
+    "Termo": "anemia drepanocítica",
+    "Index_Remissivo": "207"
+},
+"207": {
+    "Termo": "anemia drepanocítica; anemia falciforme; drepanocitosis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anemia drepanocítica; drepanocitose"
+    ]
+},
+"208": {
+    "Termo": "anemia ferropénica",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"209": {
+    "Termo": "anemia hemolítica",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"210": {
+    "Termo": "anemia megaloblástica",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Menos glóbulos rojos sanos en circulación de lo normal, causado por la falta de folato o vitamina B12. Los glóbulos rojos se vuelven grandes y deformes y no pueden transportar oxígeno de manera eficiente. * "
+},
+"211": {
+    "Termo": "anemia carencial; anemia nutricional",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anemia carencial"
+    ]
+},
+"212": {
+    "Termo": "anemia perniciosa",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Una forma de anemia en la que los glóbulos rojos aumentan de tamaño y disminuyen de tamaño debido a la incapacidad de absorber adecuadamente la vitamina B12. * "
+},
+"213": {
+    "Termo": "anergia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"214": {
+    "Termo": "anestesia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica",
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "insensibilidad * ",
+        "entumecimiento * ",
+        "estupor * ",
+        "inconsciencia * ",
+        "dormido * ",
+        "poner debajo * "
+    ],
+    "Definicao": "Bloqueo temporal de la sensación, especialmente la sensación de dolor. * "
+},
+"r_99": {
+    "Termo": "anestesia",
+    "Index_Remissivo": "217"
+},
+"r_100": {
+    "Termo": "anestesia",
+    "Index_Remissivo": "215"
+},
+"215": {
+    "Termo": "anestesia [col.]; anestésico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Variante": "anestesia (f) [col.]"
+},
+"216": {
+    "Termo": "anestesiólogo; anestesista",
+    "Categoria gramatical": "s",
+    "Área(s) de aplicação": [
+        "Organización sanitaria"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anestesista"
+    ]
+},
+"217": {
+    "Termo": "anestesiología",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Organización sanitaria"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Variante": "anestesia [col.]"
+},
+"r_101": {
+    "Termo": "anestesista",
+    "Index_Remissivo": "216"
+},
+"218": {
+    "Termo": "aneuploidía",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Xenética"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"219": {
+    "Termo": "aneurisma",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Anatomía patolóxica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Un bulto o hinchazón en una porción de un vaso sanguíneo, debido a la debilidad de la pared de ese vaso. * "
+},
+"220": {
+    "Termo": "aneurisma aórtico; aneurisma de aorta",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Honor Health"
+    ],
+    "Sinonimos": [
+        "aneurisma de aorta"
+    ],
+    "Definicao": "Hinchazón del vaso sanguíneo principal que sale del corazón (aorta), que generalmente representa una debilidad subyacente en la pared de la aorta en esa ubicación. * "
+},
+"r_102": {
+    "Termo": "aneurisma de aorta",
+    "Index_Remissivo": "220"
+},
+"221": {
+    "Termo": "anfetamina",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"222": {
+    "Termo": "anfiartrosis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Anatomía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"223": {
+    "Termo": "anhidrasa carbónica",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_103": {
+    "Termo": "anhídrico carbónico",
+    "Index_Remissivo": null
+},
+"224": {
+    "Termo": "anhidrosis; hipohidrosis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "hipohidrose"
+    ]
+},
+"r_104": {
+    "Termo": "anhidrótico",
+    "Index_Remissivo": "320"
+},
+"r_105": {
+    "Termo": "anion gap",
+    "Index_Remissivo": null
+},
+"225": {
+    "Termo": "anisocitosis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"226": {
+    "Termo": "anisocoria",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"227": {
+    "Termo": "anisocromía",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"228": {
+    "Termo": "ano",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Anatomía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "La abertura externa al final del tracto digestivo por donde se expulsan las heces. * "
+},
+"229": {
+    "Termo": "ano imperforado; imperforación anal",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "imperforación anal (f)"
+    ]
+},
+"r_106": {
+    "Termo": "anodmia",
+    "Index_Remissivo": "235"
+},
+"230": {
+    "Termo": "aberración cromosómica; anomalía cromosómica",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Xenética"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "aberración cromosómica"
+    ]
+},
+"231": {
+    "Termo": "anomia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"232": {
+    "Termo": "anorexia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "aversión a la comida * ",
+        "pérdida de apetito * "
+    ],
+    "Definicao": "Un trastorno alimentario en el que una persona tiene un miedo intenso a aumentar de peso y limita severamente las calorías hasta el punto de casi morir de hambre. * "
+},
+"233": {
+    "Termo": "anorexia nerviosa",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"234": {
+    "Termo": "anoscopia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica",
+        "Probas complementarias"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_107": {
+    "Termo": "anosfrasia",
+    "Index_Remissivo": "235"
+},
+"235": {
+    "Termo": "anodmia; anosfrasia; anosmia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anosfrasia VAR.- anodmia"
+    ]
+},
+"236": {
+    "Termo": "anosognosia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"237": {
+    "Termo": "anovulación",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"238": {
+    "Termo": "anovulatorio; antiovulatorio",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antiovulatorio"
+    ]
+},
+"r_108": {
+    "Termo": "anoxemia",
+    "Index_Remissivo": null
+},
+"239": {
+    "Termo": "anoxia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"240": {
+    "Termo": "anquilosis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia",
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_109": {
+    "Termo": "anquilose artificial",
+    "Index_Remissivo": null
+},
+"241": {
+    "Termo": "ansiedad",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías",
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"242": {
+    "Termo": "ansiolítico; tranquilizante menor",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "tranquilizante menor"
+    ]
+},
+"243": {
+    "Termo": "antagonista",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "adversario * ",
+        "enemigo * ",
+        "enemigo * ",
+        "competidor * ",
+        "contendiente * ",
+        "fósforo * ",
+        "adversario * ",
+        "oponente * ",
+        "rival * ",
+        "jefe * ",
+        "numero opuesto * ",
+        "opositor * "
+    ],
+    "Definicao": "El músculo que se opone al músculo principal requerido para realizar una tarea. Funciona para ayudar a equilibrar el movimiento y evitar lesiones. * "
+},
+"r_110": {
+    "Termo": "antagonista cálcico",
+    "Index_Remissivo": null
+},
+"244": {
+    "Termo": "antagonista de la aldosterona",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_111": {
+    "Termo": "antagonista da anxiotensina II",
+    "Index_Remissivo": null
+},
+"245": {
+    "Termo": "antagonista de la serotonina",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"246": {
+    "Termo": "antagonista de la vitamina K",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"247": {
+    "Termo": "antagonista de la angiotensina II; antagonista de los receptores de la angiotensina II; ARA II",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        " Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "ARA II (sg); antagonista da anxiotensina II"
+    ]
+},
+"248": {
+    "Termo": "antagonista de los receptores de serotonina",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"249": {
+    "Termo": "antagonista de receptores de leucotrienos",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        " Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"250": {
+    "Termo": "antagonista de receptores H2",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "",
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"251": {
+    "Termo": "antebrazo",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Anatomía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Honor Health"
+    ],
+    "Sinonimos": [
+        "radio * ",
+        "cubito * ",
+        "antibraquio * "
+    ],
+    "Definicao": "La parte del brazo entre el codo y la muñeca. * "
+},
+"252": {
+    "Termo": "antecedente; antecedente médico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Termos xerais"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antecedente médico"
+    ]
+},
+"253": {
+    "Termo": "antecedente familiar",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Termos xerais"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_112": {
+    "Termo": "antecedente médico",
+    "Index_Remissivo": "252"
+},
+"254": {
+    "Termo": "antecedente personal",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Termos xerais"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_113": {
+    "Termo": "antecedentes familiares",
+    "Index_Remissivo": null
+},
+"255": {
+    "Termo": "anteparto",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Termos xerais"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"256": {
+    "Termo": "anterior; ventral",
+    "Categoria gramatical": "a",
+    "Área(s) de aplicação": [
+        "Anatomía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "ventral"
+    ]
+},
+"257": {
+    "Termo": "antiácido",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"258": {
+    "Termo": "antiadrenérxico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"259": {
+    "Termo": "antiagregación",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"260": {
+    "Termo": "antiagregante",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_114": {
+    "Termo": "antiagregante",
+    "Index_Remissivo": null
+},
+"261": {
+    "Termo": "antialérgico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"262": {
+    "Termo": "antiandrógeno",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Medicamento que bloquea o interfiere con la actividad de las hormonas sexuales masculinas. * "
+},
+"263": {
+    "Termo": "antianémico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"264": {
+    "Termo": "antiarrítmico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"265": {
+    "Termo": "antiasmático",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"266": {
+    "Termo": "antibacteriano",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"267": {
+    "Termo": "antibiograma",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Probas complementarias"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"268": {
+    "Termo": "antibiótico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "penicilina * ",
+        "amoxicilina * ",
+        "ampicilina * ",
+        "eritromicina * ",
+        "estreptomicina * ",
+        "sulfonamida * ",
+        "tetraciclina * ",
+        "droga sulfa * ",
+        "droga maravillosa * "
+    ],
+    "Definicao": "Las bacterias (gérmenes) a veces pueden enfermarlo y, a veces, es necesario tomar antibióticos para tratarlo. Los antibióticos son medicamentos que atacan las bacterias que le hacen sentir mal. Aunque dañan a las bacterias, no te harán daño a ti. Los antibióticos no funcionan contra otras infecciones causadas por virus u hongos. * "
+},
+"r_115": {
+    "Termo": "anticanceroso",
+    "Index_Remissivo": "303"
+},
+"269": {
+    "Termo": "agente anticestodo; anticestodo",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "axente anticestodo"
+    ]
+},
+"270": {
+    "Termo": "anticipación",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Fisioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"271": {
+    "Termo": "anticipación; anticipación genética",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Xenética"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anticipación xenética"
+    ]
+},
+"r_116": {
+    "Termo": "anticipación xenética",
+    "Index_Remissivo": "270"
+},
+"272": {
+    "Termo": "anticoagulación",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"273": {
+    "Termo": "anticoagulante",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Sustancia que ayuda a prevenir la coagulación de la sangre. * "
+},
+"274": {
+    "Termo": "anticodón",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Xenética"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"275": {
+    "Termo": "anticolinérgico; parasimpaticolítico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "parasimpaticolítico"
+    ]
+},
+"276": {
+    "Termo": "agente anticolinesterasa; anticolinesterásico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_117": {
+    "Termo": "anticoncepción",
+    "Index_Remissivo": null
+},
+"277": {
+    "Termo": "anticonceptivo; contraceptivo",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía",
+        "Medicina preventiva"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "contraceptivo"
+    ]
+},
+"r_118": {
+    "Termo": "anticonvulsionante",
+    "Index_Remissivo": "278"
+},
+"278": {
+    "Termo": "anticonvulsionante; anticonvulsivante; anticonvulsivo; antiepiléptico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antiepiléptico"
+    ],
+    "Variante": "anticonvulsionante"
+},
+"279": {
+    "Termo": "Ac (abrev.); anticuerpo",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica",
+        "Fisioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "Ac (abrev.)"
+    ]
+},
+"280": {
+    "Termo": "antidepresivo",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Medicamento psiquiátrico utilizado para tratar trastornos del estado de ánimo, como la depresión. * "
+},
+"281": {
+    "Termo": "antidiarreico; antipropulsivo",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"282": {
+    "Termo": "antídoto; antitóxico; contraveneno",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "contraveleno; antitóxico; toxicida"
+    ]
+},
+"283": {
+    "Termo": "antiemético",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "antivomitivo"
+    ],
+    "Definicao": "Medicamento que previene las náuseas y los vómitos. * "
+},
+"r_119": {
+    "Termo": "antiepiléptico",
+    "Index_Remissivo": "278"
+},
+"r_120": {
+    "Termo": "antiespasmódico",
+    "Index_Remissivo": null
+},
+"284": {
+    "Termo": "antiestrógeno",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"285": {
+    "Termo": "antifibrinolítico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_121": {
+    "Termo": "antiflatulento",
+    "Index_Remissivo": null
+},
+"r_122": {
+    "Termo": "antifloxístico",
+    "Index_Remissivo": "295"
+},
+"286": {
+    "Termo": "antifúngico; antimicótico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antimicótico"
+    ]
+},
+"r_123": {
+    "Termo": "antigonadotrofina",
+    "Index_Remissivo": "287"
+},
+"287": {
+    "Termo": "antigonadotrofina; antigonadotropina",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Variante": "antigonadotrofina"
+},
+"288": {
+    "Termo": "antigotoso",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"289": {
+    "Termo": "antelmíntico; antihelmíntico; vermífugo",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "vermífugo"
+    ]
+},
+"290": {
+    "Termo": "agente hemostático; antihemorrágico; hemostático",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "hemostático; axente hemostático"
+    ]
+},
+"291": {
+    "Termo": "antihemorroidal",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"292": {
+    "Termo": "antihipertensivo",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_124": {
+    "Termo": "antihistamina",
+    "Index_Remissivo": "293"
+},
+"293": {
+    "Termo": "antihistamina; antihistamínico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Variante": "antihistamina (f)"
+},
+"294": {
+    "Termo": "antiinfeccioso",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"295": {
+    "Termo": "antiflogístico; antiinflamatorio",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antifloxístico"
+    ]
+},
+"296": {
+    "Termo": "AINE (sg); antiinflamatorio no esteroide; antiinflamatorio no esteroideo",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "",
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "AINE (sg)"
+    ]
+},
+"r_125": {
+    "Termo": "antimalárico",
+    "Index_Remissivo": "304"
+},
+"297": {
+    "Termo": "antimaníaco",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"298": {
+    "Termo": "antimetabolito",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"299": {
+    "Termo": "antimicobacteriano",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_126": {
+    "Termo": "antimicótico",
+    "Index_Remissivo": "286"
+},
+"300": {
+    "Termo": "antimonial",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_127": {
+    "Termo": "antináusea",
+    "Index_Remissivo": "301"
+},
+"r_128": {
+    "Termo": "antináuseas",
+    "Index_Remissivo": "301"
+},
+"301": {
+    "Termo": "antináusea; antináuseas; antinauseoso",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Variante": "antináusea; antináuseas"
+},
+"302": {
+    "Termo": "agente antinematodos; antinematodos",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "axente antinematodos"
+    ]
+},
+"303": {
+    "Termo": "anticanceroso; antineoplásico; antitumoral",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anticanceroso"
+    ]
+},
+"r_129": {
+    "Termo": "antiovulatorio",
+    "Index_Remissivo": "238"
+},
+"304": {
+    "Termo": "antimalárico; antipalúdico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antimalárico"
+    ]
+},
+"305": {
+    "Termo": "antiparasitario",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"306": {
+    "Termo": "antiparkinsoniano",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"307": {
+    "Termo": "antipirético; antitérmico; febrífugo",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antitérmico; febrífugo"
+    ]
+},
+"308": {
+    "Termo": "antiprotozoario",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"309": {
+    "Termo": "antiprogestágeno",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_130": {
+    "Termo": "antiprurítico",
+    "Index_Remissivo": "310"
+},
+"r_131": {
+    "Termo": "antipruritoso",
+    "Index_Remissivo": "310"
+},
+"310": {
+    "Termo": "antipruriginoso; antiprurítico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antipsórico"
+    ],
+    "Variante": "antiprurítico; antipruritoso"
+},
+"311": {
+    "Termo": "antipsicótico; neuroléptico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "neuroléptico"
+    ]
+},
+"312": {
+    "Termo": "antipsoriásico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_132": {
+    "Termo": "antipsórico",
+    "Index_Remissivo": "310"
+},
+"313": {
+    "Termo": "antirretroviral",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"314": {
+    "Termo": "antirreumático",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"315": {
+    "Termo": "antisepsia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Medicina preventiva"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"316": {
+    "Termo": "antiséptico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "higiénico * ",
+        "estéril * ",
+        "antibacteriano * ",
+        "antibiótico * ",
+        "limpio * ",
+        "desinfectante * ",
+        "profiláctico * ",
+        "aséptico * ",
+        "bactericida * ",
+        "destructor de gérmenes * ",
+        "libre de gérmenes * ",
+        "germicida * ",
+        "medicado * ",
+        "puro * ",
+        "purificación * ",
+        "sanitario * ",
+        "esterilizado * ",
+        "esterilizante * ",
+        "impoluto * "
+    ],
+    "Definicao": "Algo que prevenga la infección. Puede obtener enjuague bucal antiséptico, crema antiséptica y toallitas antisépticas para manos, todos los cuales previenen la infección. * "
+},
+"317": {
+    "Termo": "antisuero; suero inmune",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "soro inmune"
+    ]
+},
+"r_133": {
+    "Termo": "antitérmico",
+    "Index_Remissivo": "307"
+},
+"318": {
+    "Termo": "agente antitiroideo; antitiroideo",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "axente antitiroide"
+    ]
+},
+"r_134": {
+    "Termo": "antitóxico",
+    "Index_Remissivo": "282"
+},
+"319": {
+    "Termo": "antitoxina",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"320": {
+    "Termo": "anhidrótico; antitranspirante",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anhidrótico"
+    ]
+},
+"321": {
+    "Termo": "agente antitrematodos; antitrematodos",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "axente antitrematodos"
+    ]
+},
+"322": {
+    "Termo": "antitrombina",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"323": {
+    "Termo": "antitrombótico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"324": {
+    "Termo": "antituberculoso",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_135": {
+    "Termo": "antitúsico",
+    "Index_Remissivo": "325"
+},
+"r_136": {
+    "Termo": "*antitusivo",
+    "Index_Remissivo": "325"
+},
+"325": {
+    "Termo": "antitusígeno",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Variante": "antitúsico"
+},
+"326": {
+    "Termo": "antivaricoso",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"327": {
+    "Termo": "antiverrugas",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"328": {
+    "Termo": "antiviral; antivírico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Variante": "antivírico"
+},
+"r_137": {
+    "Termo": "antivírico",
+    "Index_Remissivo": "328"
+},
+"r_138": {
+    "Termo": "antivomitivo",
+    "Index_Remissivo": "283"
+},
+"r_139": {
+    "Termo": "antixaqueca",
+    "Index_Remissivo": "329"
+},
+"329": {
+    "Termo": "antijaquecoso; antimigrañoso",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Variante": "antixaqueca"
+},
+"330": {
+    "Termo": "antígeno",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Bioquímica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "caspa * ",
+        "irritante * ",
+        "polen * ",
+        "ambrosía * ",
+        "los ácaros del polvo * ",
+        "Sustancia desconocida * ",
+        "desencadenante inmunológico * "
+    ],
+    "Definicao": "Cualquier sustancia que el cuerpo considere dañina o extraña, provocando que el sistema inmunológico forme anticuerpos en defensa. * "
+},
+"331": {
+    "Termo": "antraciclina",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Farmacoloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"332": {
+    "Termo": "antracosis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"333": {
+    "Termo": "ántrax",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"334": {
+    "Termo": "antrectomía",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"335": {
+    "Termo": "antro",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Anatomía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"336": {
+    "Termo": "antropología",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Termos xerais"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"337": {
+    "Termo": "antropometría",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Probas complementarias"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_140": {
+    "Termo": "anular",
+    "Index_Remissivo": null
+},
+"338": {
+    "Termo": "anuloplastia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_141": {
+    "Termo": "anurese",
+    "Index_Remissivo": "339"
+},
+"339": {
+    "Termo": "anuresis; anuria",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Variante": "anurese"
+},
+"r_142": {
+    "Termo": "anxeíte",
+    "Index_Remissivo": null
+},
+"340": {
+    "Termo": "angiectomía",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_143": {
+    "Termo": "anxiíte",
+    "Index_Remissivo": null
+},
+"r_144": {
+    "Termo": "anxina",
+    "Index_Remissivo": "341"
+},
+"341": {
+    "Termo": "angina; angina de pecho",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Semioloxía",
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anxina"
+    ]
+},
+"r_145": {
+    "Termo": "anxiocolite",
+    "Index_Remissivo": null
+},
+"342": {
+    "Termo": "angiodisplasia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"343": {
+    "Termo": "angioedema; edema angioneurótico",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"344": {
+    "Termo": "angiografía",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Probas complementarias"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Una prueba que muestra cómo se mueve la sangre a través de los vasos sanguíneos y el corazón. Utiliza rayos X y la inyección de un líquido llamado agente de contraste que se puede ver en las radiografías. * "
+},
+"r_146": {
+    "Termo": "anxiografía coronaria",
+    "Index_Remissivo": null
+},
+"345": {
+    "Termo": "angiología",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Termos xerais"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"346": {
+    "Termo": "angioma",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"347": {
+    "Termo": "angiomatosis",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"348": {
+    "Termo": "angiopatía",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"349": {
+    "Termo": "angioplastia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Un procedimiento utilizado para abrir arterias bloqueadas o estrechadas, más comúnmente insertando un tubo delgado o catéter en la arteria afectada e inflando un globo. * "
+},
+"350": {
+    "Termo": "angiorrafia; vasorrafia",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Terapéutica"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "vasorrafia"
+    ]
+},
+"351": {
+    "Termo": "angiosarcoma; hemangiosarcoma",
+    "Categoria gramatical": "m",
+    "Área(s) de aplicação": [
+        "Anatomía patolóxica",
+        "Patoloxías"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "hemanxiosarcoma"
+    ]
+},
+"352": {
+    "Termo": "angioscopia; angioscopía",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Probas complementarias"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_147": {
+    "Termo": "anxiostomía",
+    "Index_Remissivo": null
+},
+"353": {
+    "Termo": "angiotensina",
+    "Categoria gramatical": "f",
+    "Área(s) de aplicação": [
+        "Bioquímica",
+        "Fisioloxía"
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Proteína que aumenta la presión arterial al estrechar los vasos sanguíneos y hacer que los riñones almacenen más sodio y agua. * "
+},
     "354": {
         "Termo": "angiotensinógeno",
         "Categoria gramatical": "m",

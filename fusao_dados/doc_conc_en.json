@@ -1,4 +1,4458 @@
-{
+{    "1": {
+    "Termo": "wing",
+    "Área(s) de aplicação": [
+        "Anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_1": {
+    "Termo": "TO * ",
+    "Index_Remissivo": "79"
+},
+"2": {
+    "Termo": "full term",
+    "Área(s) de aplicação": [
+        "Physiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"3": {
+    "Termo": "abdomen; abdominal region; gut [pop.]",
+    "Área(s) de aplicação": [
+        "Anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "abdominal rexion (f); belly [pop.] * "
+    ]
+},
+"4": {
+    "Termo": "acute abdomen",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_2": {
+    "Termo": "distended abdomen * ",
+    "Index_Remissivo": "6"
+},
+"5": {
+    "Termo": "abdominal guarding",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "wooden belly * "
+    ]
+},
+"6": {
+    "Termo": "distended abdomen",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "prominent abdomen; distended abdomen * "
+    ]
+},
+"r_3": {
+    "Termo": "prominent abdomen * ",
+    "Index_Remissivo": "6"
+},
+"r_4": {
+    "Termo": "*abduction * ",
+    "Index_Remissivo": "7"
+},
+"7": {
+    "Termo": "abduction",
+    "Área(s) de aplicação": [
+        "Physiology * ",
+        "Anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "separation * ",
+        "kidnapping",
+        "rape",
+        "seizure",
+        "theft",
+        "appropriation"
+    ],
+    "Definicao": "Movement of a body part, such as an arm or leg, away from the center of the body."
+},
+"r_5": {
+    "Termo": "chromosome aberration * ",
+    "Index_Remissivo": "230"
+},
+"8": {
+    "Termo": "pelvic outlet",
+    "Área(s) de aplicação": [
+        "Anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "inferior pelvic stretch (m) * "
+    ]
+},
+"9": {
+    "Termo": "pelvic inlet",
+    "Área(s) de aplicação": [
+        "Anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "upper pelve streito (m) * "
+    ]
+},
+"10": {
+    "Termo": "ablation",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "abscission",
+        "cutting",
+        "extirpation",
+        "removal"
+    ],
+    "Definicao": "A form of treatment that uses electrical energy, heat, cold, alcohol, or other modalities to destroy a small section of damaged tissue."
+},
+"r_6": {
+    "Termo": "clitoral ablation * ",
+    "Index_Remissivo": null
+},
+"11": {
+    "Termo": "approach",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_7": {
+    "Termo": "abrasion * ",
+    "Index_Remissivo": null
+},
+"12": {
+    "Termo": "abscess",
+    "Área(s) de aplicação": [
+        "Semioloxia * ",
+        "Pathological anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "ulcer",
+        "boil",
+        "carbuncle",
+        "pustule"
+    ],
+    "Definicao": "A collection of pus, which usually happens as a result of an infection. Pus is made up of old white blood cells and broken down tissue cells. Abscesses can be very painful and may need to be drained."
+},
+"13": {
+    "Termo": "aboulia; abulia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"14": {
+    "Termo": "substance abuse",
+    "Área(s) de aplicação": [
+        "Xerais Thermos * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "alcohol abuse",
+        "drug abuse",
+        "drug use",
+        "addiction",
+        "alcoholic addiction",
+        "alcoholism",
+        "chemical abuse",
+        "dipsomania",
+        "drug dependence",
+        "drug habit",
+        "habit",
+        "narcotics abuse",
+        "solvent abuse"
+    ],
+    "Definicao": "Continued substance use despite substance-related social or interpersonal problems."
+},
+"r_8": {
+    "Termo": "Ac * ",
+    "Index_Remissivo": "279"
+},
+"r_9": {
+    "Termo": "HERE * ",
+    "Index_Remissivo": null
+},
+"r_10": {
+    "Termo": "finished -gives birth * ",
+    "Index_Remissivo": null
+},
+"15": {
+    "Termo": "achalasia",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"16": {
+    "Termo": "acantholysis",
+    "Área(s) de aplicação": [
+        "Semiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"17": {
+    "Termo": "acanthosis nigricans",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"18": {
+    "Termo": "acarus",
+    "Área(s) de aplicação": [
+        "Etiopathoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_11": {
+    "Termo": "access * ",
+    "Index_Remissivo": null
+},
+"r_12": {
+    "Termo": "stroke * ",
+    "Index_Remissivo": null
+},
+"19": {
+    "Termo": "work accident",
+    "Área(s) de aplicação": [
+        "Xerais thermos * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "work accident * "
+    ]
+},
+"20": {
+    "Termo": "TIA (sg); transient ischemic attack",
+    "Área(s) de aplicação": [
+        "Semioloxia * ",
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "Transient ischemic attack; AIT (sg) * "
+    ]
+},
+"r_13": {
+    "Termo": "work accident * ",
+    "Index_Remissivo": "19"
+},
+"r_14": {
+    "Termo": "stroke * ",
+    "Index_Remissivo": null
+},
+"r_15": {
+    "Termo": "heartburn * ",
+    "Index_Remissivo": null
+},
+"r_16": {
+    "Termo": "acedume * ",
+    "Index_Remissivo": null
+},
+"21": {
+    "Termo": "acceptance",
+    "Área(s) de aplicação": [
+        "Physiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"22": {
+    "Termo": "acetabulum; cotyloid cavity",
+    "Área(s) de aplicação": [
+        "Anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "cotyloid cavity (f) * "
+    ]
+},
+"r_17": {
+    "Termo": "acetaminophen * ",
+    "Index_Remissivo": null
+},
+"r_18": {
+    "Termo": "acetyl-CoA * ",
+    "Index_Remissivo": "23"
+},
+"23": {
+    "Termo": "acetyl-CoA; acetyl-coenzyme A",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "acetyl-CoA * "
+    ]
+},
+"24": {
+    "Termo": "acetylcholine",
+    "Área(s) de aplicação": [
+        "Biochemistry * ",
+        "Physiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "ACh (sb) * "
+    ],
+    "Definicao": "A neurotransmitter (a chemical messenger that sends signals between brain cells) that plays roles in attention, learning, and memory."
+},
+"r_19": {
+    "Termo": "ACh * ",
+    "Index_Remissivo": "24"
+},
+"r_20": {
+    "Termo": "acia * ",
+    "Index_Remissivo": null
+},
+"25": {
+    "Termo": "acidemia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_21": {
+    "Termo": "acidity * ",
+    "Index_Remissivo": null
+},
+"26": {
+    "Termo": "acidification",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"27": {
+    "Termo": "acidifier",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"28": {
+    "Termo": "acetylsalicylic acid",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_22": {
+    "Termo": "aminoacetic acid * ",
+    "Index_Remissivo": null
+},
+"29": {
+    "Termo": "aminosalicylic acid",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"30": {
+    "Termo": "arachidonic acid",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_23": {
+    "Termo": "ascorbic acid * ",
+    "Index_Remissivo": null
+},
+"31": {
+    "Termo": "aspartic acid",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "Asp (sb) * "
+    ]
+},
+"32": {
+    "Termo": "bile acid",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"33": {
+    "Termo": "hydrochloric acid",
+    "Área(s) de aplicação": [
+        "Biochemistry * ",
+        "Physiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "HCl (sb) * "
+    ]
+},
+"34": {
+    "Termo": "deoxyribonucleic acid; deoxyribonucleic acid; DNA (sg)",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "DNA; (sg) DNA (sg) * "
+    ]
+},
+"35": {
+    "Termo": "folic acid",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"36": {
+    "Termo": "GABA (sg); gamma-aminobutyric acid",
+    "Área(s) de aplicação": [
+        "Biochemistry * ",
+        "Physiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "GABA (sg) * "
+    ]
+},
+"37": {
+    "Termo": "glutamate; glutamic acid",
+    "Área(s) de aplicação": [
+        "Biochemistry * ",
+        "Physiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "glutamate; Glu (sb) * "
+    ]
+},
+"38": {
+    "Termo": "FA (sg); fatty acid",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "AG (sg) * "
+    ]
+},
+"39": {
+    "Termo": "lactic acid",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_24": {
+    "Termo": "nicotinic acid * ",
+    "Index_Remissivo": null
+},
+"40": {
+    "Termo": "nucleic acid",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"41": {
+    "Termo": "ribonucleic acid; RNA (sg)",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "RNA (sg); RNA (sg) * "
+    ]
+},
+"42": {
+    "Termo": "salicylic acid",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"43": {
+    "Termo": "uric acid",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"44": {
+    "Termo": "acidosis",
+    "Área(s) de aplicação": [
+        "Etiopathoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"45": {
+    "Termo": "aciduria",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"46": {
+    "Termo": "akinesia; akinesis",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"47": {
+    "Termo": "acinus",
+    "Área(s) de aplicação": [
+        "Histology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_25": {
+    "Termo": "*clarification * ",
+    "Index_Remissivo": null
+},
+"r_26": {
+    "Termo": "*creatinine clearance * ",
+    "Index_Remissivo": null
+},
+"r_27": {
+    "Termo": "*urea clearance * ",
+    "Index_Remissivo": null
+},
+"48": {
+    "Termo": "achlorhydria; anachlorhydria",
+    "Área(s) de aplicação": [
+        "Etiopathoxenia * ",
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_28": {
+    "Termo": "ACM * ",
+    "Index_Remissivo": null
+},
+"49": {
+    "Termo": "acne; acne vulgaris",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "acne vulgaris * "
+    ]
+},
+"r_29": {
+    "Termo": "*acne * ",
+    "Index_Remissivo": "49"
+},
+"50": {
+    "Termo": "acne rosacea; rosacea",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "rosacea * "
+    ]
+},
+"r_30": {
+    "Termo": "acne vulgaris * ",
+    "Index_Remissivo": "49"
+},
+"51": {
+    "Termo": "acholia",
+    "Área(s) de aplicação": [
+        "Etiopathoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"52": {
+    "Termo": "accommodation",
+    "Área(s) de aplicação": [
+        "Physiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "compromise",
+        "reconciliation",
+        "adaptation",
+        "compliance",
+        "composition",
+        "conformity",
+        "fitting",
+        "modification",
+        "settlement",
+        "fifty-fifty deal"
+    ],
+    "Definicao": "The eye's ability to focus on objects that are close."
+},
+"53": {
+    "Termo": "accommodation",
+    "Área(s) de aplicação": [
+        "Physiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "compromise",
+        "reconciliation",
+        "adaptation",
+        "compliance",
+        "composition",
+        "conformity",
+        "fitting",
+        "modification",
+        "settlement",
+        "fifty-fifty deal"
+    ],
+    "Definicao": "The eye's ability to focus on objects that are close."
+},
+"54": {
+    "Termo": "achondroplasia",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"55": {
+    "Termo": "genetic counseling; genetic counselling",
+    "Área(s) de aplicação": [
+        "Xenetics * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "genetic advice * "
+    ]
+},
+"56": {
+    "Termo": "event",
+    "Área(s) de aplicação": [
+        "Epidemiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "event * "
+    ]
+},
+"57": {
+    "Termo": "sentinel event",
+    "Área(s) de aplicação": [
+        "Epidemiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "sentinel event * "
+    ]
+},
+"r_31": {
+    "Termo": "ACP * ",
+    "Index_Remissivo": null
+},
+"58": {
+    "Termo": "acrocyanosis",
+    "Área(s) de aplicação": [
+        "Pathologies * ",
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_32": {
+    "Termo": "acrocinese * ",
+    "Index_Remissivo": "59"
+},
+"59": {
+    "Termo": "acrocinesia; acrocinesis; acrokinesia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_33": {
+    "Termo": "achromasia * ",
+    "Index_Remissivo": "61"
+},
+"r_34": {
+    "Termo": "partial achromatopsia * ",
+    "Index_Remissivo": null
+},
+"60": {
+    "Termo": "acromegaly",
+    "Área(s) de aplicação": [
+        "Pathologies * ",
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_35": {
+    "Termo": "acromelalxia * ",
+    "Index_Remissivo": null
+},
+"61": {
+    "Termo": "achromasia; achromia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"62": {
+    "Termo": "acromial process; acromion",
+    "Área(s) de aplicação": [
+        "Anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "acromial process (f) * "
+    ]
+},
+"63": {
+    "Termo": "acropachy; clubbing",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "dixital hypocratism (m) * "
+    ]
+},
+"r_36": {
+    "Termo": "acroscleroderma * ",
+    "Index_Remissivo": null
+},
+"64": {
+    "Termo": "acrosome",
+    "Área(s) de aplicação": [
+        "Histology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"65": {
+    "Termo": "acro-osteolysis",
+    "Área(s) de aplicação": [
+        "Semiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_37": {
+    "Termo": "ACTH * ",
+    "Index_Remissivo": null
+},
+"66": {
+    "Termo": "actin",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "One of the proteins that allows cells to move and muscles to contract."
+},
+"67": {
+    "Termo": "actinomycin",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"68": {
+    "Termo": "actinomycosis",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"69": {
+    "Termo": "actinotherapy",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"70": {
+    "Termo": "fetal attitude; fetal habitus",
+    "Área(s) de aplicação": [
+        "Anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"71": {
+    "Termo": "medical procedure",
+    "Área(s) de aplicação": [
+        "Xerais thermos * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"72": {
+    "Termo": "aqueduct",
+    "Área(s) de aplicação": [
+        "Anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"73": {
+    "Termo": "tinnitus",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "tinnitus * "
+    ],
+    "Definicao": "A ringing in the ears or some other sound that has no external cause."
+},
+"74": {
+    "Termo": "visual acuity",
+    "Área(s) de aplicação": [
+        "Physiology * ",
+        "Complementary tests * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "visual acuity * ",
+        "20/20 vision",
+        "acute sight",
+        "perspicacity",
+        "perspicuity",
+        "sharp sight",
+        "twenty-twenty vision"
+    ],
+    "Definicao": "The eye's ability to see sharply, usually measured in comparison to what a normal eye would see from 20 feet. Problems in visual acuity can usually be corrected with eyeglasses."
+},
+"75": {
+    "Termo": "acupuncture",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "A treatment based on Chinese medicine. Thin needles are inserted into the skin at specific points on the body. This therapy is used to treat pain and various health problems and to reduce stress."
+},
+"r_38": {
+    "Termo": "stroke * ",
+    "Index_Remissivo": null
+},
+"r_39": {
+    "Termo": "pituitary adamantinoma * ",
+    "Index_Remissivo": null
+},
+"r_40": {
+    "Termo": "adamantoblastoma * ",
+    "Index_Remissivo": "162"
+},
+"76": {
+    "Termo": "adaptation",
+    "Área(s) de aplicação": [
+        "Physiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_41": {
+    "Termo": "addition * ",
+    "Index_Remissivo": "97"
+},
+"77": {
+    "Termo": "adenectomy",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"78": {
+    "Termo": "adenyl cyclase",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"79": {
+    "Termo": "adenine",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "A (sb) * "
+    ]
+},
+"80": {
+    "Termo": "adenite",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"81": {
+    "Termo": "adenohypophysis",
+    "Área(s) de aplicação": [
+        "Histology * ",
+        "Anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"82": {
+    "Termo": "adenoidectomy",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_42": {
+    "Termo": "bile duct adenoma * ",
+    "Index_Remissivo": null
+},
+"r_43": {
+    "Termo": "insular adenoma * ",
+    "Index_Remissivo": null
+},
+"r_44": {
+    "Termo": "langerhansian adenoma * ",
+    "Index_Remissivo": null
+},
+"r_45": {
+    "Termo": "oxyphilic adenoma * ",
+    "Index_Remissivo": null
+},
+"83": {
+    "Termo": "adenopathy",
+    "Área(s) de aplicação": [
+        "Pathological anatomy * ",
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"84": {
+    "Termo": "adenosis",
+    "Área(s) de aplicação": [
+        "Pathological anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"85": {
+    "Termo": "adenosine",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"86": {
+    "Termo": "cAMP (sg); cyclic adenosine monophosphate; cyclic AMP",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "cAMP (sg); cyclic AMP * "
+    ]
+},
+"87": {
+    "Termo": "adenosine triphosphate; ATP (sg)",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "adenosine triphosphate; ATP (sg) * "
+    ]
+},
+"88": {
+    "Termo": "adenovirus; mastadenovirus",
+    "Área(s) de aplicação": [
+        "Etiopathoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "mastadenovirus * "
+    ]
+},
+"r_46": {
+    "Termo": "ADH * ",
+    "Index_Remissivo": null
+},
+"89": {
+    "Termo": "adhesin",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"90": {
+    "Termo": "cell adhesion",
+    "Área(s) de aplicação": [
+        "Physiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"91": {
+    "Termo": "addiction; physical dependence",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "physical dependence * "
+    ]
+},
+"r_47": {
+    "Termo": "drug addiction * ",
+    "Index_Remissivo": null
+},
+"92": {
+    "Termo": "adipocyte",
+    "Área(s) de aplicação": [
+        "Histology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_48": {
+    "Termo": "DNA * ",
+    "Index_Remissivo": "34"
+},
+"93": {
+    "Termo": "adolescence",
+    "Área(s) de aplicação": [
+        "Physiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "boyhood",
+        "teens",
+        "girlhood",
+        "greenness",
+        "juvenility",
+        "minority",
+        "pubescence",
+        "spring",
+        "youth",
+        "youthfulness"
+    ],
+    "Definicao": "When you’re too old to be a child and not old enough to be an adult. We usually use the word adolescence to describe the time when you’re a teenager."
+},
+"r_49": {
+    "Termo": "adrenalectomy * ",
+    "Index_Remissivo": null
+},
+"94": {
+    "Termo": "adrenalin; epinephrine",
+    "Área(s) de aplicação": [
+        "Biochemistry * ",
+        "Physiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "epinephrine * "
+    ]
+},
+"95": {
+    "Termo": "adrenalitis; adrenitis",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_50": {
+    "Termo": "adrenite * ",
+    "Index_Remissivo": "95"
+},
+"r_51": {
+    "Termo": "adrenocorticotropin * ",
+    "Index_Remissivo": null
+},
+"96": {
+    "Termo": "adsorbent",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"97": {
+    "Termo": "adduction",
+    "Área(s) de aplicação": [
+        "Physiology * ",
+        "Anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "approach * "
+    ],
+    "Definicao": "Movement of a body part toward or across the midline."
+},
+"98": {
+    "Termo": "aerophagy",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "gastrospiria * "
+    ]
+},
+"99": {
+    "Termo": "aerosol; spray",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "spray * "
+    ]
+},
+"100": {
+    "Termo": "aphasia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Difficulty speaking or comprehending language; a common occurrence after a stroke affecting the left hemisphere of the brain, where language is processed."
+},
+"101": {
+    "Termo": "amnesic aphasia; anomic aphasia; dysnomia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anomic aphasia; dysnomia * "
+    ]
+},
+"r_52": {
+    "Termo": "anomic aphasia * ",
+    "Index_Remissivo": "101"
+},
+"102": {
+    "Termo": "aphagia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_53": {
+    "Termo": "condition * ",
+    "Index_Remissivo": null
+},
+"103": {
+    "Termo": "aphonia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_54": {
+    "Termo": "potassium scavenger * ",
+    "Index_Remissivo": null
+},
+"r_55": {
+    "Termo": "AFP * ",
+    "Index_Remissivo": "138"
+},
+"104": {
+    "Termo": "aphtha",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"105": {
+    "Termo": "oral aphtha",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"106": {
+    "Termo": "aphthosis",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_56": {
+    "Termo": "AG * ",
+    "Index_Remissivo": "38"
+},
+"107": {
+    "Termo": "agammaglobulinemia",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"108": {
+    "Termo": "agglutination",
+    "Área(s) de aplicação": [
+        "Complementary tests * ",
+        "Etiopathoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"109": {
+    "Termo": "agnosia",
+    "Área(s) de aplicação": [
+        "Semiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "A rare disease in which a person can’t recognize objects, shapes, or people. Often due to a brain or neurological condition."
+},
+"r_57": {
+    "Termo": "simultaneous agnosia * ",
+    "Index_Remissivo": null
+},
+"r_58": {
+    "Termo": "tactile agnosia * ",
+    "Index_Remissivo": null
+},
+"110": {
+    "Termo": "agonist",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "1) A substance that triggers a physiological response when it combines with a receptor. 2) A muscle whose contraction is opposed by another muscle."
+},
+"111": {
+    "Termo": "adrenergic agonist",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"112": {
+    "Termo": "agraphesthesia; graphanesthesia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "graphanesthesia * "
+    ]
+},
+"113": {
+    "Termo": "agraphia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_59": {
+    "Termo": "agranulocytopenia * ",
+    "Index_Remissivo": "114"
+},
+"114": {
+    "Termo": "agranulocytopenia; agranulocytosis; malignant neutropenia",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "agranulocytopenia; malignant neutropenia * "
+    ]
+},
+"115": {
+    "Termo": "aggressiveness",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_60": {
+    "Termo": "visual acuity * ",
+    "Index_Remissivo": "74"
+},
+"116": {
+    "Termo": "acute",
+    "Área(s) de aplicação": [
+        "Xerais thermos * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "intense",
+        "keen",
+        "sharp",
+        "subtle",
+        "sensitive",
+        "smart",
+        "astute",
+        "canny",
+        "clever",
+        "discerning",
+        "discriminating",
+        "incisive",
+        "ingenious",
+        "insightful",
+        "intuitive",
+        "judicious",
+        "observant",
+        "penetrating",
+        "perspicacious",
+        "piercing",
+        "quick-witted"
+    ],
+    "Definicao": "If it's acute, it's strong or intense or comes on suddenly."
+},
+"117": {
+    "Termo": "needle",
+    "Área(s) de aplicação": [
+        "Instrumental * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_61": {
+    "Termo": "NSAIDs * ",
+    "Index_Remissivo": null
+},
+"r_62": {
+    "Termo": "AIT * ",
+    "Index_Remissivo": null
+},
+"r_63": {
+    "Termo": "To the * ",
+    "Index_Remissivo": "118"
+},
+"118": {
+    "Termo": "alanine",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "Wing (sb) * "
+    ]
+},
+"r_64": {
+    "Termo": "get ahead * ",
+    "Index_Remissivo": null
+},
+"119": {
+    "Termo": "albinism",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "A group of inherited conditions that typically appear as a reduction or absence of melanin pigments in the skin, hair, and eyes."
+},
+"r_65": {
+    "Termo": "acquired albinism * ",
+    "Index_Remissivo": null
+},
+"r_66": {
+    "Termo": "albuginea oculi * ",
+    "Index_Remissivo": null
+},
+"120": {
+    "Termo": "albumin",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "A protein made by the liver. Abnormal levels of this substance may indicate liver or kidney disease."
+},
+"121": {
+    "Termo": "albuminuria",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "High amounts of albumin (a protein made by the liver) in the urine, possibly indicating kidney dysfunction."
+},
+"r_67": {
+    "Termo": "albuxinous * ",
+    "Index_Remissivo": null
+},
+"122": {
+    "Termo": "alkalinization; alkalization",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_68": {
+    "Termo": "alkalization * ",
+    "Index_Remissivo": "122"
+},
+"123": {
+    "Termo": "alkaloid",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"124": {
+    "Termo": "alkalosis",
+    "Área(s) de aplicação": [
+        "Etiopathoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"125": {
+    "Termo": "tar",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"126": {
+    "Termo": "alcohol",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"127": {
+    "Termo": "alcoholemia",
+    "Área(s) de aplicação": [
+        "Semiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"128": {
+    "Termo": "alcoholism",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "addiction",
+        "alcohol abuse",
+        "alcohol addiction",
+        "alcohol dependence",
+        "substance abuse",
+        "problem drinking",
+        "crapulence",
+        "dipsomania",
+        "methomania"
+    ],
+    "Definicao": "Another term for alcohol dependenceA chronic, progressive disease characterized by excessive and often compulsive drinking, impaired control over drinking, use of alcohol despite adverse consequences, and withdrawal symptoms when alcohol use is discontinued. Also known as alcoholism."
+},
+"r_69": {
+    "Termo": "alcohol * ",
+    "Index_Remissivo": "126"
+},
+"129": {
+    "Termo": "aldosterone",
+    "Área(s) de aplicação": [
+        "Biochemistry * ",
+        "Physiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "A hormone secreted by the adrenal glands that helps regulate blood pressure by controlling sodium and potassium levels in the body."
+},
+"130": {
+    "Termo": "randomization",
+    "Área(s) de aplicação": [
+        "Epidemiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_70": {
+    "Termo": "artificial aliment * ",
+    "Index_Remissivo": null
+},
+"r_71": {
+    "Termo": "maternal joy * ",
+    "Index_Remissivo": null
+},
+"131": {
+    "Termo": "allele",
+    "Área(s) de aplicação": [
+        "Xenetics * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "One of two or more versions of a gene. Different alleles produce variations in inherited characteristics, such as eye color."
+},
+"r_72": {
+    "Termo": "liver breath * ",
+    "Index_Remissivo": null
+},
+"132": {
+    "Termo": "fetor uremicus; uremic breath; uremic fetor",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "fetor uremicus * "
+    ]
+},
+"133": {
+    "Termo": "allergist",
+    "Área(s) de aplicação": [
+        "Healthcare organization * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"134": {
+    "Termo": "allergology",
+    "Área(s) de aplicação": [
+        "Healthcare organization * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"135": {
+    "Termo": "allergen",
+    "Área(s) de aplicação": [
+        "Etiopathoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "anaphylactoxen; sensibilinoxene * ",
+        "antigen",
+        "dander",
+        "irritant",
+        "pollen",
+        "ragweed",
+        "dust mite",
+        "foreign substance",
+        "immune trigger"
+    ],
+    "Definicao": "Something that cause an allergic reaction."
+},
+"136": {
+    "Termo": "allergy",
+    "Área(s) de aplicação": [
+        "Etiopathoxenia * ",
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "hay fever",
+        "aversion",
+        "hypersensitivity",
+        "sensitivity",
+        "susceptibility",
+        "vulnerability",
+        "allergic reaction"
+    ],
+    "Definicao": "Lots of people have allergies. They're something that your body reacts to, and often include foods and materials that you come into contact with. Usually they are harmless, but for some people they can be much more serious and make them very ill."
+},
+"137": {
+    "Termo": "alexia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_73": {
+    "Termo": "alpha-1-antitrypsin * ",
+    "Index_Remissivo": null
+},
+"138": {
+    "Termo": "AFP (sg); alpha fetoprotein",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "AFP (sg) * "
+    ]
+},
+"139": {
+    "Termo": "algor mortis",
+    "Área(s) de aplicação": [
+        "Xerais thermos * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"140": {
+    "Termo": "artificial feeding",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_74": {
+    "Termo": "parenteral feeding * ",
+    "Index_Remissivo": null
+},
+"r_75": {
+    "Termo": "almorrh * ",
+    "Index_Remissivo": null
+},
+"141": {
+    "Termo": "allodynia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Pain resulting from something not normally painful, such as a light touch."
+},
+"142": {
+    "Termo": "allogenous graft; allograft; homograft",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "alloxene engraftment; homoenxerted * "
+    ]
+},
+"r_76": {
+    "Termo": "androxenetic alopecia * ",
+    "Index_Remissivo": "143"
+},
+"143": {
+    "Termo": "androgenetic alopecia; androgenic alopecia",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"144": {
+    "Termo": "alopecia areata",
+    "Área(s) de aplicação": [
+        " * ",
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "An autoimmune condition that appears as patchy hair loss on the scalp that may result in permanent hair loss."
+},
+"145": {
+    "Termo": "allotype",
+    "Área(s) de aplicação": [
+        "Etiopathoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"146": {
+    "Termo": "allotransplantation; homotransplantation",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "homotransplant * "
+    ]
+},
+"r_77": {
+    "Termo": "allotriopaxis * ",
+    "Index_Remissivo": null
+},
+"147": {
+    "Termo": "alkylating agent",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"148": {
+    "Termo": "hospital discharge",
+    "Área(s) de aplicação": [
+        "Xerais Thermos * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"149": {
+    "Termo": "discharge",
+    "Área(s) de aplicação": [
+        "Xerais thermos * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"150": {
+    "Termo": "altruism",
+    "Área(s) de aplicação": [
+        "Physiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"151": {
+    "Termo": "hallucination",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "illusion",
+        "phantom",
+        "aberration",
+        "apparition",
+        "fantasy",
+        "mirage",
+        "phantasm",
+        "phantasmagoria",
+        "trip",
+        "vision",
+        "wraith",
+        "figment of the imagination",
+        "head trip"
+    ],
+    "Definicao": "A perception of something that is not really there."
+},
+"152": {
+    "Termo": "hallucinogen",
+    "Área(s) de aplicação": [
+        "Etiopathoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"153": {
+    "Termo": "alveolitis",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_78": {
+    "Termo": "Cryptoxenic fibrosing alveolite * ",
+    "Index_Remissivo": null
+},
+"154": {
+    "Termo": "alveolus",
+    "Área(s) de aplicação": [
+        "Histology * ",
+        "Anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"155": {
+    "Termo": "amaurosis",
+    "Área(s) de aplicação": [
+        "Semioloxia * ",
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"156": {
+    "Termo": "amblyopia; lazy eye",
+    "Área(s) de aplicação": [
+        "Semioloxia * ",
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "vague ollo (m) [pop.]; ollo preguiceiro (m) [pop.] * "
+    ]
+},
+"157": {
+    "Termo": "ambulance",
+    "Área(s) de aplicação": [
+        "Healthcare organization * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "EMS",
+        "rescue",
+        "transport",
+        "hospital wagon"
+    ],
+    "Definicao": "The vehicle that brings you to and from hospital. There are two types – one is an emergency response vehicle, which contain all the equipment to look after you immediately after an accident. The other type does not contain so much equipment but takes you to and from hospital appointments."
+},
+"r_79": {
+    "Termo": "ambulatory * ",
+    "Index_Remissivo": null
+},
+"158": {
+    "Termo": "threatened abortion",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"159": {
+    "Termo": "amoebiasis",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"160": {
+    "Termo": "amebicide",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"161": {
+    "Termo": "adamantoblast; ameloblast",
+    "Área(s) de aplicação": [
+        "Histology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"162": {
+    "Termo": "adamantoblastoma; ameloblastoma",
+    "Área(s) de aplicação": [
+        "Pathological anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "adamantoblastoma * "
+    ]
+},
+"163": {
+    "Termo": "amenorrhea; amenorrhoea",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"164": {
+    "Termo": "starch",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"165": {
+    "Termo": "amygdala; tonsil",
+    "Área(s) de aplicação": [
+        "Anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "tonsilla * "
+    ]
+},
+"166": {
+    "Termo": "tonsillectomy",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "tonsillectomy * "
+    ]
+},
+"167": {
+    "Termo": "tonsillitis",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "tonsilite * "
+    ]
+},
+"168": {
+    "Termo": "amylase",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "An enzyme secreted by the pancreas that breaks starch into sugar."
+},
+"r_80": {
+    "Termo": "salivary amylase * ",
+    "Index_Remissivo": null
+},
+"169": {
+    "Termo": "amyloidosis; amylosis",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_81": {
+    "Termo": "amylose * ",
+    "Index_Remissivo": "169"
+},
+"170": {
+    "Termo": "amino acid",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"171": {
+    "Termo": "aminoglycoside",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"172": {
+    "Termo": "amnesia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "blackout",
+        "fugue",
+        "stupor"
+    ],
+    "Definicao": "Unusual memory loss or forgetfulness."
+},
+"173": {
+    "Termo": "amniocentesis",
+    "Área(s) de aplicação": [
+        "Therapy * ",
+        "Complementary tests * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_82": {
+    "Termo": "cyclic AMP * ",
+    "Index_Remissivo": "86"
+},
+"r_83": {
+    "Termo": "cAMP * ",
+    "Index_Remissivo": null
+},
+"174": {
+    "Termo": "amplification",
+    "Área(s) de aplicação": [
+        "Xenetics * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"175": {
+    "Termo": "ampoule",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"176": {
+    "Termo": "blister; bulla; phlyctena",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "flictena; bowl [pop.]; vexiga [pop.] * "
+    ]
+},
+"r_84": {
+    "Termo": "ampulloma * ",
+    "Index_Remissivo": null
+},
+"177": {
+    "Termo": "amputation",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "The surgical removal of a limb or other body part."
+},
+"178": {
+    "Termo": "anabolism",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"179": {
+    "Termo": "anabolic agent",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anabolic axent; anabolic axent * "
+    ]
+},
+"r_85": {
+    "Termo": "anachlorhydria * ",
+    "Index_Remissivo": "48"
+},
+"r_86": {
+    "Termo": "anadipsia * ",
+    "Index_Remissivo": null
+},
+"180": {
+    "Termo": "anaphase",
+    "Área(s) de aplicação": [
+        "Histology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_87": {
+    "Termo": "anaphylactoxen * ",
+    "Index_Remissivo": "135"
+},
+"r_88": {
+    "Termo": "anaphylaxis * ",
+    "Index_Remissivo": null
+},
+"r_89": {
+    "Termo": "anaphylaxis * ",
+    "Index_Remissivo": null
+},
+"181": {
+    "Termo": "analysis",
+    "Área(s) de aplicação": [
+        "Complementary tests * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_90": {
+    "Termo": "CSF analysis * ",
+    "Index_Remissivo": null
+},
+"182": {
+    "Termo": "cerebrospinal fluid analysis; CSF analysis",
+    "Área(s) de aplicação": [
+        " * ",
+        "Complementary tests * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "CSF analysis; cerebrospinal fluid examination (m); CSF exam (m) * "
+    ]
+},
+"r_91": {
+    "Termo": "*mexo analysis * ",
+    "Index_Remissivo": null
+},
+"r_92": {
+    "Termo": "*ouriños analysis * ",
+    "Index_Remissivo": null
+},
+"183": {
+    "Termo": "blood analysis; blood test",
+    "Área(s) de aplicação": [
+        "Complementary tests * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"184": {
+    "Termo": "urine analysis; urine test",
+    "Área(s) de aplicação": [
+        "Complementary tests * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"185": {
+    "Termo": "analyst",
+    "Área(s) de aplicação": [
+        "Health organization * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"186": {
+    "Termo": "analgesia; analgia",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"187": {
+    "Termo": "analgesic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "anesthetic",
+        "anodyne",
+        "painkiller",
+        "soother"
+    ],
+    "Definicao": "A drug or other substance such as aspirin, acetaminophen, or morphine that is used to relieve pain."
+},
+"r_93": {
+    "Termo": "analxia * ",
+    "Index_Remissivo": "186"
+},
+"188": {
+    "Termo": "anamnesis",
+    "Área(s) de aplicação": [
+        "Xerais thermos * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"189": {
+    "Termo": "dwarfism; microplasia; nanism",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "microplasia (f) * "
+    ]
+},
+"190": {
+    "Termo": "anaplasia",
+    "Área(s) de aplicação": [
+        "Pathological anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"191": {
+    "Termo": "anarthria",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"192": {
+    "Termo": "anasarca; hydrops",
+    "Área(s) de aplicação": [
+        "Semiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "dropsy (f) * "
+    ]
+},
+"193": {
+    "Termo": "anastomosis;derivation; shunt",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "derivation; shunt (n) * "
+    ]
+},
+"194": {
+    "Termo": "anatomy",
+    "Área(s) de aplicação": [
+        "Xerais Thermos * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "analysis",
+        "biology",
+        "cytology",
+        "diagnosis",
+        "dissection",
+        "division",
+        "embryology",
+        "etiology",
+        "examination",
+        "genetics",
+        "histology",
+        "inquiry",
+        "investigation",
+        "medicine",
+        "morphology",
+        "physiology",
+        "zoology"
+    ],
+    "Definicao": "The science of where everything is in your body and how it is formed."
+},
+"195": {
+    "Termo": "anatomical pathology; pathological anatomy",
+    "Área(s) de aplicação": [
+        "Healthcare organization * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "pathoanatomy; anatomopathology * "
+    ]
+},
+"196": {
+    "Termo": "anatomic pathologist",
+    "Área(s) de aplicação": [
+        "Healthcare organization * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_94": {
+    "Termo": "anatomopathology * ",
+    "Index_Remissivo": "195"
+},
+"197": {
+    "Termo": "androblastoma; arrhenoblastoma of ovary",
+    "Área(s) de aplicação": [
+        "Pathological anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "ovarian arrhenoblastoma * "
+    ]
+},
+"198": {
+    "Termo": "andropause",
+    "Área(s) de aplicação": [
+        "Physiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "masculine climacteric (m) * "
+    ]
+},
+"199": {
+    "Termo": "androgen",
+    "Área(s) de aplicação": [
+        "Biochemistry * ",
+        "Physiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Any of a group of male sex hormones, including testosterone, that controls male characteristics such as beard growth."
+},
+"200": {
+    "Termo": "anechogenicity",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"201": {
+    "Termo": "annulus; anulus; ring",
+    "Área(s) de aplicação": [
+        "Anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"202": {
+    "Termo": "corneal ring",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_95": {
+    "Termo": "crural anel * ",
+    "Index_Remissivo": "203"
+},
+"203": {
+    "Termo": "crural ring; femoral ring",
+    "Área(s) de aplicação": [
+        "Anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "crural anel * "
+    ]
+},
+"204": {
+    "Termo": "vaginal ring",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"205": {
+    "Termo": "anaemia; anemia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"206": {
+    "Termo": "aplastic anemia",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_96": {
+    "Termo": "aplastic anemia * ",
+    "Index_Remissivo": null
+},
+"r_97": {
+    "Termo": "deficiency anemia * ",
+    "Index_Remissivo": null
+},
+"r_98": {
+    "Termo": "Sickle-cell anaemia * ",
+    "Index_Remissivo": "207"
+},
+"207": {
+    "Termo": "drepanocytosis; sickle-cell anemia; sicklemia",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "Sickle-cell anaemia; sickle cell disease * "
+    ]
+},
+"208": {
+    "Termo": "hipoferric anemia; iron deficiency anemia",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"209": {
+    "Termo": "hemolytic anemia",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"210": {
+    "Termo": "megaloblastic anemia",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Fewer than normal healthy red blood cells in circulation, caused by a lack of folate or vitamin B12. Red cells become large and deformed, and are unable to carry oxygen efficiently."
+},
+"211": {
+    "Termo": "nutritional anemia",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "deficiency anemia * "
+    ]
+},
+"212": {
+    "Termo": "pernicious anemia",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "A form of anemia in which red blood cells enlarge and decrease in size due to an inability to properly absorb vitamin B12."
+},
+"213": {
+    "Termo": "anergy",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"214": {
+    "Termo": "anesthesia",
+    "Área(s) de aplicação": [
+        "Therapy * ",
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "insentience",
+        "numbness",
+        "stupor",
+        "unconsciousness",
+        "asleep",
+        "put under"
+    ],
+    "Definicao": "Temporarily blocking sensation, especially the feeling of pain."
+},
+"r_99": {
+    "Termo": "anesthesia * ",
+    "Index_Remissivo": "217"
+},
+"r_100": {
+    "Termo": "anesthesia * ",
+    "Index_Remissivo": "215"
+},
+"215": {
+    "Termo": "anesthetic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"216": {
+    "Termo": "anesthesiologist; anesthetist",
+    "Área(s) de aplicação": [
+        "Healthcare organization * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anesthetist * "
+    ]
+},
+"217": {
+    "Termo": "anesthesiology",
+    "Área(s) de aplicação": [
+        "Healthcare organization * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_101": {
+    "Termo": "anesthetist * ",
+    "Index_Remissivo": "216"
+},
+"218": {
+    "Termo": "aneuploidy",
+    "Área(s) de aplicação": [
+        "Xenetics * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"219": {
+    "Termo": "aneurysm",
+    "Área(s) de aplicação": [
+        "Pathological anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "A bulge or swelling on a portion of a blood vessel, due to weakness in the wall of that vessel."
+},
+"220": {
+    "Termo": "aortic aneurysm",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Honor Health"
+    ],
+    "Sinonimos": [
+        "aortic aneurysm * "
+    ],
+    "Definicao": "Swelling of the main blood vessel leaving the heart (aorta), usually representing an underlying weakness in the wall of the aorta at that location."
+},
+"r_102": {
+    "Termo": "aortic aneurysm * ",
+    "Index_Remissivo": "220"
+},
+"221": {
+    "Termo": "amphetamine",
+    "Área(s) de aplicação": [
+        "Etiopathoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"222": {
+    "Termo": "amphiarthrosis",
+    "Área(s) de aplicação": [
+        "Anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"223": {
+    "Termo": "carbonic anhydrase",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_103": {
+    "Termo": "carbon dioxide * ",
+    "Index_Remissivo": null
+},
+"224": {
+    "Termo": "anhidrosis; hypohidrosis",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "hypohidrose * "
+    ]
+},
+"r_104": {
+    "Termo": "anhydrotic * ",
+    "Index_Remissivo": "320"
+},
+"r_105": {
+    "Termo": "anion gap * ",
+    "Index_Remissivo": null
+},
+"225": {
+    "Termo": "anisocytosis",
+    "Área(s) de aplicação": [
+        "Semiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"226": {
+    "Termo": "anisocoria",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"227": {
+    "Termo": "anisochromasia; anisochromia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"228": {
+    "Termo": "anus",
+    "Área(s) de aplicação": [
+        "Anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "The external opening at the end of digestive tract where feces are expelled."
+},
+"229": {
+    "Termo": "imperforate anus",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anal imperforation (f) * "
+    ]
+},
+"r_106": {
+    "Termo": "anodymy * ",
+    "Index_Remissivo": "235"
+},
+"230": {
+    "Termo": "chromosomal aberration; chromosomal anomaly",
+    "Área(s) de aplicação": [
+        "Xenetics * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "chromosome aberration * "
+    ]
+},
+"231": {
+    "Termo": "anomie; anomy",
+    "Área(s) de aplicação": [
+        "Semiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"232": {
+    "Termo": "anorexia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "food aversion",
+        "loss of appetite"
+    ],
+    "Definicao": "An eating disorder in which a person has an intense fear of gaining weight and severely limits calories to the point of near starvation."
+},
+"233": {
+    "Termo": "anorexia nervosa",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"234": {
+    "Termo": "anoscopy",
+    "Área(s) de aplicação": [
+        "Therapy * ",
+        "Complementary tests * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_107": {
+    "Termo": "anosphrasia * ",
+    "Index_Remissivo": "235"
+},
+"235": {
+    "Termo": "anodmia; anosmia; anosphrasia; anosphresia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anosphrasia VAR.- anodymy * "
+    ]
+},
+"236": {
+    "Termo": "anosognosia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"237": {
+    "Termo": "anovulation",
+    "Área(s) de aplicação": [
+        "Etiopathoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"238": {
+    "Termo": "anovulatory drug",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antiovulatory * "
+    ]
+},
+"r_108": {
+    "Termo": "anoxemia * ",
+    "Index_Remissivo": null
+},
+"239": {
+    "Termo": "anoxia",
+    "Área(s) de aplicação": [
+        "Etiopathoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"240": {
+    "Termo": "anchylosis; ankylosis",
+    "Área(s) de aplicação": [
+        "Etiopathoxenia * ",
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_109": {
+    "Termo": "artificial ankylosis * ",
+    "Index_Remissivo": null
+},
+"241": {
+    "Termo": "anxiety",
+    "Área(s) de aplicação": [
+        "Pathologies * ",
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"242": {
+    "Termo": "anxiolytic; minor tranquilizer",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "minor tranquilizer * "
+    ]
+},
+"243": {
+    "Termo": "antagonist",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "adversary",
+        "enemy",
+        "foe",
+        "competitor",
+        "contender",
+        "match",
+        "opponent",
+        "opposer",
+        "rival",
+        "boss",
+        "opposite number",
+        "oppugnant"
+    ],
+    "Definicao": "The muscle opposing the major muscle required to do a task. It works to help balance movement and ward off injury."
+},
+"r_110": {
+    "Termo": "calcium antagonist * ",
+    "Index_Remissivo": null
+},
+"244": {
+    "Termo": "aldosterone antagonist",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_111": {
+    "Termo": "anxiotensin II antagonist * ",
+    "Index_Remissivo": null
+},
+"245": {
+    "Termo": "serotonin antagonist",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"246": {
+    "Termo": "vitamin K antagonist",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"247": {
+    "Termo": "angiotensin II antagonist; angiotensin II receptor antagonist; ARA II (sg)",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "ARA II (sg); anxiotensin II antagonist * "
+    ]
+},
+"248": {
+    "Termo": "serotonin receptor antagonist",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"249": {
+    "Termo": "leukotriene receptor antagonist",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"250": {
+    "Termo": "H-2 receptor antagonist",
+    "Área(s) de aplicação": [
+        " * ",
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"251": {
+    "Termo": "forearm",
+    "Área(s) de aplicação": [
+        "Anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Honor Health"
+    ],
+    "Sinonimos": [
+        "radius",
+        "ulna",
+        "antibrachium"
+    ],
+    "Definicao": "The part of the arm between the elbow and the wrist."
+},
+"252": {
+    "Termo": "medical history",
+    "Área(s) de aplicação": [
+        "Xerais thermos * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "medical history * "
+    ]
+},
+"253": {
+    "Termo": "familiar history",
+    "Área(s) de aplicação": [
+        "Xerais thermos * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_112": {
+    "Termo": "medical history * ",
+    "Index_Remissivo": "252"
+},
+"254": {
+    "Termo": "personal history",
+    "Área(s) de aplicação": [
+        "Xerais thermos * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_113": {
+    "Termo": "family background * ",
+    "Index_Remissivo": null
+},
+"255": {
+    "Termo": "antepartum",
+    "Área(s) de aplicação": [
+        "Xerais thermos * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"256": {
+    "Termo": "anterior; ventral",
+    "Área(s) de aplicação": [
+        "Anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "ventral * "
+    ]
+},
+"257": {
+    "Termo": "antacid",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"258": {
+    "Termo": "antiadrenergic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"259": {
+    "Termo": "antiaggregation",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"260": {
+    "Termo": "antiaggregant",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_114": {
+    "Termo": "antiaggregant * ",
+    "Index_Remissivo": null
+},
+"261": {
+    "Termo": "antiallergic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"262": {
+    "Termo": "antiandrogen",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "A drug that blocks or interferes with the activity of male sex hormones."
+},
+"263": {
+    "Termo": "antianemic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"264": {
+    "Termo": "antiarrhythmic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"265": {
+    "Termo": "antasthmatic; antiasthmatic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"266": {
+    "Termo": "antibacterial",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"267": {
+    "Termo": "antibiogram",
+    "Área(s) de aplicação": [
+        "Complementary tests * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"268": {
+    "Termo": "antibiotics",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "penicillin",
+        "amoxicillin",
+        "ampicillin",
+        "erythromycin",
+        "streptomycin",
+        "sulfonamide",
+        "tetracycline",
+        "sulfa drug",
+        "wonder drug"
+    ],
+    "Definicao": "Bacteria (germs) can sometimes make you ill and sometimes you need antibiotics to treat it. Antibiotics are medicines that attack bacteria that are making you feel unwell. Although they hurt the bacteria, they won't hurt you. Antibiotics don’t work again other infections from viruses or fungi."
+},
+"r_115": {
+    "Termo": "anticancer * ",
+    "Index_Remissivo": "303"
+},
+"269": {
+    "Termo": "anticestodal; anticestodal agent",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anticestode axent * "
+    ]
+},
+"270": {
+    "Termo": "anticipation",
+    "Área(s) de aplicação": [
+        "Physiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"271": {
+    "Termo": "anticipation; genetic anticipation",
+    "Área(s) de aplicação": [
+        "Xenetics * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "xenetic anticipation * "
+    ]
+},
+"r_116": {
+    "Termo": "xenetic anticipation * ",
+    "Index_Remissivo": "270"
+},
+"272": {
+    "Termo": "anticoagulation",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"273": {
+    "Termo": "anticoagulant",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "A substance that helps prevent blood from clotting."
+},
+"274": {
+    "Termo": "anticodon",
+    "Área(s) de aplicação": [
+        "Xenetics * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"275": {
+    "Termo": "anticholinergic; parasympatholytic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "parasympatholytic * "
+    ]
+},
+"276": {
+    "Termo": "anticholinesterase agent",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_117": {
+    "Termo": "contraception * ",
+    "Index_Remissivo": null
+},
+"277": {
+    "Termo": "anticonceptive; contraceptive",
+    "Área(s) de aplicação": [
+        "Pharmacology * ",
+        "Preventive medicine * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "contraceptive * "
+    ]
+},
+"r_118": {
+    "Termo": "anticonvulsant * ",
+    "Index_Remissivo": "278"
+},
+"278": {
+    "Termo": "anticonvulsant; antiepileptic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antiepileptic * "
+    ]
+},
+"279": {
+    "Termo": "Ab (abrev.); antibody",
+    "Área(s) de aplicação": [
+        "Biochemistry * ",
+        "Physiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "Ac (abbreviation) * "
+    ]
+},
+"280": {
+    "Termo": "antidepressant",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "A psychiatric drug used to treat mood disorders, such as depression."
+},
+"281": {
+    "Termo": "antidiarrheal; antidiarrheal drug",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"282": {
+    "Termo": "antidote; antitoxic; counterpoison; toxicide",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "counterveleno; antitoxic; toxicide * "
+    ]
+},
+"283": {
+    "Termo": "antiemetic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "antivomitive * "
+    ],
+    "Definicao": "A drug that prevents nausea and vomiting."
+},
+"r_119": {
+    "Termo": "antiepileptic * ",
+    "Index_Remissivo": "278"
+},
+"r_120": {
+    "Termo": "antispasmodic * ",
+    "Index_Remissivo": null
+},
+"284": {
+    "Termo": "antiestrogen",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"285": {
+    "Termo": "antifibrinolytic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_121": {
+    "Termo": "antiflatulent * ",
+    "Index_Remissivo": null
+},
+"r_122": {
+    "Termo": "antiphloxistic * ",
+    "Index_Remissivo": "295"
+},
+"286": {
+    "Termo": "antifungal; antimycotic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antifungal * "
+    ]
+},
+"r_123": {
+    "Termo": "antigonadotropin * ",
+    "Index_Remissivo": "287"
+},
+"287": {
+    "Termo": "antigonadotrophin; antigonadotropin",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"288": {
+    "Termo": "gout drug",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"289": {
+    "Termo": "anthelminthic; anthelmintic; vermifuge",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anthelmintic * "
+    ]
+},
+"290": {
+    "Termo": "antihemorrhagic; hemostatic; hemostatic agent",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "haemostatic; hemostatic axent * "
+    ]
+},
+"291": {
+    "Termo": "antihemorrhoid drug; antihemorrhoidal",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"292": {
+    "Termo": "antihypertensive",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_124": {
+    "Termo": "antihistamine * ",
+    "Index_Remissivo": "293"
+},
+"293": {
+    "Termo": "antihistamine; antihistaminic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"294": {
+    "Termo": "antiinfective; anti-infective",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"295": {
+    "Termo": "antiinflammatory; anti-inflammatory; antiphlogistic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antiphloxistic * "
+    ]
+},
+"296": {
+    "Termo": "nonsteroidal antiinflammatory drug; NSAID (sg)",
+    "Área(s) de aplicação": [
+        " * ",
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "NSAIDs (sg) * "
+    ]
+},
+"r_125": {
+    "Termo": "antimalarial * ",
+    "Index_Remissivo": "304"
+},
+"297": {
+    "Termo": "antimanic agent",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"298": {
+    "Termo": "antimetabolite",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"299": {
+    "Termo": "antimycobacterial",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_126": {
+    "Termo": "antifungal * ",
+    "Index_Remissivo": "286"
+},
+"300": {
+    "Termo": "antimonial drug",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_127": {
+    "Termo": "anti-nausea * ",
+    "Index_Remissivo": "301"
+},
+"r_128": {
+    "Termo": "anti-nausea * ",
+    "Index_Remissivo": "301"
+},
+"301": {
+    "Termo": "antináusea; antinauseant",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"302": {
+    "Termo": "antinematodal; antinematodal agent",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antinematode axent * "
+    ]
+},
+"303": {
+    "Termo": "anti-cancer drug; antineoplastic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anticancer * "
+    ]
+},
+"r_129": {
+    "Termo": "antiovulatory * ",
+    "Index_Remissivo": "238"
+},
+"304": {
+    "Termo": "antimalarial",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antimalarial * "
+    ]
+},
+"305": {
+    "Termo": "antiparasitic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"306": {
+    "Termo": "antiparkinson drug; antiparkinsonian",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"307": {
+    "Termo": "antipyretic; febrifuge",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antipyretic; febrifuge * "
+    ]
+},
+"308": {
+    "Termo": "antiprotozoal; antiprotozoan",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"309": {
+    "Termo": "antiprogestagen; antiprogestogen",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_130": {
+    "Termo": "antipruritic * ",
+    "Index_Remissivo": "310"
+},
+"r_131": {
+    "Termo": "antipruritic * ",
+    "Index_Remissivo": "310"
+},
+"310": {
+    "Termo": "antipruritic; antipsoric",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antipsoric * "
+    ]
+},
+"311": {
+    "Termo": "antipsychotic; neuroleptic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "neuroleptic * "
+    ]
+},
+"312": {
+    "Termo": "antipsoriatic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_132": {
+    "Termo": "antipsoric * ",
+    "Index_Remissivo": "310"
+},
+"313": {
+    "Termo": "antiretroviral",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"314": {
+    "Termo": "antirheumatic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"315": {
+    "Termo": "antisepsis",
+    "Área(s) de aplicação": [
+        "Preventive medicine * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"316": {
+    "Termo": "antiseptic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "hygienic",
+        "sterile",
+        "antibacterial",
+        "antibiotic",
+        "clean",
+        "disinfectant",
+        "prophylactic",
+        "aseptic",
+        "bactericidal",
+        "germ-destroying",
+        "germ-free",
+        "germicidal",
+        "medicated",
+        "pure",
+        "purifying",
+        "sanitary",
+        "sterilized",
+        "sterilizing",
+        "unpolluted"
+    ],
+    "Definicao": "Something that prevents infection. You can get antiseptic mouthwash, antiseptic cream, and antiseptic hand wipes, all of which prevent infection."
+},
+"317": {
+    "Termo": "antiserum; immune serum",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "immune sorus * "
+    ]
+},
+"r_133": {
+    "Termo": "antithermal * ",
+    "Index_Remissivo": "307"
+},
+"318": {
+    "Termo": "antithyroid; antithyroid agent",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antithyroid axent * "
+    ]
+},
+"r_134": {
+    "Termo": "antitoxic * ",
+    "Index_Remissivo": "282"
+},
+"319": {
+    "Termo": "antitoxin",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"320": {
+    "Termo": "antiperspirant",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anhidrotic * "
+    ]
+},
+"321": {
+    "Termo": "antitrematode; antitrematode agent",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antitrematode axent * "
+    ]
+},
+"322": {
+    "Termo": "antithrombin",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"323": {
+    "Termo": "antithrombotic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"324": {
+    "Termo": "antitubercular agent; antituberculotic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_135": {
+    "Termo": "antitussive * ",
+    "Index_Remissivo": "325"
+},
+"r_136": {
+    "Termo": "*antitussive * ",
+    "Index_Remissivo": "325"
+},
+"325": {
+    "Termo": "antitussive",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"326": {
+    "Termo": "antivaricose",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"327": {
+    "Termo": "warts treatment",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"328": {
+    "Termo": "antiviral; antivirotic",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_137": {
+    "Termo": "antiviral * ",
+    "Index_Remissivo": "328"
+},
+"r_138": {
+    "Termo": "antivomitive * ",
+    "Index_Remissivo": "283"
+},
+"r_139": {
+    "Termo": "antixaqueca * ",
+    "Index_Remissivo": "329"
+},
+"329": {
+    "Termo": "antimigraine drug",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"330": {
+    "Termo": "antigen",
+    "Área(s) de aplicação": [
+        "Biochemistry * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "dander",
+        "irritant",
+        "pollen",
+        "ragweed",
+        "dust mite",
+        "foreign substance",
+        "immune trigger"
+    ],
+    "Definicao": "Any substance that the body sees as harmful or foreign, causing the immune system to form antibodies in defense."
+},
+"331": {
+    "Termo": "anthracycline",
+    "Área(s) de aplicação": [
+        "Pharmacology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"332": {
+    "Termo": "anthracosis; black lung",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"333": {
+    "Termo": "carbuncle",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"334": {
+    "Termo": "antrectomy",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"335": {
+    "Termo": "antrum",
+    "Área(s) de aplicação": [
+        "Anatomy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"336": {
+    "Termo": "antropology",
+    "Área(s) de aplicação": [
+        "Xerais thermos * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"337": {
+    "Termo": "anthropometry",
+    "Área(s) de aplicação": [
+        "Complementary tests * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_140": {
+    "Termo": "cancel * ",
+    "Index_Remissivo": null
+},
+"338": {
+    "Termo": "annuloplasty",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_141": {
+    "Termo": "anurese * ",
+    "Index_Remissivo": "339"
+},
+"339": {
+    "Termo": "anuresis; anuria",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_142": {
+    "Termo": "anxeíte * ",
+    "Index_Remissivo": null
+},
+"340": {
+    "Termo": "angiectomy",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_143": {
+    "Termo": "anxious * ",
+    "Index_Remissivo": null
+},
+"r_144": {
+    "Termo": "anxin * ",
+    "Index_Remissivo": "341"
+},
+"341": {
+    "Termo": "angina; angina pectoris",
+    "Área(s) de aplicação": [
+        "Semioloxia * ",
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anxin * "
+    ]
+},
+"r_145": {
+    "Termo": "anxiocolite * ",
+    "Index_Remissivo": null
+},
+"342": {
+    "Termo": "angiodysplasia",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"343": {
+    "Termo": "angioedema; angioneurotic edema",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"344": {
+    "Termo": "angiography",
+    "Área(s) de aplicação": [
+        "Complementary tests * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "A test that shows how blood moves through the blood vessels and heart. It uses x-rays and the injection of a fluid called a contrast agent that can be seen on the x-rays."
+},
+"r_146": {
+    "Termo": "coronary anxiography * ",
+    "Index_Remissivo": null
+},
+"345": {
+    "Termo": "angiology",
+    "Área(s) de aplicação": [
+        "Xerais thermos * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"346": {
+    "Termo": "angioma",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"347": {
+    "Termo": "angiomatosis",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"348": {
+    "Termo": "angiopathy",
+    "Área(s) de aplicação": [
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"349": {
+    "Termo": "angioplasty",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "A procedure used to open blocked or narrowed arteries, most commonly by inserting a thin tube, or catheter, into the affected artery and inflating a balloon."
+},
+"350": {
+    "Termo": "angiorrhaphy; vasorrhaphy",
+    "Área(s) de aplicação": [
+        "Therapy * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "vasorrhaphy * "
+    ]
+},
+"351": {
+    "Termo": "angiosarcoma; hemangiosarcoma",
+    "Área(s) de aplicação": [
+        "Pathological anatomy * ",
+        "Pathologies * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "hemanxiosarcoma * "
+    ]
+},
+"352": {
+    "Termo": "angioscopy",
+    "Área(s) de aplicação": [
+        "Complementary tests * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_147": {
+    "Termo": "anxiostomy * ",
+    "Index_Remissivo": null
+},
+"353": {
+    "Termo": "angiotensin",
+    "Área(s) de aplicação": [
+        "Biochemistry * ",
+        "Physiology * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "A protein that raises blood pressure by narrowing blood vessels and causing the kidneys to store more sodium and water."
+}
+,
     "354": {
         "Termo": "angiotensinogen",
         "Área(s) de aplicação": [

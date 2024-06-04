@@ -1,4 +1,4457 @@
-{
+{    "1": {
+    "Termo": "asa",
+    "Área(s) de aplicação": [
+        "Anatomia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_1": {
+    "Termo": "PARA * ",
+    "Index_Remissivo": "79"
+},
+"2": {
+    "Termo": "a termo",
+    "Área(s) de aplicação": [
+        "Fisiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"3": {
+    "Termo": "abdome; abdômen [Br.]; abdómen [Pt.]; barriga [pop.]; região abdominal",
+    "Área(s) de aplicação": [
+        "Anatomia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "rexion abdominal (f); barriga [pop.] * "
+    ]
+},
+"4": {
+    "Termo": "abdome agudo; abdômen agudo [Br.]; abdómen agudo [Pt.]",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_2": {
+    "Termo": "abdômen distendido * ",
+    "Index_Remissivo": "6"
+},
+"5": {
+    "Termo": "abdome em tábua; abdômen em tábua [Br.]; abdómen em tábua [Pt.]",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "barriga de madeira * "
+    ]
+},
+"6": {
+    "Termo": "abdome distendido; abdômen distendido [Br.]; abdómen distendido [Pt.]",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "abdômen proeminente; abdômen distendido * "
+    ]
+},
+"r_3": {
+    "Termo": "abdômen proeminente * ",
+    "Index_Remissivo": "6"
+},
+"r_4": {
+    "Termo": "*abdução * ",
+    "Index_Remissivo": "7"
+},
+"7": {
+    "Termo": "abdução; separação",
+    "Área(s) de aplicação": [
+        "Fisiologia * ",
+        "Anatomia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "separação * ",
+        "sequestro * ",
+        "estupro * ",
+        "seizure * ",
+        "roubo * ",
+        "apropriação * "
+    ],
+    "Definicao": "Movimento de uma parte do corpo, como um braço ou uma perna, para longe do centro do corpo. * "
+},
+"r_5": {
+    "Termo": "aberração cromossômica * ",
+    "Index_Remissivo": "230"
+},
+"8": {
+    "Termo": "abertura inferior da pelve; estreito inferior da pelve",
+    "Área(s) de aplicação": [
+        "Anatomia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "alongamento pélvico inferior (m) * "
+    ]
+},
+"9": {
+    "Termo": "abertura superior da pelve; estreito superior da pelve",
+    "Área(s) de aplicação": [
+        "Anatomia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "streito da pelve superior (m) * "
+    ]
+},
+"10": {
+    "Termo": "ablação",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "abscisão * ",
+        "corte * ",
+        "extirpação * ",
+        "remoção * "
+    ],
+    "Definicao": "Uma forma de tratamento que utiliza energia elétrica, calor, frio, álcool ou outras modalidades para destruir uma pequena seção de tecido danificado. * "
+},
+"r_6": {
+    "Termo": "ablação clitoriana * ",
+    "Index_Remissivo": null
+},
+"11": {
+    "Termo": "abordagem",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_7": {
+    "Termo": "abrasão * ",
+    "Index_Remissivo": null
+},
+"12": {
+    "Termo": "abscesso",
+    "Área(s) de aplicação": [
+        "Semioloxia * ",
+        "Anatomia patológica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "úlcera * ",
+        "ferver * ",
+        "carbúnculo * ",
+        "pústula * "
+    ],
+    "Definicao": "Acúmulo de pus, que geralmente ocorre como resultado de uma infecção. O pus é composto de glóbulos brancos velhos e células de tecido quebradas. Os abscessos podem ser muito dolorosos e podem precisar ser drenados. * "
+},
+"13": {
+    "Termo": "abulia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"14": {
+    "Termo": "abuso de substâncias",
+    "Área(s) de aplicação": [
+        "Garrafa térmica Xerais * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "abuso de álcool * ",
+        "abuso de drogas * ",
+        "uso de drogas * ",
+        "vício * ",
+        "dependência alcoólica * ",
+        "alcoolismo * ",
+        "abuso químico * ",
+        "dipsomania * ",
+        "dependência de drogas * ",
+        "vício em drogas * ",
+        "hábito * ",
+        "abuso de narcóticos * ",
+        "abuso de solvente * "
+    ],
+    "Definicao": "Uso continuado de substâncias apesar de problemas sociais ou interpessoais relacionados à substância. * "
+},
+"r_8": {
+    "Termo": "Ac * ",
+    "Index_Remissivo": "279"
+},
+"r_9": {
+    "Termo": "AQUI * ",
+    "Index_Remissivo": null
+},
+"r_10": {
+    "Termo": "terminou - dá à luz * ",
+    "Index_Remissivo": null
+},
+"15": {
+    "Termo": "acalasia; acalásia",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"16": {
+    "Termo": "acantólise",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"17": {
+    "Termo": "acantose nigricans",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"18": {
+    "Termo": "ácaro",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_11": {
+    "Termo": "acesso * ",
+    "Index_Remissivo": null
+},
+"r_12": {
+    "Termo": "AVC * ",
+    "Index_Remissivo": null
+},
+"19": {
+    "Termo": "acidente de trabalho",
+    "Área(s) de aplicação": [
+        "Garrafa térmica Xerais * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "acidente de trabalho * "
+    ]
+},
+"20": {
+    "Termo": "acidente isquêmico transitório; AIT (sg); ataque isquêmico transitório",
+    "Área(s) de aplicação": [
+        "Semioloxia * ",
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "Ataque isquêmico transitório; AIT (sg) * "
+    ]
+},
+"r_13": {
+    "Termo": "acidente de trabalho * ",
+    "Index_Remissivo": "19"
+},
+"r_14": {
+    "Termo": "AVC * ",
+    "Index_Remissivo": null
+},
+"r_15": {
+    "Termo": "azia * ",
+    "Index_Remissivo": null
+},
+"r_16": {
+    "Termo": "acedume * ",
+    "Index_Remissivo": null
+},
+"21": {
+    "Termo": "aceitação",
+    "Área(s) de aplicação": [
+        "Fisiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"22": {
+    "Termo": "acetábulo; cavidade cotilóide",
+    "Área(s) de aplicação": [
+        "Anatomia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "cavidade cotilóide (f) * "
+    ]
+},
+"r_17": {
+    "Termo": "paracetamol * ",
+    "Index_Remissivo": null
+},
+"r_18": {
+    "Termo": "acetil-CoA * ",
+    "Index_Remissivo": "23"
+},
+"23": {
+    "Termo": "acetil-CoA; acetil-coenzima A",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "acetil-CoA * "
+    ]
+},
+"24": {
+    "Termo": "acetilcolina",
+    "Área(s) de aplicação": [
+        "Bioquímica * ",
+        "Fisiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "ACh (sb) * "
+    ],
+    "Definicao": "Um neurotransmissor (um mensageiro químico que envia sinais entre as células cerebrais) que desempenha funções na atenção, aprendizagem e memória. * "
+},
+"r_19": {
+    "Termo": "ACh * ",
+    "Index_Remissivo": "24"
+},
+"r_20": {
+    "Termo": "acia * ",
+    "Index_Remissivo": null
+},
+"25": {
+    "Termo": "acidemia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_21": {
+    "Termo": "acidez * ",
+    "Index_Remissivo": null
+},
+"26": {
+    "Termo": "acidificação",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"27": {
+    "Termo": "acidificante",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"28": {
+    "Termo": "ácido acetilsalicílico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_22": {
+    "Termo": "ácido aminoacético * ",
+    "Index_Remissivo": null
+},
+"29": {
+    "Termo": "ácido aminossalicílico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"30": {
+    "Termo": "ácido araquidônico [Br.]; ácido araquidónico [Pt.]",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_23": {
+    "Termo": "ácido ascórbico * ",
+    "Index_Remissivo": null
+},
+"31": {
+    "Termo": "ácido aspártico",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "Asp (sb) * "
+    ]
+},
+"32": {
+    "Termo": "ácido biliar",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"33": {
+    "Termo": "ácido clorídrico",
+    "Área(s) de aplicação": [
+        "Bioquímica * ",
+        "Fisiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "HCl (sb) * "
+    ]
+},
+"34": {
+    "Termo": "ácido desoxirribonucléico; ADN (sg); DNA (sg)",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "ADN; (sg) DNA (sg) * "
+    ]
+},
+"35": {
+    "Termo": "ácido fólico",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"36": {
+    "Termo": "ácido gama-aminobutírico; GABA (sg)",
+    "Área(s) de aplicação": [
+        "Bioquímica * ",
+        "Fisiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "GABA (sg) * "
+    ]
+},
+"37": {
+    "Termo": "ácido glutâmico [Br.]; ácido glutámico [Pt.]; glutamato",
+    "Área(s) de aplicação": [
+        "Bioquímica * ",
+        "Fisiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "glutamato; Glu (sb) * "
+    ]
+},
+"38": {
+    "Termo": "ácido graxo; AG (sg)",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "AG (sg) * "
+    ]
+},
+"39": {
+    "Termo": "ácido láctico [Pt.]; ácido lático [Br.]",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_24": {
+    "Termo": "ácido nicotinico * ",
+    "Index_Remissivo": null
+},
+"40": {
+    "Termo": "ácido nucléico",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"41": {
+    "Termo": "ácido ribonucléico; ARN (sg); RNA (sg)",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "RNA (sg); RNA (sg) * "
+    ]
+},
+"42": {
+    "Termo": "ácido salicílico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"43": {
+    "Termo": "ácido úrico",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"44": {
+    "Termo": "acidose",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"45": {
+    "Termo": "acidúria",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"46": {
+    "Termo": "acinesia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"47": {
+    "Termo": "ácino",
+    "Área(s) de aplicação": [
+        "Histologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_25": {
+    "Termo": "*esclarecimento * ",
+    "Index_Remissivo": null
+},
+"r_26": {
+    "Termo": "*clearance de creatinina * ",
+    "Index_Remissivo": null
+},
+"r_27": {
+    "Termo": "* depuração de ureia * ",
+    "Index_Remissivo": null
+},
+"48": {
+    "Termo": "acloridria; anacloridria",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia * ",
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_28": {
+    "Termo": "ACM * ",
+    "Index_Remissivo": null
+},
+"49": {
+    "Termo": "acne; acne vulgar",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "acne vulgar * "
+    ]
+},
+"r_29": {
+    "Termo": "*acne * ",
+    "Index_Remissivo": "49"
+},
+"50": {
+    "Termo": "acne rosácea; rosácea",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "rosácea * "
+    ]
+},
+"r_30": {
+    "Termo": "acne vulgar * ",
+    "Index_Remissivo": "49"
+},
+"51": {
+    "Termo": "acolia",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"52": {
+    "Termo": "acomodação",
+    "Área(s) de aplicação": [
+        "Fisiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "compromisso * ",
+        "reconciliação * ",
+        "adaptação * ",
+        "conformidade * ",
+        "composição * ",
+        "conformidade * ",
+        "apropriado * ",
+        "modificação * ",
+        "povoado * ",
+        "acordo cinquenta por cinquenta * "
+    ],
+    "Definicao": "A capacidade do olho de focar objetos próximos. * "
+},
+"53": {
+    "Termo": "acomodação",
+    "Área(s) de aplicação": [
+        "Fisiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "compromisso * ",
+        "reconciliação * ",
+        "adaptação * ",
+        "conformidade * ",
+        "composição * ",
+        "conformidade * ",
+        "apropriado * ",
+        "modificação * ",
+        "povoado * ",
+        "acordo cinquenta por cinquenta * "
+    ],
+    "Definicao": "A capacidade do olho de focar objetos próximos. * "
+},
+"54": {
+    "Termo": "acondroplasia",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"55": {
+    "Termo": "aconselhamento genético",
+    "Área(s) de aplicação": [
+        "Xenética * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "aconselhamento genético * "
+    ]
+},
+"56": {
+    "Termo": "acontecimento; evento",
+    "Área(s) de aplicação": [
+        "Epidemiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "evento * "
+    ]
+},
+"57": {
+    "Termo": "evento sentinela",
+    "Área(s) de aplicação": [
+        "Epidemiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "evento sentinela * "
+    ]
+},
+"r_31": {
+    "Termo": "ACP * ",
+    "Index_Remissivo": null
+},
+"58": {
+    "Termo": "acrocianose",
+    "Área(s) de aplicação": [
+        "Patologias * ",
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_32": {
+    "Termo": "acrocinês * ",
+    "Index_Remissivo": "59"
+},
+"59": {
+    "Termo": "acrocinesia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_33": {
+    "Termo": "acromasia * ",
+    "Index_Remissivo": "61"
+},
+"r_34": {
+    "Termo": "acromatopsia parcial * ",
+    "Index_Remissivo": null
+},
+"60": {
+    "Termo": "acromegalia",
+    "Área(s) de aplicação": [
+        "Patologias * ",
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_35": {
+    "Termo": "acromelalgia * ",
+    "Index_Remissivo": null
+},
+"61": {
+    "Termo": "acromasia; acromia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"62": {
+    "Termo": "acrômio [Br.]; acrómio [Pt.]",
+    "Área(s) de aplicação": [
+        "Anatomia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "processo acromial (f) * "
+    ]
+},
+"63": {
+    "Termo": "baqueteamento; hipocratismo digital",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "hipocratismo dixital (m) * "
+    ]
+},
+"r_36": {
+    "Termo": "acrosclerodermia * ",
+    "Index_Remissivo": null
+},
+"64": {
+    "Termo": "acrossoma; acrossomo",
+    "Área(s) de aplicação": [
+        "Histologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"65": {
+    "Termo": "acro-osteólise; acrosteólise",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_37": {
+    "Termo": "ACTH * ",
+    "Index_Remissivo": null
+},
+"66": {
+    "Termo": "actina",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Uma das proteínas que permite que as células se movam e os músculos se contraiam. * "
+},
+"67": {
+    "Termo": "actinomicina",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"68": {
+    "Termo": "actinomicose",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"69": {
+    "Termo": "actinoterapia",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"70": {
+    "Termo": "atitude fetal",
+    "Área(s) de aplicação": [
+        "Anatomia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"71": {
+    "Termo": "acto médico [Pt.]; ato médico [Br.]",
+    "Área(s) de aplicação": [
+        "Garrafa térmica Xerais * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"72": {
+    "Termo": "aqueduto",
+    "Área(s) de aplicação": [
+        "Anatomia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"73": {
+    "Termo": "acúfeno; tinnitus",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "zumbido * "
+    ],
+    "Definicao": "Um zumbido nos ouvidos ou algum outro som sem causa externa. * "
+},
+"74": {
+    "Termo": "acuidade visual",
+    "Área(s) de aplicação": [
+        "Fisiologia * ",
+        "Testes complementares * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "acuidade visual * ",
+        "Visão 20/20 * ",
+        "visão aguda * ",
+        "perspicácia * ",
+        "clareza * ",
+        "visão nítida * ",
+        "visão vinte-vinte * "
+    ],
+    "Definicao": "A capacidade do olho de ver com nitidez, geralmente medida em comparação com o que um olho normal veria a uma distância de 6 metros. Problemas de acuidade visual geralmente podem ser corrigidos com óculos. * "
+},
+"75": {
+    "Termo": "acupunctura",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Um tratamento baseado na medicina chinesa. Agulhas finas são inseridas na pele em pontos específicos do corpo. Esta terapia é usada para tratar a dor e vários problemas de saúde e para reduzir o estresse. * "
+},
+"r_38": {
+    "Termo": "AVC * ",
+    "Index_Remissivo": null
+},
+"r_39": {
+    "Termo": "adamantinoma hipofisário * ",
+    "Index_Remissivo": null
+},
+"r_40": {
+    "Termo": "adamantoblastoma * ",
+    "Index_Remissivo": "162"
+},
+"76": {
+    "Termo": "adaptação",
+    "Área(s) de aplicação": [
+        "Fisiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_41": {
+    "Termo": "Adição * ",
+    "Index_Remissivo": "97"
+},
+"77": {
+    "Termo": "adenectomia",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"78": {
+    "Termo": "adenilciclase",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"79": {
+    "Termo": "adenina",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "A (sb) * "
+    ]
+},
+"80": {
+    "Termo": "adenite",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"81": {
+    "Termo": "adenohipófise; adeno-hipófise",
+    "Área(s) de aplicação": [
+        "Histologia * ",
+        "Anatomia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"82": {
+    "Termo": "adenoidectomia",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_42": {
+    "Termo": "adenoma do ducto biliar * ",
+    "Index_Remissivo": null
+},
+"r_43": {
+    "Termo": "adenoma insular * ",
+    "Index_Remissivo": null
+},
+"r_44": {
+    "Termo": "adenoma langerhansiano * ",
+    "Index_Remissivo": null
+},
+"r_45": {
+    "Termo": "adenoma oxifílico * ",
+    "Index_Remissivo": null
+},
+"83": {
+    "Termo": "adenopatia",
+    "Área(s) de aplicação": [
+        "Anatomia patológica * ",
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"84": {
+    "Termo": "adenose",
+    "Área(s) de aplicação": [
+        "Anatomia patológica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"85": {
+    "Termo": "adenosina adenosina",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"86": {
+    "Termo": "adenosina monofosfato cíclica; AMPc (sg)",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "AMPc (sg); AMP cíclico * "
+    ]
+},
+"87": {
+    "Termo": "adenosina trifosfato; ATP (sg); trifosfato de adenosina",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "trifosfato de adenosina; ATP (sg) * "
+    ]
+},
+"88": {
+    "Termo": "adenovírus; mastadenovírus",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "mastadenovírus * "
+    ]
+},
+"r_46": {
+    "Termo": "ADH * ",
+    "Index_Remissivo": null
+},
+"89": {
+    "Termo": "adesina",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"90": {
+    "Termo": "adesão celular",
+    "Área(s) de aplicação": [
+        "Fisiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"91": {
+    "Termo": "dependência física",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "dependência física * "
+    ]
+},
+"r_47": {
+    "Termo": "dependência de drogas * ",
+    "Index_Remissivo": null
+},
+"92": {
+    "Termo": "adipócito",
+    "Área(s) de aplicação": [
+        "Histologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_48": {
+    "Termo": "ADN * ",
+    "Index_Remissivo": "34"
+},
+"93": {
+    "Termo": "adolescência",
+    "Área(s) de aplicação": [
+        "Fisiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "infância * ",
+        "adolescentes * ",
+        "infância * ",
+        "verdor * ",
+        "juvenilidade * ",
+        "minoria * ",
+        "pubescência * ",
+        "primavera * ",
+        "juventude * ",
+        "Juventude * "
+    ],
+    "Definicao": "Quando você é velho demais para ser criança e não tem idade suficiente para ser adulto. Geralmente usamos a palavra adolescência para descrever a época em que você é adolescente. * "
+},
+"r_49": {
+    "Termo": "adrenalectomia * ",
+    "Index_Remissivo": null
+},
+"94": {
+    "Termo": "adrenalina; epinefrina",
+    "Área(s) de aplicação": [
+        "Bioquímica * ",
+        "Fisiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "epinefrina * "
+    ]
+},
+"95": {
+    "Termo": "adrenalite",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_50": {
+    "Termo": "adrenita * ",
+    "Index_Remissivo": "95"
+},
+"r_51": {
+    "Termo": "adrenocorticotropina * ",
+    "Index_Remissivo": null
+},
+"96": {
+    "Termo": "adsorvente",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"97": {
+    "Termo": "adução; aproximação",
+    "Área(s) de aplicação": [
+        "Fisiologia * ",
+        "Anatomia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "abordagem * "
+    ],
+    "Definicao": "Movimento de uma parte do corpo em direção ou através da linha média. * "
+},
+"98": {
+    "Termo": "aerofagia",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "gastrospiria * "
+    ]
+},
+"99": {
+    "Termo": "aerossol; spray",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "spray * "
+    ]
+},
+"100": {
+    "Termo": "afasia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Dificuldade em falar ou compreender a linguagem; uma ocorrência comum após um acidente vascular cerebral que afeta o hemisfério esquerdo do cérebro, onde a linguagem é processada. * "
+},
+"101": {
+    "Termo": "afasia amnésica; afasia anômica [Br.]; afasia anómica [Pt.]; anomia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "afasia anômica; disnomia * "
+    ]
+},
+"r_52": {
+    "Termo": "afasia anômica * ",
+    "Index_Remissivo": "101"
+},
+"102": {
+    "Termo": "afagia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_53": {
+    "Termo": "doença * ",
+    "Index_Remissivo": null
+},
+"103": {
+    "Termo": "afonia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_54": {
+    "Termo": "eliminador de potássio * ",
+    "Index_Remissivo": null
+},
+"r_55": {
+    "Termo": "AFP * ",
+    "Index_Remissivo": "138"
+},
+"104": {
+    "Termo": "afta",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"105": {
+    "Termo": "afta oral",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"106": {
+    "Termo": "aftose",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_56": {
+    "Termo": "AG * ",
+    "Index_Remissivo": "38"
+},
+"107": {
+    "Termo": "agamaglobulinemia",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"108": {
+    "Termo": "aglutinação",
+    "Área(s) de aplicação": [
+        "Testes complementares * ",
+        "Etiopatoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"109": {
+    "Termo": "agnosia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Uma doença rara em que uma pessoa não consegue reconhecer objetos, formas ou pessoas. Freqüentemente devido a uma condição cerebral ou neurológica. * "
+},
+"r_57": {
+    "Termo": "agnosia simultânea * ",
+    "Index_Remissivo": null
+},
+"r_58": {
+    "Termo": "agnosia tátil * ",
+    "Index_Remissivo": null
+},
+"110": {
+    "Termo": "agonista",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "1) Uma substância que desencadeia uma resposta fisiológica quando se combina com um receptor. 2) Um músculo cuja contração é combatida por outro músculo. * "
+},
+"111": {
+    "Termo": "agonista adrenérgico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"112": {
+    "Termo": "agrafestesia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "grafanestesia * "
+    ]
+},
+"113": {
+    "Termo": "agrafia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_59": {
+    "Termo": "agranulocitopenia * ",
+    "Index_Remissivo": "114"
+},
+"114": {
+    "Termo": "agranulocitopenia; agranulocitose; neutropenia maligna",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "agranulocitopenia; neutropenia maligna * "
+    ]
+},
+"115": {
+    "Termo": "agressividade",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_60": {
+    "Termo": "acuidade visual * ",
+    "Index_Remissivo": "74"
+},
+"116": {
+    "Termo": "agudo",
+    "Área(s) de aplicação": [
+        "Garrafa térmica Xerais * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "intenso * ",
+        "ansioso * ",
+        "afiado * ",
+        "sutil * ",
+        "confidencial * ",
+        "inteligente * ",
+        "astuto * ",
+        "astuto * ",
+        "esperto * ",
+        "exigente * ",
+        "discriminando * ",
+        "incisivo * ",
+        "engenhoso * ",
+        "perspicaz * ",
+        "intuitivo * ",
+        "criterioso * ",
+        "atento * ",
+        "penetrante * ",
+        "perspicaz * ",
+        "piercing * ",
+        "perspicaz * "
+    ],
+    "Definicao": "Se for agudo, é forte ou intenso ou surge repentinamente. * "
+},
+"117": {
+    "Termo": "agulha",
+    "Área(s) de aplicação": [
+        "Instrumental * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_61": {
+    "Termo": "AINEs * ",
+    "Index_Remissivo": null
+},
+"r_62": {
+    "Termo": "AIT * ",
+    "Index_Remissivo": null
+},
+"r_63": {
+    "Termo": "A * ",
+    "Index_Remissivo": "118"
+},
+"118": {
+    "Termo": "alanina",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "Asa (sb) * "
+    ]
+},
+"r_64": {
+    "Termo": "vá em frente * ",
+    "Index_Remissivo": null
+},
+"119": {
+    "Termo": "albinismo",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Grupo de doenças hereditárias que normalmente aparecem como redução ou ausência de pigmentos de melanina na pele, cabelos e olhos. * "
+},
+"r_65": {
+    "Termo": "albinismo adquirido * ",
+    "Index_Remissivo": null
+},
+"r_66": {
+    "Termo": "albuginea oculi * ",
+    "Index_Remissivo": null
+},
+"120": {
+    "Termo": "albumina",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Uma proteína produzida pelo fígado. Níveis anormais desta substância podem indicar doença hepática ou renal. * "
+},
+"121": {
+    "Termo": "albuminúria",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Grandes quantidades de albumina (uma proteína produzida pelo fígado) na urina, possivelmente indicando disfunção renal. * "
+},
+"r_67": {
+    "Termo": "albuxinoso * ",
+    "Index_Remissivo": null
+},
+"122": {
+    "Termo": "alcalinização; alcalização",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_68": {
+    "Termo": "alcalinização * ",
+    "Index_Remissivo": "122"
+},
+"123": {
+    "Termo": "alcalóide",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"124": {
+    "Termo": "alcalose",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"125": {
+    "Termo": "alcatrão",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"126": {
+    "Termo": "álcool",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"127": {
+    "Termo": "alcoolemia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"128": {
+    "Termo": "alcoolismo",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "vício * ",
+        "abuso de álcool * ",
+        "dependência de álcool * ",
+        "dependência de álcool * ",
+        "abuso de substâncias * ",
+        "problema com bebida * ",
+        "crepulência * ",
+        "dipsomania * ",
+        "metomania * "
+    ],
+    "Definicao": "Outro termo para dependência de álcoolUma doença crônica e progressiva caracterizada por consumo excessivo e muitas vezes compulsivo, controle prejudicado sobre o consumo de álcool, uso de álcool apesar das consequências adversas e sintomas de abstinência quando o uso de álcool é interrompido. Também conhecido como alcoolismo. * "
+},
+"r_69": {
+    "Termo": "álcool * ",
+    "Index_Remissivo": "126"
+},
+"129": {
+    "Termo": "aldosterona",
+    "Área(s) de aplicação": [
+        "Bioquímica * ",
+        "Fisiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Um hormônio secretado pelas glândulas suprarrenais que ajuda a regular a pressão arterial controlando os níveis de sódio e potássio no corpo. * "
+},
+"130": {
+    "Termo": "aleatorização",
+    "Área(s) de aplicação": [
+        "Epidemiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_70": {
+    "Termo": "alimento artificial * ",
+    "Index_Remissivo": null
+},
+"r_71": {
+    "Termo": "alegria materna * ",
+    "Index_Remissivo": null
+},
+"131": {
+    "Termo": "alelo",
+    "Área(s) de aplicação": [
+        "Xenética * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Uma de duas ou mais versões de um gene. Alelos diferentes produzem variações nas características herdadas, como a cor dos olhos. * "
+},
+"r_72": {
+    "Termo": "hálito de fígado * ",
+    "Index_Remissivo": null
+},
+"132": {
+    "Termo": "fetor uremicus; hálito urêmico [Br.]; hálito urémico [Pt.]",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "feto urêmico * "
+    ]
+},
+"133": {
+    "Termo": "alergista",
+    "Área(s) de aplicação": [
+        "Organização de saúde * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"134": {
+    "Termo": "alergologia",
+    "Área(s) de aplicação": [
+        "Organização de saúde * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"135": {
+    "Termo": "alérgeno",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "anafilactoxeno; sensibilinoxeno * ",
+        "antígeno * ",
+        "caspa * ",
+        "irritante * ",
+        "pólen * ",
+        "ambrósia * ",
+        "ácaro da poeira * ",
+        "substancia estrangeira * ",
+        "gatilho imunológico * "
+    ],
+    "Definicao": "Algo que causa uma reação alérgica. * "
+},
+"136": {
+    "Termo": "alergia",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia * ",
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "rinite alérgica * ",
+        "aversão * ",
+        "hipersensibilidade * ",
+        "sensibilidade * ",
+        "suscetibilidade * ",
+        "vulnerabilidade * ",
+        "reação alérgica * "
+    ],
+    "Definicao": "Muitas pessoas têm alergias. Eles são algo a que seu corpo reage e geralmente incluem alimentos e materiais com os quais você entra em contato. Geralmente são inofensivos, mas para algumas pessoas podem ser muito mais graves e deixá-las muito doentes. * "
+},
+"137": {
+    "Termo": "alexia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_73": {
+    "Termo": "alfa-1-antitripsina * ",
+    "Index_Remissivo": null
+},
+"138": {
+    "Termo": "AFP (sg); alfa-fetoproteína",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "AFP (sg) * "
+    ]
+},
+"139": {
+    "Termo": "algor mortis",
+    "Área(s) de aplicação": [
+        "Garrafa térmica Xerais * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"140": {
+    "Termo": "alimentação artificial",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_74": {
+    "Termo": "alimentação parenteral * ",
+    "Index_Remissivo": null
+},
+"r_75": {
+    "Termo": "almorra * ",
+    "Index_Remissivo": null
+},
+"141": {
+    "Termo": "alodinia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Dor resultante de algo que normalmente não é doloroso, como um leve toque. * "
+},
+"142": {
+    "Termo": "aloenxerto; enxerto alógeno; homoenxerto",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "aloxeno enxerto; homoenxerto * "
+    ]
+},
+"r_76": {
+    "Termo": "alopecia androxenética * ",
+    "Index_Remissivo": "143"
+},
+"143": {
+    "Termo": "alopecia androgenética; alopecia androgénica",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"144": {
+    "Termo": "alopecia areata; alopecia em áreas",
+    "Área(s) de aplicação": [
+        " * ",
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Condição autoimune que aparece como queda de cabelo irregular no couro cabeludo que pode resultar em queda de cabelo permanente. * "
+},
+"145": {
+    "Termo": "alotipo",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"146": {
+    "Termo": "alotransplante; homotransplante",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "homotransplante * "
+    ]
+},
+"r_77": {
+    "Termo": "alotriopaxia * ",
+    "Index_Remissivo": null
+},
+"147": {
+    "Termo": "alquilante",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"148": {
+    "Termo": "alta hospitalar",
+    "Área(s) de aplicação": [
+        "Garrafa térmica Xerais * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"149": {
+    "Termo": "alta médica",
+    "Área(s) de aplicação": [
+        "Garrafa térmica Xerais * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"150": {
+    "Termo": "altruísmo",
+    "Área(s) de aplicação": [
+        "Fisiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"151": {
+    "Termo": "alucinação",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "ilusão * ",
+        "fantasma * ",
+        "aberração * ",
+        "aparição * ",
+        "fantasia * ",
+        "miragem * ",
+        "fantasma * ",
+        "fantasmagoria * ",
+        "viagem * ",
+        "visão * ",
+        "espectro * ",
+        "invenção da imaginação * ",
+        "viagem de cabeça * "
+    ],
+    "Definicao": "Uma percepção de algo que realmente não existe. * "
+},
+"152": {
+    "Termo": "alucinógeno",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"153": {
+    "Termo": "alveolite",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_78": {
+    "Termo": "Alveólito fibrosante criptoxênico * ",
+    "Index_Remissivo": null
+},
+"154": {
+    "Termo": "alvéolo",
+    "Área(s) de aplicação": [
+        "Histologia * ",
+        "Anatomia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"155": {
+    "Termo": "amaurose",
+    "Área(s) de aplicação": [
+        "Semioloxia * ",
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"156": {
+    "Termo": "ambliopia; olho preguiçoso",
+    "Área(s) de aplicação": [
+        "Semioloxia * ",
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "vago ollo (m) [pop.]; ollo preguiceiro (m) [pop.] * "
+    ]
+},
+"157": {
+    "Termo": "ambulância",
+    "Área(s) de aplicação": [
+        "Organização de saúde * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "EMS * ",
+        "resgatar * ",
+        "transporte * ",
+        "vagão hospitalar * "
+    ],
+    "Definicao": "O veículo que leva você de e para o hospital. Existem dois tipos – um é um veículo de resposta a emergências, que contém todo o equipamento para cuidar de você imediatamente após um acidente. O outro tipo não contém tantos equipamentos, mas leva você de e para as consultas hospitalares. * "
+},
+"r_79": {
+    "Termo": "ambulatorial * ",
+    "Index_Remissivo": null
+},
+"158": {
+    "Termo": "ameaça de aborto",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"159": {
+    "Termo": "amebíase",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"160": {
+    "Termo": "amebicida",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"161": {
+    "Termo": "ameloblasto",
+    "Área(s) de aplicação": [
+        "Histologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"162": {
+    "Termo": "adamantoblastoma; ameloblastoma",
+    "Área(s) de aplicação": [
+        "Anatomia patológica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "adamantoblastoma * "
+    ]
+},
+"163": {
+    "Termo": "amenorréia [Br.]; amenorreia [Pt.]",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"164": {
+    "Termo": "amido",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"165": {
+    "Termo": "amígdala; tonsila",
+    "Área(s) de aplicação": [
+        "Anatomia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "amígdala * "
+    ]
+},
+"166": {
+    "Termo": "amigdalectomia; tonsilectomia",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "amigdalectomia * "
+    ]
+},
+"167": {
+    "Termo": "amigdalite",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "amigdalite * "
+    ]
+},
+"168": {
+    "Termo": "amilase",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Enzima secretada pelo pâncreas que transforma o amido em açúcar. * "
+},
+"r_80": {
+    "Termo": "amilase salivar * ",
+    "Index_Remissivo": null
+},
+"169": {
+    "Termo": "amiloidose; amilose",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_81": {
+    "Termo": "amilose * ",
+    "Index_Remissivo": "169"
+},
+"170": {
+    "Termo": "aminoácido",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"171": {
+    "Termo": "aminoglicosídeo",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"172": {
+    "Termo": "amnésia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "queda de energia * ",
+        "fuga * ",
+        "estupor * "
+    ],
+    "Definicao": "Perda de memória ou esquecimento incomum. * "
+},
+"173": {
+    "Termo": "amniocentese",
+    "Área(s) de aplicação": [
+        "Terapia * ",
+        "Testes complementares * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_82": {
+    "Termo": "AMP cíclico * ",
+    "Index_Remissivo": "86"
+},
+"r_83": {
+    "Termo": "acampamento * ",
+    "Index_Remissivo": null
+},
+"174": {
+    "Termo": "amplificação",
+    "Área(s) de aplicação": [
+        "Xenética * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"175": {
+    "Termo": "ampola",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"176": {
+    "Termo": "bolha; flictena; empola",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "flictena; tigela [pop.]; vexiga [pop.] * "
+    ]
+},
+"r_84": {
+    "Termo": "ampuloma * ",
+    "Index_Remissivo": null
+},
+"177": {
+    "Termo": "amputação",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "A remoção cirúrgica de um membro ou outra parte do corpo. * "
+},
+"178": {
+    "Termo": "anabolismo",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"179": {
+    "Termo": "agente anabólico; agente anabolizante; anabolizante",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "axente anabólico; axente anabólico * "
+    ]
+},
+"r_85": {
+    "Termo": "anacloridria * ",
+    "Index_Remissivo": "48"
+},
+"r_86": {
+    "Termo": "anadipsia * ",
+    "Index_Remissivo": null
+},
+"180": {
+    "Termo": "anáfase",
+    "Área(s) de aplicação": [
+        "Histologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_87": {
+    "Termo": "anafilactoxeno * ",
+    "Index_Remissivo": "135"
+},
+"r_88": {
+    "Termo": "anafilaxia * ",
+    "Index_Remissivo": null
+},
+"r_89": {
+    "Termo": "anafilaxia * ",
+    "Index_Remissivo": null
+},
+"181": {
+    "Termo": "análise",
+    "Área(s) de aplicação": [
+        "Testes complementares * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_90": {
+    "Termo": "Análise do LCR * ",
+    "Index_Remissivo": null
+},
+"182": {
+    "Termo": "análise do LCR; análise do líquido cefalorraquidiano; exame do LCR; exame do líquido cefalorraquidiano",
+    "Área(s) de aplicação": [
+        " * ",
+        "Testes complementares * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "análise do LCR; exame do líquido cefalorraquidiano (m); Exame de LCR (m) * "
+    ]
+},
+"r_91": {
+    "Termo": "*análise mexo * ",
+    "Index_Remissivo": null
+},
+"r_92": {
+    "Termo": "*análise de ouriños * ",
+    "Index_Remissivo": null
+},
+"183": {
+    "Termo": "análise de sangue; exame de sangue",
+    "Área(s) de aplicação": [
+        "Testes complementares * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"184": {
+    "Termo": "análise de urina; exame de urina",
+    "Área(s) de aplicação": [
+        "Testes complementares * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"185": {
+    "Termo": "analista",
+    "Área(s) de aplicação": [
+        "Organização de saúde * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"186": {
+    "Termo": "analgesia; analgia",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"187": {
+    "Termo": "analgésico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "anestésico * ",
+        "anódino * ",
+        "analgésico * ",
+        "chupeta * "
+    ],
+    "Definicao": "Um medicamento ou outra substância, como aspirina, paracetamol ou morfina, usada para aliviar a dor. * "
+},
+"r_93": {
+    "Termo": "analxia * ",
+    "Index_Remissivo": "186"
+},
+"188": {
+    "Termo": "anamnese",
+    "Área(s) de aplicação": [
+        "Garrafa térmica Xerais * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"189": {
+    "Termo": "microplasia; nanismo",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "microplasia (f) * "
+    ]
+},
+"190": {
+    "Termo": "anaplasia",
+    "Área(s) de aplicação": [
+        "Anatomia patológica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"191": {
+    "Termo": "anartria",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"192": {
+    "Termo": "anasarca; hidropisia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "hidropisia (f) * "
+    ]
+},
+"193": {
+    "Termo": "anastomose; derivação; shunt",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "derivação; derivação (n) * "
+    ]
+},
+"194": {
+    "Termo": "anatomia",
+    "Área(s) de aplicação": [
+        "Garrafa térmica Xerais * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "análise * ",
+        "biologia * ",
+        "citologia * ",
+        "diagnóstico * ",
+        "dissecação * ",
+        "divisão * ",
+        "embriologia * ",
+        "etiologia * ",
+        "exame * ",
+        "genética * ",
+        "histologia * ",
+        "investigação * ",
+        "investigação * ",
+        "medicamento * ",
+        "morfologia * ",
+        "fisiologia * ",
+        "zoologia * "
+    ],
+    "Definicao": "A ciência de onde tudo está em seu corpo e como ele é formado. * "
+},
+"195": {
+    "Termo": "anatomia patológica; anatomopatologia",
+    "Área(s) de aplicação": [
+        "Organização de saúde * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "patoanatomia; anatomopatologia * "
+    ]
+},
+"196": {
+    "Termo": "anatomopatologista",
+    "Área(s) de aplicação": [
+        "Organização de saúde * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_94": {
+    "Termo": "anatomopatologia * ",
+    "Index_Remissivo": "195"
+},
+"197": {
+    "Termo": "androblastoma; arrenoblastoma do ovário",
+    "Área(s) de aplicação": [
+        "Anatomia patológica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "arrenoblastoma ovariano * "
+    ]
+},
+"198": {
+    "Termo": "andropausa",
+    "Área(s) de aplicação": [
+        "Fisiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "climatério masculino (m) * "
+    ]
+},
+"199": {
+    "Termo": "androgênio [Br.]; androgénio [Pt.]; andrógeno",
+    "Área(s) de aplicação": [
+        "Bioquímica * ",
+        "Fisiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Qualquer um de um grupo de hormônios sexuais masculinos, incluindo a testosterona, que controla as características masculinas, como o crescimento da barba. * "
+},
+"200": {
+    "Termo": "anecogenicidade",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"201": {
+    "Termo": "anel",
+    "Área(s) de aplicação": [
+        "Anatomia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"202": {
+    "Termo": "anel corneano",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_95": {
+    "Termo": "anel crural * ",
+    "Index_Remissivo": "203"
+},
+"203": {
+    "Termo": "anel crural; anel femoral",
+    "Área(s) de aplicação": [
+        "Anatomia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anel crural * "
+    ]
+},
+"204": {
+    "Termo": "anel vaginal",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"205": {
+    "Termo": "anemia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"206": {
+    "Termo": "anemia aplásica; anemia aplástica",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_96": {
+    "Termo": "anemia aplástica * ",
+    "Index_Remissivo": null
+},
+"r_97": {
+    "Termo": "anemia por deficiência * ",
+    "Index_Remissivo": null
+},
+"r_98": {
+    "Termo": "Anemia falciforme * ",
+    "Index_Remissivo": "207"
+},
+"207": {
+    "Termo": "anemia drepanocítica; anemia falciforme; drepanocitose",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "Anemia falciforme; anemia falciforme * "
+    ]
+},
+"208": {
+    "Termo": "anemia ferropénica (Pt.); anemia ferropriva (Br.)",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"209": {
+    "Termo": "anemia hemolítica",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"210": {
+    "Termo": "anemia megaloblástica",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Menos glóbulos vermelhos saudáveis ​​do que o normal em circulação, causado pela falta de ácido fólico ou vitamina B12. Os glóbulos vermelhos tornam-se grandes e deformados e são incapazes de transportar oxigênio com eficiência. * "
+},
+"211": {
+    "Termo": "anemia carencial; anemia nutricional",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anemia por deficiência * "
+    ]
+},
+"212": {
+    "Termo": "anemia perniciosa",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Forma de anemia em que os glóbulos vermelhos aumentam e diminuem de tamanho devido à incapacidade de absorver adequadamente a vitamina B12. * "
+},
+"213": {
+    "Termo": "anergia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"214": {
+    "Termo": "anestesia",
+    "Área(s) de aplicação": [
+        "Terapia * ",
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "insensibilidade * ",
+        "dormência * ",
+        "estupor * ",
+        "inconsciência * ",
+        "dormindo * ",
+        "colocar sob * "
+    ],
+    "Definicao": "Bloqueio temporário da sensação, especialmente a sensação de dor. * "
+},
+"r_99": {
+    "Termo": "anestesia * ",
+    "Index_Remissivo": "217"
+},
+"r_100": {
+    "Termo": "anestesia * ",
+    "Index_Remissivo": "215"
+},
+"215": {
+    "Termo": "anestésico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"216": {
+    "Termo": "anestesiologista; anestesista",
+    "Área(s) de aplicação": [
+        "Organização de saúde * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anestesista * "
+    ]
+},
+"217": {
+    "Termo": "anestesiologia",
+    "Área(s) de aplicação": [
+        "Organização de saúde * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_101": {
+    "Termo": "anestesista * ",
+    "Index_Remissivo": "216"
+},
+"218": {
+    "Termo": "aneuploidia",
+    "Área(s) de aplicação": [
+        "Xenética * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"219": {
+    "Termo": "aneurisma",
+    "Área(s) de aplicação": [
+        "Anatomia patológica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Protuberância ou inchaço em uma parte de um vaso sanguíneo, devido à fraqueza na parede desse vaso. * "
+},
+"220": {
+    "Termo": "aneurisma aórtico; aneurisma de aorta",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Honor Health"
+    ],
+    "Sinonimos": [
+        "aneurisma da aorta * "
+    ],
+    "Definicao": "Inchaço do principal vaso sanguíneo que sai do coração (aorta), geralmente representando uma fraqueza subjacente na parede da aorta naquele local. * "
+},
+"r_102": {
+    "Termo": "aneurisma da aorta * ",
+    "Index_Remissivo": "220"
+},
+"221": {
+    "Termo": "anfetamina",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"222": {
+    "Termo": "anfiartrose",
+    "Área(s) de aplicação": [
+        "Anatomia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"223": {
+    "Termo": "anidrase carbônica [Br.]; anidrase carbónica [Pt.]",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_103": {
+    "Termo": "dióxido de carbono * ",
+    "Index_Remissivo": null
+},
+"224": {
+    "Termo": "anidrose; hipoidrose",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "hipoidrose * "
+    ]
+},
+"r_104": {
+    "Termo": "anidrótico * ",
+    "Index_Remissivo": "320"
+},
+"r_105": {
+    "Termo": "lacuna aniônica * ",
+    "Index_Remissivo": null
+},
+"225": {
+    "Termo": "anisocitose",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"226": {
+    "Termo": "anisocoria",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"227": {
+    "Termo": "anisocromia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"228": {
+    "Termo": "ânus",
+    "Área(s) de aplicação": [
+        "Anatomia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Abertura externa no final do trato digestivo por onde as fezes são expelidas. * "
+},
+"229": {
+    "Termo": "ânus imperfurado; imperfuração anal",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "imperfuração anal (f) * "
+    ]
+},
+"r_106": {
+    "Termo": "anodímia * ",
+    "Index_Remissivo": "235"
+},
+"230": {
+    "Termo": "aberração cromossômica [Br.]; aberração cromossómica [Pt.]; anomalia cromossômica [Br.]; anomalia cromossómica [Pt.]",
+    "Área(s) de aplicação": [
+        "Xenética * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "aberração cromossômica * "
+    ]
+},
+"231": {
+    "Termo": "anomia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"232": {
+    "Termo": "anorexia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "aversão alimentar * ",
+        "perda de apetite * "
+    ],
+    "Definicao": "Transtorno alimentar em que a pessoa tem um medo intenso de ganhar peso e limita severamente as calorias a ponto de quase morrer de fome. * "
+},
+"233": {
+    "Termo": "anorexia nervosa",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"234": {
+    "Termo": "anoscopia",
+    "Área(s) de aplicação": [
+        "Terapia * ",
+        "Testes complementares * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_107": {
+    "Termo": "anosfrasia * ",
+    "Index_Remissivo": "235"
+},
+"235": {
+    "Termo": "anodmia; anosmia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anosfrasia VAR.- anodímia * "
+    ]
+},
+"236": {
+    "Termo": "anosognosia",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"237": {
+    "Termo": "anovulação",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"238": {
+    "Termo": "anovulatório",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antiovulatório * "
+    ]
+},
+"r_108": {
+    "Termo": "anoxemia * ",
+    "Index_Remissivo": null
+},
+"239": {
+    "Termo": "anoxia",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"240": {
+    "Termo": "anquilose",
+    "Área(s) de aplicação": [
+        "Etiopatoxenia * ",
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_109": {
+    "Termo": "anquilose artificial * ",
+    "Index_Remissivo": null
+},
+"241": {
+    "Termo": "ansiedade",
+    "Área(s) de aplicação": [
+        "Patologias * ",
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"242": {
+    "Termo": "ansiolítico; tranqüilizante menor",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "tranquilizante menor * "
+    ]
+},
+"243": {
+    "Termo": "antagonista",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "adversário * ",
+        "inimigo * ",
+        "inimigo * ",
+        "concorrente * ",
+        "contendor * ",
+        "corresponder * ",
+        "adversário * ",
+        "opositor * ",
+        "rival * ",
+        "chefe * ",
+        "Número oposto * ",
+        "opositor * "
+    ],
+    "Definicao": "O músculo que se opõe ao músculo principal necessário para realizar uma tarefa. Funciona para ajudar a equilibrar os movimentos e evitar lesões. * "
+},
+"r_110": {
+    "Termo": "antagonista de cálcio * ",
+    "Index_Remissivo": null
+},
+"244": {
+    "Termo": "antagonista da aldosterona",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_111": {
+    "Termo": "antagonista da ansiotensina II * ",
+    "Index_Remissivo": null
+},
+"245": {
+    "Termo": "antagonista da serotonina",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"246": {
+    "Termo": "antagonista da vitamina K",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"247": {
+    "Termo": "antagonista da angiotensina II; antagonista dos receptores da angiotensina II; ARA II (sg)",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "ARA II (sg); antagonista da ansiotensina II * "
+    ]
+},
+"248": {
+    "Termo": "antagonista dos receptores da serotonina",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"249": {
+    "Termo": "antagonista dos receptores de leucotrienos",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"250": {
+    "Termo": "antagonista dos receptores H2",
+    "Área(s) de aplicação": [
+        " * ",
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"251": {
+    "Termo": "antebraço",
+    "Área(s) de aplicação": [
+        "Anatomia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Honor Health"
+    ],
+    "Sinonimos": [
+        "raio * ",
+        "ulna * ",
+        "antibraquial * "
+    ],
+    "Definicao": "A parte do braço entre o cotovelo e o pulso. * "
+},
+"252": {
+    "Termo": "antecedente; antecedente médico",
+    "Área(s) de aplicação": [
+        "Garrafa térmica Xerais * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "histórico médico * "
+    ]
+},
+"253": {
+    "Termo": "antecedente familiar",
+    "Área(s) de aplicação": [
+        "Garrafa térmica Xerais * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_112": {
+    "Termo": "histórico médico * ",
+    "Index_Remissivo": "252"
+},
+"254": {
+    "Termo": "antecedente pessoal",
+    "Área(s) de aplicação": [
+        "Garrafa térmica Xerais * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_113": {
+    "Termo": "antecedentes familiares * ",
+    "Index_Remissivo": null
+},
+"255": {
+    "Termo": "anteparto; ante-parto",
+    "Área(s) de aplicação": [
+        "Garrafa térmica Xerais * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"256": {
+    "Termo": "anterior; ventral",
+    "Área(s) de aplicação": [
+        "Anatomia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "ventral * "
+    ]
+},
+"257": {
+    "Termo": "antiácido",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"258": {
+    "Termo": "antiadrenérgico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"259": {
+    "Termo": "antiagregação",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"260": {
+    "Termo": "antiagregante",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_114": {
+    "Termo": "antiagregante * ",
+    "Index_Remissivo": null
+},
+"261": {
+    "Termo": "antialérgico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"262": {
+    "Termo": "antiandrógeno",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Droga que bloqueia ou interfere na atividade dos hormônios sexuais masculinos. * "
+},
+"263": {
+    "Termo": "antianêmico [Br.]; antianémico [Pt.]",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"264": {
+    "Termo": "antiarrítmico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"265": {
+    "Termo": "antiasmático",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"266": {
+    "Termo": "antibacteriano",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"267": {
+    "Termo": "antibiograma",
+    "Área(s) de aplicação": [
+        "Testes complementares * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"268": {
+    "Termo": "antibiótico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "penicilina * ",
+        "amoxicilina * ",
+        "ampicilina * ",
+        "eritromicina * ",
+        "estreptomicina * ",
+        "sulfonamida * ",
+        "tetraciclina * ",
+        "droga sulfa * ",
+        "droga milagrosa * "
+    ],
+    "Definicao": "Às vezes, bactérias (germes) podem deixá-lo doente e às vezes você precisa de antibióticos para tratá-las. Antibióticos são medicamentos que atacam bactérias que fazem você se sentir mal. Embora machuquem as bactérias, eles não farão mal a você. Os antibióticos não funcionam novamente em outras infecções por vírus ou fungos. * "
+},
+"r_115": {
+    "Termo": "anticâncer * ",
+    "Index_Remissivo": "303"
+},
+"269": {
+    "Termo": "agente anticestóide; anticestóide",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "axente anticestóide * "
+    ]
+},
+"270": {
+    "Termo": "antecipação",
+    "Área(s) de aplicação": [
+        "Fisiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"271": {
+    "Termo": "antecipação; antecipação genética",
+    "Área(s) de aplicação": [
+        "Xenética * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antecipação xenética * "
+    ]
+},
+"r_116": {
+    "Termo": "antecipação xenética * ",
+    "Index_Remissivo": "270"
+},
+"272": {
+    "Termo": "anticoagulação",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"273": {
+    "Termo": "anticoagulante",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Uma substância que ajuda a prevenir a coagulação do sangue. * "
+},
+"274": {
+    "Termo": "anticódon",
+    "Área(s) de aplicação": [
+        "Xenética * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"275": {
+    "Termo": "anticolinérgico; anti-colinérgico; parassimpaticolítico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "parassimpaticolítico * "
+    ]
+},
+"276": {
+    "Termo": "anticolinesterásico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_117": {
+    "Termo": "contracepção * ",
+    "Index_Remissivo": null
+},
+"277": {
+    "Termo": "anticonceptivo; contraceptivo",
+    "Área(s) de aplicação": [
+        "Farmacologia * ",
+        "Medicina preventiva * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "contraceptivo * "
+    ]
+},
+"r_118": {
+    "Termo": "anticonvulsivante * ",
+    "Index_Remissivo": "278"
+},
+"278": {
+    "Termo": "anticonvulsionante; anticonvulsivo; antiepiléptico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antiepiléptico * "
+    ]
+},
+"279": {
+    "Termo": "Ac (abrev.); anticorpo",
+    "Área(s) de aplicação": [
+        "Bioquímica * ",
+        "Fisiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "Ac (abreviatura) * "
+    ]
+},
+"280": {
+    "Termo": "antidepressivo",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Medicamento psiquiátrico usado para tratar transtornos de humor, como depressão. * "
+},
+"281": {
+    "Termo": "antidiarréico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"282": {
+    "Termo": "antídoto; antitoxico; contraveneno",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "contraveleno; antitóxico; tóxico * "
+    ]
+},
+"283": {
+    "Termo": "antiemético; anti-emético",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "antitivo * "
+    ],
+    "Definicao": "Um medicamento que previne náuseas e vômitos. * "
+},
+"r_119": {
+    "Termo": "antiepiléptico * ",
+    "Index_Remissivo": "278"
+},
+"r_120": {
+    "Termo": "antiespasmódico * ",
+    "Index_Remissivo": null
+},
+"284": {
+    "Termo": "antiestrógeno",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"285": {
+    "Termo": "antifibrinolítico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_121": {
+    "Termo": "antiflatulento * ",
+    "Index_Remissivo": null
+},
+"r_122": {
+    "Termo": "antifloxista * ",
+    "Index_Remissivo": "295"
+},
+"286": {
+    "Termo": "antifúngico; antimicótico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antifúngico * "
+    ]
+},
+"r_123": {
+    "Termo": "antigonadotrofina * ",
+    "Index_Remissivo": "287"
+},
+"287": {
+    "Termo": "antigonadotrofina; antigonadotropina",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"288": {
+    "Termo": "antigotoso",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"289": {
+    "Termo": "anti-helmíntico; vermífugo",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anti-helmíntico * "
+    ]
+},
+"290": {
+    "Termo": "agente hemostático; antihemorrágico; hemostático",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "hemostático; axente hemostático * "
+    ]
+},
+"291": {
+    "Termo": "antihemorroidal; anti-hemorroidal",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"292": {
+    "Termo": "antihipertensivo; anti-hipertensivo",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_124": {
+    "Termo": "anti-histamínico * ",
+    "Index_Remissivo": "293"
+},
+"293": {
+    "Termo": "anti-histamina; anti-histamínico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"294": {
+    "Termo": "antiinfeccioso; anti-infeccioso",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"295": {
+    "Termo": "antiflogístico; antiinflamatório; anti- inflamatório",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antifloxista * "
+    ]
+},
+"296": {
+    "Termo": "AINE (sg); anti-inflamatório não- esteróide",
+    "Área(s) de aplicação": [
+        " * ",
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "AINEs (sg) * "
+    ]
+},
+"r_125": {
+    "Termo": "antimalárico * ",
+    "Index_Remissivo": "304"
+},
+"297": {
+    "Termo": "antimaníaco; anti-maníaco",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"298": {
+    "Termo": "antimetabólito",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"299": {
+    "Termo": "antimicobacteriano",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_126": {
+    "Termo": "antifúngico * ",
+    "Index_Remissivo": "286"
+},
+"300": {
+    "Termo": "antimonial",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_127": {
+    "Termo": "anti-náusea * ",
+    "Index_Remissivo": "301"
+},
+"r_128": {
+    "Termo": "anti-náusea * ",
+    "Index_Remissivo": "301"
+},
+"301": {
+    "Termo": "antináusea; anti-náusea; antinauseoso",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"302": {
+    "Termo": "agente antinematódeo; antinematódeo",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "axente antinematóide * "
+    ]
+},
+"303": {
+    "Termo": "anticanceroso; antineoplásico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anticâncer * "
+    ]
+},
+"r_129": {
+    "Termo": "antiovulatório * ",
+    "Index_Remissivo": "238"
+},
+"304": {
+    "Termo": "antimalárico; antipalúdico; anti- palúdico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antimalárico * "
+    ]
+},
+"305": {
+    "Termo": "antiparasitário; anti-parasitário",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"306": {
+    "Termo": "antiparkinsoniano",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"307": {
+    "Termo": "antipirético; antitérmico; febrífugo",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antipirético; febrífugo * "
+    ]
+},
+"308": {
+    "Termo": "antiprotozoário; anti-protozoário",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"309": {
+    "Termo": "antiprogestágeno; anti-progestágeno",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_130": {
+    "Termo": "antipruriginoso * ",
+    "Index_Remissivo": "310"
+},
+"r_131": {
+    "Termo": "antipruriginoso * ",
+    "Index_Remissivo": "310"
+},
+"310": {
+    "Termo": "antipruriginoso; antiprurítico; antipruritoso",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "antipsórico * "
+    ]
+},
+"311": {
+    "Termo": "antipsicótico; neuroléptico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "neuroléptico * "
+    ]
+},
+"312": {
+    "Termo": "antipsoriásico; anti-psoriásico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_132": {
+    "Termo": "antipsórico * ",
+    "Index_Remissivo": "310"
+},
+"313": {
+    "Termo": "antiretroviral; anti-retroviral",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"314": {
+    "Termo": "anti-reumático",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"315": {
+    "Termo": "anti-sepsia",
+    "Área(s) de aplicação": [
+        "Medicina preventiva * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"316": {
+    "Termo": "antiséptico; anti-séptico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Great Ormond Street Hospital (GOSH)"
+    ],
+    "Sinonimos": [
+        "higiênico * ",
+        "estéril * ",
+        "antibacteriano * ",
+        "antibiótico * ",
+        "limpar * ",
+        "desinfetante * ",
+        "profilático * ",
+        "asséptico * ",
+        "bactericida * ",
+        "destruidor de germes * ",
+        "livre de germes * ",
+        "germicida * ",
+        "medicado * ",
+        "puro * ",
+        "purificando * ",
+        "sanitário * ",
+        "esterilizado * ",
+        "esterilização * ",
+        "não poluído * "
+    ],
+    "Definicao": "Algo que previne a infecção. Você pode obter enxaguatório bucal anti-séptico, creme anti-séptico e lenços anti-sépticos para as mãos, que previnem infecções. * "
+},
+"317": {
+    "Termo": "antisoro; anti-soro; soro imune",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "soro imunológico * "
+    ]
+},
+"r_133": {
+    "Termo": "antitérmico * ",
+    "Index_Remissivo": "307"
+},
+"318": {
+    "Termo": "agente anti-tiróide; anti-tiróide",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "axente antitireoidiano * "
+    ]
+},
+"r_134": {
+    "Termo": "antitóxico * ",
+    "Index_Remissivo": "282"
+},
+"319": {
+    "Termo": "antitoxina",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"320": {
+    "Termo": "anti transpirante; antitranspirante",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anidrótico * "
+    ]
+},
+"321": {
+    "Termo": "agente antitrematódeos; antitrematódeos",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "axente antitrematódeo * "
+    ]
+},
+"322": {
+    "Termo": "antitrombina",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"323": {
+    "Termo": "antitrombótico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"324": {
+    "Termo": "antituberculoso; anti-tuberculoso",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_135": {
+    "Termo": "antitússico * ",
+    "Index_Remissivo": "325"
+},
+"r_136": {
+    "Termo": "*antitússico * ",
+    "Index_Remissivo": "325"
+},
+"325": {
+    "Termo": "antitússico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"326": {
+    "Termo": "antivaricoso; anti-varicoso",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"327": {
+    "Termo": "antiverrugas; anti-verrugas",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"328": {
+    "Termo": "antiviral; antivírico",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_137": {
+    "Termo": "antiviral * ",
+    "Index_Remissivo": "328"
+},
+"r_138": {
+    "Termo": "antitivo * ",
+    "Index_Remissivo": "283"
+},
+"r_139": {
+    "Termo": "antixaqueca * ",
+    "Index_Remissivo": "329"
+},
+"329": {
+    "Termo": "antienxaqueca; antienxaquecoso",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"330": {
+    "Termo": "antigénio; antígeno",
+    "Área(s) de aplicação": [
+        "Bioquímica * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Sinonimos": [
+        "caspa * ",
+        "irritante * ",
+        "pólen * ",
+        "ambrósia * ",
+        "ácaro da poeira * ",
+        "substancia estrangeira * ",
+        "gatilho imunológico * "
+    ],
+    "Definicao": "Qualquer substância que o corpo considera prejudicial ou estranha, fazendo com que o sistema imunológico forme anticorpos de defesa. * "
+},
+"331": {
+    "Termo": "antraciclina",
+    "Área(s) de aplicação": [
+        "Farmacologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"332": {
+    "Termo": "antracose",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"333": {
+    "Termo": "antraz",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"334": {
+    "Termo": "antrectomia",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"335": {
+    "Termo": "antro",
+    "Área(s) de aplicação": [
+        "Anatomia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"336": {
+    "Termo": "antropologia",
+    "Área(s) de aplicação": [
+        "Garrafa térmica Xerais * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"337": {
+    "Termo": "antropometria",
+    "Área(s) de aplicação": [
+        "Testes complementares * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_140": {
+    "Termo": "cancelar * ",
+    "Index_Remissivo": null
+},
+"338": {
+    "Termo": "anuloplastia",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_141": {
+    "Termo": "anurese * ",
+    "Index_Remissivo": "339"
+},
+"339": {
+    "Termo": "anurese; anúria",
+    "Área(s) de aplicação": [
+        "Semioloxia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_142": {
+    "Termo": "anxeite * ",
+    "Index_Remissivo": null
+},
+"340": {
+    "Termo": "angiectomia",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_143": {
+    "Termo": "ansioso * ",
+    "Index_Remissivo": null
+},
+"r_144": {
+    "Termo": "anxina * ",
+    "Index_Remissivo": "341"
+},
+"341": {
+    "Termo": "angina; angina de peito",
+    "Área(s) de aplicação": [
+        "Semioloxia * ",
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "anxina * "
+    ]
+},
+"r_145": {
+    "Termo": "ansiocolite * ",
+    "Index_Remissivo": null
+},
+"342": {
+    "Termo": "angiodisplasia",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"343": {
+    "Termo": "angioedema; edema angioneurótico",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"344": {
+    "Termo": "angiografia",
+    "Área(s) de aplicação": [
+        "Testes complementares * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Um teste que mostra como o sangue se move através dos vasos sanguíneos e do coração. Ele usa raios X e a injeção de um fluido chamado agente de contraste que pode ser visto nas radiografias. * "
+},
+"r_146": {
+    "Termo": "anxiografia coronária * ",
+    "Index_Remissivo": null
+},
+"345": {
+    "Termo": "angiologia",
+    "Área(s) de aplicação": [
+        "Garrafa térmica Xerais * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"346": {
+    "Termo": "angioma",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"347": {
+    "Termo": "angiomatose",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"348": {
+    "Termo": "angiopatia",
+    "Área(s) de aplicação": [
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"349": {
+    "Termo": "angioplastia",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Procedimento usado para abrir artérias bloqueadas ou estreitadas, mais comumente inserindo um tubo fino, ou cateter, na artéria afetada e inflando um balão. * "
+},
+"350": {
+    "Termo": "angiorrafia; vasorrafia",
+    "Área(s) de aplicação": [
+        "Terapia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "vasorrafia * "
+    ]
+},
+"351": {
+    "Termo": "angiossarcoma; hemangiossarcoma",
+    "Área(s) de aplicação": [
+        "Anatomia patológica * ",
+        "Patologias * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ],
+    "Sinonimos": [
+        "hemanxissarcoma * "
+    ]
+},
+"352": {
+    "Termo": "angioscopia",
+    "Área(s) de aplicação": [
+        "Testes complementares * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina"
+    ]
+},
+"r_147": {
+    "Termo": "ansiostomia * ",
+    "Index_Remissivo": null
+},
+"353": {
+    "Termo": "angiotensina",
+    "Área(s) de aplicação": [
+        "Bioquímica * ",
+        "Fisiologia * "
+    ],
+    "Fontes": [
+        "Vocabulario de Medicina",
+        "Harvard Medical School"
+    ],
+    "Definicao": "Uma proteína que aumenta a pressão arterial ao estreitar os vasos sanguíneos e fazer com que os rins armazenem mais sódio e água. * "
+},
     "354": {
         "Termo": "angiotensinogênio [Br.]; angiotensinogénio [Pt.]",
         "Área(s) de aplicação": [
