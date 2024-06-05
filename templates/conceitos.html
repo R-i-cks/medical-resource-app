@@ -26,7 +26,7 @@
   <h1 class="text-start display-5">Conceitos</h1> 
   <a href="/adicionarconceito"><i class="fa-solid fa-plus fa-2xl text-dark" style="margin-left: 15px;"></i></a>
   </div>
-  <form class="form-inline" action="{{ url_for('change_language', lang='es') }}" method="GET">
+  <form class="form-inline" action="{{ url_for('pesquisa') }}" method="GET">
       <div class="input-group">
           <input class="form-control mr-sm-2" type="search" name="query" placeholder="Search" aria-label="Search">
           <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
@@ -36,7 +36,22 @@
 <a id="back-to-top" href="#" style="margin-bottom: 90px; width: fit-content; margin-left: 93%;" class="fixed-bottom btn btn-secondary btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
 
 {% if pesquisa %}
-pesquisa
+<h3>Resultados para "{{pesquisa}}"</h3>
+<p>{{res}} resultados encontrados</p>
+<table class="table table-hover sticky-header">
+    <thead class="thead-light">
+        <tr>
+        <th scope="col"><h2 class="text-start display-5">Conceito</h2></th>
+        <th scope="col"><h2 class="text-start display-5">Definição</h2></th>
+        </tr>
+    </thead>
+    <tbody>
+        {%for conceito in conceitos%}
+            <tr>
+                <td><a href="/conceitos/{{conceitos[conceito]["original"]}}" class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">{{conceito | safe}}</a></td>
+                <td>{{conceitos[conceito]["desc"] | safe}}</td>
+            </tr>
+        {%endfor%}
 {% else %}
 <br>
 <br>

@@ -23,10 +23,36 @@ def trocar_ficheiro(lang):
 def home():
     return render_template("home.html")
 
+
 @app.route("/conceitos/<lang>")
-def listar_Conceitos(lang="es"):
+def pesquisa(lang="es"):
     conceitos = trocar_ficheiro(lang)
-    return render_template("conceitos.html", conceitos = conceitos, lang=lang)
+    query = request.args.get("query_conceito_ou_desc")
+    match = {}
+
+    if query:
+        for indice in conceitos:
+            if conceitos[indice]['Termo']:
+                conceito = conceitos[indice]['Termo']
+                if query.lower() in conceito.lower():
+                    conceiton = re.sub(rf'({query})', r'<b>\1</b>', conceito)
+                    if query.lower() in conceitos[indice]["Termo"].lower():
+                        descricaon = re.sub(rf'({query})', r'<b>\1</b>', conceitos[indice]["Descricao"].lower())
+                        match[indice][conceiton] = {'Definicao': descricaon, "original": conceito}
+                    else:
+                        match[indice][conceiton] = {'Definicao': conceitos[indice]['Definicao'], "original": conceito}
+                else:
+                    if query.lower() in conceitos[indice]['Definicao'].lower():
+                        descricaon = re.sub(rf'({query})', r'<b>\1</b>', conceitos[indice]['Definicao'].lower())
+                        match[indice][conceito] = {'Definicao': descricaon, "original": conceito}
+
+    if match:
+        return render_template("conceitos.html", conceitos=match, pesquisa=query, res=len(match))
+    else:
+        return render_template("conceitos.html", conceitos=conceitos, pesquisa=False)
+    
+    
+
 
 
 @app.route("/conceitos/<lang>/<id_conc>")
@@ -134,7 +160,6 @@ def pesquisa_detalhada():
             return render_template("pesquisaDetalhada.html", pesquisa = False)
     else:
         return render_template("pesquisaDetalhada.html")
-
 
 
 
