@@ -21,29 +21,47 @@
 </nav>
 
 
+<nav class="navbar fixed bg-white navbar-light justify-content-between">
+  <div class="d-flex justify-content align-items-center">
+  <h1 class="text-start display-5">Conceitos</h1> 
+  <a href="/adicionarconceito"><i class="fa-solid fa-plus fa-2xl text-dark" style="margin-left: 15px;"></i></a>
+  </div>
+  <form class="form-inline" action="{{ url_for('change_language', lang='es') }}" method="GET">
+      <div class="input-group">
+          <input class="form-control mr-sm-2" type="search" name="query" placeholder="Search" aria-label="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </div>
+  </form>
+</nav>
+<a id="back-to-top" href="#" style="margin-bottom: 90px; width: fit-content; margin-left: 93%;" class="fixed-bottom btn btn-secondary btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
 
-
-
-<h1>Tabela de procura de conceitos</h1>
+{% if pesquisa %}
+pesquisa
+{% else %}
 <br>
 <br>
-<table id="dados" class="display">
-    <thead>
+<table id="dados"  class="table table-hover sticky-header">
+    <thead class="thead-light">
         <tr>
-            <th>ID</th>
-            <th>Conceito</th>
+          <th scope="col"><h2 class="text-start display-5">Índice</h2></th>
+          <th scope="col"><h2 class="text-start display-5">Conceito</h2></th>
+          <th scope="col"><h2 class="text-start display-5">Fonte(s)</h2></th>
+          <th scope="col"><h2 class="text-start display-5">Semelhante(s)</h2></th>
         </tr>
     </thead>
     <tbody>
         {% for conceito in conceitos %}
         <tr>
-            <td><a href="/conceitos/{{lang}}/{{conceito}}">{{conceito}}</a></td>
+            <td><a class="list-group-item list-group-item-action" href="/conceitos/{{lang}}/{{conceito}}">{{conceito}}</a></td>
             <td>{{conceitos[conceito].Termo}}</td>
+            <td>{{', '.join(conceitos[conceito].Fontes)}}</td>
+            <td>{{', '.join(conceitos[conceito].Sinonimos)}}</td>
         </tr>
         {% endfor %}
     </tbody>
 </table>
-
+{% endif %}
+    
 {% endblock %}
 
 

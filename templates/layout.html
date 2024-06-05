@@ -6,7 +6,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary"  style="background-color: #5a441a;">
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class=" container-fluid">
             <div class=" navbar-nav">
               <a class="nav-link active" aria-current="page" href="/">Home</a>
@@ -17,12 +17,14 @@
             </div>
           </div>
       </nav>
-    <div class="pt-5 mb-5 mt-0 pb-4">
+    <div class="m-5 pt-5 mt-10 pb-4">
     {% block body %}
     {% endblock %}
     </div>
-    <footer class="p-1 bg-light fixed-bottom text-dark d-flex justify-content-center">
-        <p class="mt-2">by Mónica Martins & Ricardo Araújo</p>
+    <footer class="p-4 bg-dark fixed-bottom text-light">
+        <div>
+            <a>by Mónica Martins & Ricardo Araújo</a>
+        </div>
       </footer>
 
 </body>

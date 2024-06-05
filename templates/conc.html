@@ -139,6 +139,32 @@
       </div>
     {% endif %}
 
+    {% if conceito.Relacionados %}
+    <div class="col">
+      <div class="card text-bg-light mb-3">
+        <div class="card-body">
+          <h5 class="card-title">{{ch_tr.Relacionados}}</h5>
+          {% for f in conceito.Relacionados %}
+            <p class="card-text">{{f}}</p>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
+
+  {% if conceito.Sinonimos %}
+  <div class="col">
+    <div class="card text-bg-light mb-3">
+      <div class="card-body">
+        <h5 class="card-title">{{ch_tr.Sinonimos}}</h5>
+        {% for f in conceito.Sinonimos %}
+          <p class="card-text">{{f}}</p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endif %}
 
 
 
