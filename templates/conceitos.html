@@ -7,13 +7,13 @@
 
 <ul class="nav justify-content-end">
     <li class="nav-item">
-      <a class="nav-link active" href="{{ url_for('listar_Conceitos', lang='en') }}">En</a>
+      <a class="nav-link active" href="{{ url_for('pesquisa_conc', lang='en') }}">En</a>
    </li>
     <li class="nav-item">
-      <a class="nav-link active" href="{{ url_for('listar_Conceitos', lang='pt') }}">Pt</a>
+      <a class="nav-link active" href="{{ url_for('pesquisa_conc', lang='pt') }}">Pt</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active"   href="{{ url_for('listar_Conceitos', lang='es') }}">Es</a>
+      <a class="nav-link active"   href="{{ url_for('pesquisa_conc', lang='es') }}">Es</a>
     </li>
   </ul>
 
@@ -111,26 +111,52 @@
 
 
 
-<h1>Tabela de procura de conceitos</h1>
-<br>
-<br>
-<table id="dados" class="display">
-    <thead>
+
+
+<a id="back-to-top" href="#" style="margin-bottom: 90px; width: fit-content; margin-left: 93%;" class="fixed-bottom btn btn-secondary btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+
+{% if pesquisa %}
+<h3>Resultados para "{{pesquisa}}"</h3>
+<p>{{res}} resultados encontrados</p>
+<table class="table table-hover sticky-header">
+    <thead class="thead-light">
         <tr>
-            <th>ID</th>
-            <th>Conceito</th>
+        <th scope="col"><h2 class="text-start display-5">Conceito</h2></th>
+        <th scope="col"><h2 class="text-start display-5">Definição</h2></th>
+        </tr>
+    </thead>
+    <tbody>
+        {%for conceito in conceitos%}
+            <tr>
+                <td><a href='/conceitos/{{conceitos[conceito]["original"]}}' class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">{{conceito | safe}}</a></td>
+                <td>{{conceitos[conceito]["desc"] | safe}}</td>
+            </tr>
+        {%endfor%}
+{% else %}
+<br>
+<br>
+<table id="dados"  class="table table-hover sticky-header">
+    <thead class="thead-light">
+        <tr>
+          <th scope="col"><h2 class="text-start display-5">Índice</h2></th>
+          <th scope="col"><h2 class="text-start display-5">Conceito</h2></th>
+          <th scope="col"><h2 class="text-start display-5">Fonte(s)</h2></th>
+          <th scope="col"><h2 class="text-start display-5">Semelhante(s)</h2></th>
         </tr>
     </thead>
     <tbody>
         {% for conceito in conceitos %}
         <tr>
-            <td><a href="/conceitos/{{lang}}/{{conceito}}">{{conceito}}</a></td>
+            <td><a class="list-group-item list-group-item-action" href="/conceitos/{{lang}}/{{conceito}}">{{conceito}}</a></td>
             <td>{{conceitos[conceito].Termo}}</td>
+            <td>{{', '.join(conceitos[conceito].Fontes)}}</td>
+            <td>{{', '.join(conceitos[conceito].Sinonimos)}}</td>
         </tr>
         {% endfor %}
     </tbody>
 </table>
-
+{% endif %}
+    
 {% endblock %}
 
 
