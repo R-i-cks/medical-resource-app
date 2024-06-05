@@ -1,0 +1,115 @@
+{% extends 'layout.html'%}  # sou o filho
+
+{%block body%}
+
+
+
+<div class="container mt-1 ml-0">
+    <h1 class="mt-1">Pesquisa Detalhada</h1>
+    <form action="/pesquisa_detalhada" method="POST">
+        <h5  class="mt-3">Fontes</h5>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="sources" value="Glossário do Ministério da Saúde" id="flexCheck2">
+            <label class="form-check-label" for="flexCheck2">
+                Glossário do Ministério da Saúde
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="sources" value="Vocabulário de Medicina" id="flexCheck2">
+            <label class="form-check-label" for="flexCheck2">
+                Vocabulário de Medicina
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="sources" value="Minidicionario de Cardiologista" id="flexCheck3">
+            <label class="form-check-label" for="flexCheck3">
+                Minidicionario de Cardiologista
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="sources" value="Harvard Medical School" id="flexCheck4">
+            <label class="form-check-label" for="flexCheck4">
+                Harvard Medical School
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="sources" value="Great Ormond Street Hospital (GOSH)" id="flexCheck5">
+            <label class="form-check-label" for="flexCheck5">
+                Great Ormond Street Hospital (GOSH)
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="sources" value="Health Careers" id="flexCheck6">
+            <label class="form-check-label" for="flexCheck6">
+                Health Careers
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="sources" value="Honor Health" id="flexCheck7">
+            <label class="form-check-label" for="flexCheck7">
+                Honor Health
+            </label>
+        </div>
+
+        <h5  class="mt-3">Idioma</h5>
+        <select class="form-select w-25" id="validation"name="language">
+            <option selected disabled>Escolha um idioma</option>
+            <option value="en">Inglês (EN)</option>
+            <option value="es">Espanhol (ES)</option>
+            <option value="pt">Português (PT)</option>
+            <option value="todos">Todos</option>
+          </select>
+          <h5  class="mt-3">Termo</h5>
+          <input class="form-control mr-sm-2 w-50" type="search" name="termo" placeholder="O que deve incluir o termo?" aria-label="Search">
+          <h5  class="mt-3">Descrição</h5>
+          <input class="form-control mr-sm-2 w-50" type="search" name="descricao" placeholder="O que deve incluir a descrição?" aria-label="Search">
+          <h5  class="mt-3">Sinónimos</h5>
+          <input class="form-control mr-sm-2 w-50" type="search" name="sinonimos" placeholder="Indique sinónimos do termo" aria-label="Search">
+          <h5  class="mt-3">Relacionados</h5>
+          <input class="form-control mr-sm-2 w-50" type="search" name="relacionados" placeholder="Indique termos relacionados com a sua pesquisa" aria-label="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+
+{%if pesquisa%}
+
+<table id="table_id" class="display">
+    <thead>
+        <tr>
+            <th>Indice</th>
+            <th>Idioma</th>
+            <th>Termo</th>
+            <th>Descricao</th>
+            <th>Fontes</th>
+            <th>Sinonimos</th>
+        </tr>
+    </thead>
+    <tbody>
+        {%for idioma in matches%}
+            {%for indice in matches[idioma]%}
+                <tr>
+                    <td>{{indice}}</td>
+                    <td>{{idioma}}</td>
+                    <td>{{matches[idioma][indice]['Termo']}}</td>
+                    {% if matches[idioma][indice]['Definicao'] %}
+                        <td>{{matches[idioma][indice]['Definicao']}}</td>
+                    {% else %}
+                        <td>Definição não disponível</td>
+                    {%endif%}
+                    {% if matches[idioma][indice]['Fontes'] %}
+                        <td>{{ ', '.join(matches[idioma][indice]['Fontes']) }}</td>
+                    {% else %}
+                        <td>Fontes não disponíveis</td>
+                    {%endif%}
+                    {% if matches[idioma][indice]['Sinonimos'] %}
+                        <td>{{ ', '.join(matches[idioma][indice]['Sinonimos']) }}</td>
+                    {% else %}
+                        <td>Sinonimos não disponíveis</td>
+                    {%endif%}
+                </tr>
+            {%endfor%}
+        {%endfor%}
+    </tbody>
+</table>
+
+{% endif %}
+{%endblock%}

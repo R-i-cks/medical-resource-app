@@ -6,23 +6,25 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary"  style="background-color: #5a441a;">
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary"  style="background-color: #5a441a;">
         <div class=" container-fluid">
             <div class=" navbar-nav">
               <a class="nav-link active" aria-current="page" href="/">Home</a>
               <a class="nav-link active" aria-current="page" href="/conceitos/en">Conceitos</a>
               <a class="nav-link active" aria-current="page" href="#">Procura</a>
+              <a class="nav-link active" aria-current="page" href="/table">Datatables</a>
+              <a class="nav-link active" aria-current="page" href="/pesquisa_detalhada">Pesquisa Detalhada</a>
             </div>
           </div>
       </nav>
-
+    <div class="pt-5 mb-5 mt-0 pb-4">
     {% block body %}
     {% endblock %}
-    <footer>
-        <div class="p-2 bg-dark fixed-bottom text-light">
-            <p class="fs-10">by Mónica Martins & Ricardo Araújo</p>
-        </div>
-    </footer>
+    </div>
+    <footer class="p-1 bg-light fixed-bottom text-dark d-flex justify-content-center">
+        <p class="mt-2">by Mónica Martins & Ricardo Araújo</p>
+      </footer>
+
 </body>
 </html>
 <style>
@@ -31,8 +33,8 @@
     }
 </style>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"                              integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-</script>
-
-<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-<script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
+<script src="https://kit.fontawesome.com/f722050608.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/2.0.3/js/dataTables.js"></script>
+<script src="/static/scripts/scripts.js"></script>
