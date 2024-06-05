@@ -62,4 +62,20 @@ def change_language():
     id_c = request.args.get("id_conc")
     return redirect(url_for('consultar_Conceitos', id_conc=id_c, lang=lang))
 
+@app.route("/procuraSec")
+def procura():
+    conceitos = trocar_ficheiro("es")
+    return render_template("procura.html")
+
+
+@app.route("/add_entrada", methods=["GET","POST"])
+def add_entrada():
+    conc = request.args.get("conc")
+    defi = request.args.get("def")
+    areas = request.args.get("areas")
+    fontes = request.args.get("fontes")
+    index_rem = request.args.get("index_rem")
+    print(conc, defi, areas, fontes, index_rem)
+    return render_template("home.html")
+
 app.run(host="localhost", port=4002, debug=True)

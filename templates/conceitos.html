@@ -7,20 +7,107 @@
 
 <ul class="nav justify-content-end">
     <li class="nav-item">
-      <a class="nav-link active" href="{{ url_for('change_language', lang='en') }}">En</a>
+      <a class="nav-link active" href="{{ url_for('listar_Conceitos', lang='en') }}">En</a>
    </li>
     <li class="nav-item">
-      <a class="nav-link active" href="{{ url_for('change_language', lang='pt') }}">Pt</a>
+      <a class="nav-link active" href="{{ url_for('listar_Conceitos', lang='pt') }}">Pt</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active"   href="{{ url_for('change_language', lang='es') }}">Es</a>
+      <a class="nav-link active"   href="{{ url_for('listar_Conceitos', lang='es') }}">Es</a>
     </li>
   </ul>
 
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Launch static backdrop modal
+  </button>
 </div>
 </nav>
 
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+        <form action="/add_entrada" method="GET">
 
+          <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1">@</span>
+              <input type="text" class="form-control" name="conc" placeholder="Conceito" aria-label="Conceito" aria-describedby="basic-addon1">
+            </div>
+            
+          <div class="input-group">
+          <span class="input-group-text">Definição</span>
+          <textarea class="form-control" aria-label="Definição" name="def"></textarea>
+          </div>
+
+          <label for="exampleDataList" class="form-label">Áreas de aplicação</label>
+          <input class="form-control" list="datalistOptions" id="exampleDataList" name="areas" placeholder="Type to search...">
+          <datalist id="datalistOptions">
+              <option value="San Francisco">
+              <option value="New York">
+              <option value="Seattle">
+              <option value="Los Angeles">
+              <option value="Chicago">
+          </datalist>
+          
+          <br>
+          
+          <span class="badge rounded-pill text-bg-info">Info</span>
+
+          <br>
+
+          <label for="exampleDataList" class="form-label">Fontes</label>
+          <input class="form-control" list="datalistOptions" id="exampleDataList" name="fontes" placeholder="Type to search...">
+          <datalist id="datalistOptions">
+              <option value="San Francisco">
+              <option value="New York">
+              <option value="Seattle">
+              <option value="Los Angeles">
+              <option value="Chicago">
+          </datalist>
+
+          <br>
+
+          <span class="badge rounded-pill text-bg-dark">Dark</span>
+
+          <br>
+
+          <label for="exampleDataList" class="form-label">Sinónimos</label>
+          <input class="form-control" list="datalistOptions" id="exampleDataList" name="sinonimos" placeholder="Type to search...">
+          <datalist id="datalistOptions">
+              <option value="San Francisco">
+              <option value="New York">
+              <option value="Seattle">
+              <option value="Los Angeles">
+              <option value="Chicago">
+          </datalist>
+
+          <br>
+
+          <span class="badge rounded-pill text-bg-danger">Dark</span>
+
+          <br>
+
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Index_Remissivo</span>
+            <input type="text" class="form-control" placeholder="Index Remissivo" name="index_rem" aria-label="Index remissivo" aria-describedby="basic-addon1">
+          </div>
+          
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Confirm</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
@@ -47,3 +134,12 @@
 {% endblock %}
 
 
+<script>
+
+  const myModal = document.getElementById('myModal')
+  const myInput = document.getElementById('myInput')
+
+  myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+  })
+</script>
