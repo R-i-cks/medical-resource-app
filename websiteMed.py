@@ -47,9 +47,9 @@ def pesquisa_conc(lang="es"):
                         match[indice][conceito] = {'Definicao': descricaon, "original": conceito}
 
     if match:
-        return render_template("conceitos.html", conceitos=match, pesquisa=query, res=len(match))
+        return render_template("conceitos.html", conceitos=match, pesquisa=query, res=len(match), lang=lang)
     else:
-        return render_template("conceitos.html", conceitos=conceitos, pesquisa=False)
+        return render_template("conceitos.html", conceitos=conceitos, pesquisa=False, lang=lang)
     
     
 
@@ -69,6 +69,7 @@ def consultar_Conceitos(id_conc, lang="es"):
                 else:
                     conceito[dupla[0]] = dupla[1]
             else:
+                if dupla[0]!= "Traducoes":
                     conceito[dupla[0]] = str(GoogleTranslator(source="auto", target=lang).translate(dupla[1])) 
                     
     else:
