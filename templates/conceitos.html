@@ -28,16 +28,19 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Add entry</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         
-        <form action="/add_entrada" method="GET">
+        <form id="add_entrada_form" action="/add_entrada" method="POST">
 
           <div class="input-group mb-3">
               <span class="input-group-text" id="basic-addon1">@</span>
-              <input type="text" class="form-control" name="conc" placeholder="Conceito" aria-label="Conceito" aria-describedby="basic-addon1">
+              <input type="text" class="form-control" name="conc" id="validationServer01" placeholder="Conceito" aria-label="Conceito" aria-describedby="basic-addon1" required>
+              <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                This concept is already in the database!
+              </div>
             </div>
             
           <div class="input-group">
@@ -46,47 +49,35 @@
           </div>
 
           <label for="exampleDataList" class="form-label">Áreas de aplicação</label>
-          <input class="form-control" list="datalistOptions" id="exampleDataList" name="areas" placeholder="Type to search...">
+          <input class="form-control mb-3" list="datalistOptions" id="areasInput"  placeholder="Type to search...">
           <datalist id="datalistOptions">
-              <option value="San Francisco">
-              <option value="New York">
-              <option value="Seattle">
-              <option value="Los Angeles">
-              <option value="Chicago">
+            {%for area in areas%}
+              <option value={{area}}>
+            {% endfor %}
           </datalist>
-          
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button" id="addArea" onclick="addBadge('areasInput', 'selectedAreas')">+</button>
+          </div>
+          <input type="hidden" name="areas">
           <br>
           
-          <span class="badge rounded-pill text-bg-info">Info</span>
+          <div id="selectedAreas" class="mb-3" ></div>
 
           <br>
 
           <label for="exampleDataList" class="form-label">Fontes</label>
-          <input class="form-control" list="datalistOptions" id="exampleDataList" name="fontes" placeholder="Type to search...">
-          <datalist id="datalistOptions">
-              <option value="San Francisco">
-              <option value="New York">
-              <option value="Seattle">
-              <option value="Los Angeles">
-              <option value="Chicago">
-          </datalist>
-
+          <input class="form-control mb-3"  id="fontesInput" placeholder="Type to search...">
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button" id="addFonte" onclick="addBadge('fontesInput', 'selectedFontes')">+</button>
+          </div>
           <br>
-
-          <span class="badge rounded-pill text-bg-dark">Dark</span>
+          <input type="hidden" name="fontes">
+          <div id="selectedFontes" class="mb-3"></div>
 
           <br>
 
           <label for="exampleDataList" class="form-label">Sinónimos</label>
-          <input class="form-control" list="datalistOptions" id="exampleDataList" name="sinonimos" placeholder="Type to search...">
-          <datalist id="datalistOptions">
-              <option value="San Francisco">
-              <option value="New York">
-              <option value="Seattle">
-              <option value="Los Angeles">
-              <option value="Chicago">
-          </datalist>
-
+          <input class="form-control" id="exampleDataList" name="sinonimos" placeholder="Type to search...">
           <br>
 
           <span class="badge rounded-pill text-bg-danger">Dark</span>
@@ -99,7 +90,7 @@
           </div>
           
 
-
+        </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
@@ -160,12 +151,16 @@
 {% endblock %}
 
 
+
 <script>
 
-  const myModal = document.getElementById('myModal')
-  const myInput = document.getElementById('myInput')
+document.getElementById('add_entrada_form').addEventListener('submit', function(event) {
+    event.preventDefault(); 
+    document.getElementById('areas').value = getBadgeText('selectedAreas');
+    document.getElementById('fontes').value = getBadgeText('selectedFontes');
+    this.submit(); 
+});
 
-  myModal.addEventListener('shown.bs.modal', () => {
-  myInput.focus()
-  })
 </script>
+
+

@@ -17,7 +17,13 @@ def trocar_ficheiro(lang):
     file.close()
     return conceitos
 
-
+def getCampo(campoInteresse, concs):
+    lista = []
+    for conceito in concs:
+        if campoInteresse in concs[conceito]:
+            lista.extend(concs[conceito][campoInteresse])
+    lista = list(set(lista))
+    return lista
 
 @app.route("/")
 def home():
@@ -30,6 +36,8 @@ def pesquisa_conc(lang="es"):
     query = request.args.get("query_conceito_ou_desc")
     match = {}
 
+    areas = getCampo("Área(s) de aplicação", conceitos)
+    areas = [area.strip("*") for area in areas]
     if query:
         for indice in conceitos:
             if conceitos[indice]['Termo']:
@@ -47,17 +55,15 @@ def pesquisa_conc(lang="es"):
                         match[indice][conceito] = {'Definicao': descricaon, "original": conceito}
 
     if match:
-        return render_template("conceitos.html", conceitos=match, pesquisa=query, res=len(match), lang=lang)
+        return render_template("conceitos.html", conceitos=match, pesquisa=query, res=len(match), lang=lang, areas = areas)
     else:
-        return render_template("conceitos.html", conceitos=conceitos, pesquisa=False, lang=lang)
+        return render_template("conceitos.html", conceitos=conceitos, pesquisa=False, lang=lang, areas = areas)
     
-    
+
 
 
 @app.route("/conceitos/<lang>/<id_conc>")
 def consultar_Conceitos(id_conc, lang="es"):
-
-# str(GoogleTranslator(source="auto", target=lang).translate())
     if lang !="es" and lang!="pt" and lang!="en":
         conceitos = trocar_ficheiro("en")
         dic_list = list(conceitos[id_conc].items())
@@ -91,15 +97,78 @@ def change_language():
 
 
 
-@app.route("/add_entrada", methods=["GET","POST"])
+@app.route("/add_entrada", methods=["POST"])
 def add_entrada():
-    conc = request.args.get("conc")
-    defi = request.args.get("def")
-    areas = request.args.get("areas")
-    fontes = request.args.get("fontes")
-    index_rem = request.args.get("index_rem")
-    print(conc, defi, areas, fontes, index_rem)
-    return render_template("home.html")
+    conc = request.form["conc"]
+    defi = request.form["def"]
+    areas = request.form.get("areas")
+    fontes = request.form.get("fontes")
+    sinonimos = request.form["sinonimos"]
+    index_rem = request.form["index_rem"]
+
+    if areas:
+        areas = areas.split(",")
+    if fontes:
+        fontes = fontes.split(",")
+    if sinonimos:
+        sinonimos = sinonimos.split(",")
+
+    print(conc, defi, areas, fontes, index_rem, sinonimos)
+    conceitos_en = trocar_ficheiro("en")
+    conceitos_es = trocar_ficheiro("es")
+    conceitos_pt = trocar_ficheiro("pt")
+
+
+    conc_en = GoogleTranslator(source='auto', target='en').translate(conc)
+    conc_es = GoogleTranslator(source='auto', target='es').translate(conc)
+    conc_pt = GoogleTranslator(source='auto', target='pt').translate(conc)
+
+    if conc_en in conceitos_en or conc_es in conceitos_es or conc_pt in conceitos_pt:
+        print("Invalid")
+        return render_template("pesquisa_conc", warning="Already exists in one of the files!")
+    else:
+        d_id = len(conceitos_en) + 1
+        dic_es = {}
+        dic_pt = {}
+        dic_en = {}
+
+        if defi:
+            dic_es["Definicao"] = GoogleTranslator(source='auto', target='es').translate(defi)
+            dic_en["Definicao"] = GoogleTranslator(source='auto', target='en').translate(defi)
+            dic_pt["Definicao"] = GoogleTranslator(source='auto', target='pt').translate(defi)
+        if index_rem:
+            dic_es["Index_Remissivo"] = index_rem
+            dic_en["Index_Remissivo"] = index_rem
+            dic_pt["Index_Remissivo"] = index_rem
+        if areas:
+                dic_es["Área(s) de aplicação"] = [GoogleTranslator(source='auto', target='es').translate(area) for area in areas]
+                dic_en["Área(s) de aplicação"] = [GoogleTranslator(source='auto', target='en').translate(area) for area in areas]
+                dic_pt["Área(s) de aplicação"] = [GoogleTranslator(source='auto', target='pt').translate(area) for area in areas]
+        if fontes:
+                dic_es["Fontes"] = [fonte for fonte in fontes]
+                dic_en["Fontes"] = [fonte for fonte in fontes]
+                dic_pt["Fontes"] = [fonte for fonte in fontes]
+
+        conceitos_en[d_id] = dic_en
+        conceitos_es[d_id] = dic_es      
+        conceitos_pt[d_id] = dic_pt              
+        
+        #file_en = open("dicionarios/doc_conc_en_V_GMS_outros_relacionados.json", 'w', encoding='UTF-8')
+        #file_es = open("dicionarios/doc_conc_es_V_GMS_outros_relacionados.json", 'w',encoding='UTF-8')
+        #file_pt = open("dicionarios/doc_conc_pt_V_GMS_outros_relacionados.json", 'w', encoding='UTF-8')
+
+        #json.dump(conceitos_en, file_en, indent=4, ensure_ascii=False)
+        #json.dump(conceitos_es, file_es, indent=4, ensure_ascii=False)
+        #json.dump(conceitos_pt, file_pt, indent=4, ensure_ascii=False)
+
+        #file_pt.close()
+        #file_en.close()
+        #file_es.close()
+
+    print(dic_en)
+    print(dic_es)
+    print(dic_pt)
+    return render_template("home.html", warning="Insert sucessfull!")
 
 
 
