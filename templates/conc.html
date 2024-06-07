@@ -192,22 +192,6 @@
 {% endif %}
 
 
-  <!-- Add the "Generate Image" button here -->
-  <form action="{{ url_for('generate_image') }}" method="POST">
-    <input type="hidden" name="termo" value="{{ conceito.Termo }}">
-    <input type="hidden" name="definicao" value="{{ conceito.Definicao }}">
-    <button type="submit" class="btn btn-success">Generate Image</button>
-  </form>
-
-  {% if generated_image %}
-    <div class="mt-4">
-      <h2>Generated Image:</h2>
-      <img src="{{ url_for('static', filename=generated_image) }}" alt="Generated Image" class="img-fluid">
-    </div>
-  {% endif %}
-</div>
-
-
 {% endblock %}
 
 
