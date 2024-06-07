@@ -99,12 +99,16 @@ def change_language():
 
 @app.route("/add_entrada", methods=["POST"])
 def add_entrada_nova():
-    conc = request.form["conc"]
-    defi = request.form["def"]
-    areas = request.form
-    fontes = request.form["fontesAp"]
-    sinonimos = request.form["sinonimos"]
-    index_rem = request.form["index_rem"]
+    print("AQUIIIIIIIIIIIII")
+    data = request.form.to_dict(flat=True)
+    conc = data["conc"]
+    defi = data["def"]
+    areas = data["areasAp"]
+    print(areas)
+    fontes = data["fontesAp"]
+    print(fontes)
+    sinonimos = data["sinonimos"]
+    index_rem = data["index_rem"]
     """
     if areas:
         areas = areas.split(",")
@@ -113,7 +117,6 @@ def add_entrada_nova():
     if sinonimos:
         sinonimos = sinonimos.split(",")"""
 
-    print(conc, defi, areas, fontes, sinonimos, index_rem)
     conceitos_en = trocar_ficheiro("en")
     conceitos_es = trocar_ficheiro("es")
     conceitos_pt = trocar_ficheiro("pt")
@@ -141,13 +144,13 @@ def add_entrada_nova():
             dic_en["Index_Remissivo"] = index_rem
             dic_pt["Index_Remissivo"] = index_rem
         if areas:
-                dic_es["Área(s) de aplicação"] = [GoogleTranslator(source='auto', target='es').translate(area) for area in areas]
-                dic_en["Área(s) de aplicação"] = [GoogleTranslator(source='auto', target='en').translate(area) for area in areas]
-                dic_pt["Área(s) de aplicação"] = [GoogleTranslator(source='auto', target='pt').translate(area) for area in areas]
+            dic_es["Área(s) de aplicação"] = [GoogleTranslator(source='auto', target='es').translate(area) for area in areas.split(',')]
+            dic_en["Área(s) de aplicação"] = [GoogleTranslator(source='auto', target='en').translate(area) for area in areas.split(',')]
+            dic_pt["Área(s) de aplicação"] = [GoogleTranslator(source='auto', target='pt').translate(area) for area in areas.split(',')]
         if fontes:
-                dic_es["Fontes"] = [fonte for fonte in fontes]
-                dic_en["Fontes"] = [fonte for fonte in fontes]
-                dic_pt["Fontes"] = [fonte for fonte in fontes]
+                dic_es["Fontes"] = [fonte for fonte in fontes.split(',')]
+                dic_en["Fontes"] = [fonte for fonte in fontes.split(',')]
+                dic_pt["Fontes"] = [fonte for fonte in fontes.split(',')]
 
         conceitos_en[d_id] = dic_en
         conceitos_es[d_id] = dic_es      
