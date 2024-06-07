@@ -29,6 +29,17 @@
 </div>
 </nav>
 
+
+{% if warning %}
+
+<div class="alert alert-danger" role="alert">
+  {{warning}}
+</div>
+{%endif%}
+
+
+
+
 <!-- Modal -->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -62,20 +73,34 @@
                   <div class="input-group-append">
                       <button class="btn btn-outline-secondary" type="button" id="addArea" onclick="addBadge('areasInput', 'selectedAreas')">+</button>
                   </div>
+                  <br>
                   <input type="hidden" name="areasAp" id="areasAp">
                   <div id="selectedAreas" class="mb-3"></div>
 
                   <label for="exampleDataList" class="form-label">Fontes</label>
-                  <input class="form-control mb-3" id="fontesInput" placeholder="Type to search...">
+                  <input class="form-control mb-3" id="fontesInput" placeholder="Source 1">
                   <div class="input-group-append">
                       <button class="btn btn-outline-secondary" type="button" id="addFonte" onclick="addBadge('fontesInput', 'selectedFontes')">+</button>
                   </div>
+                  <br>
                   <input type="hidden" name="fontesAp" id="fontesAp">
                   <div id="selectedFontes" class="mb-3"></div>
 
+                  <br>
+
                   <label for="exampleDataList" class="form-label">Sinónimos</label>
-                  <input class="form-control" id="exampleDataList" name="sinonimos" placeholder="Type to search...">
-                  
+
+                  <input class="form-control" id="SinInput" name="sinonimos" placeholder="SIN 1">
+                  <br>
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="addSin" onclick="addBadge('SinInput', 'selectedSins')">+</button>
+                  </div>
+                  <br>
+                  <input type="hidden" name="SinAp" id="SinAp">
+                  <div id="selectedSins" class="mb-3"></div>
+
+                  <br>
+
                   <div class="input-group mb-3">
                       <span class="input-group-text" id="basic-addon1">Index_Remissivo</span>
                       <input type="text" class="form-control" placeholder="Index Remissivo" name="index_rem" aria-label="Index remissivo" aria-describedby="basic-addon1">
@@ -104,7 +129,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form action="/removeConc" method="POST">
+        <form action="/apagar_entrada" method="POST">
 
           <div class="mb-3">
             <label for="RemoveConceito" class="form-label">Email address</label>
@@ -168,6 +193,7 @@
 </table>
 {% endif %}
     
+
 {% endblock %}
 
 
