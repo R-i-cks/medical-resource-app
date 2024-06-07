@@ -2,6 +2,53 @@ from flask import Flask, render_template, redirect, url_for, request
 import json
 from deep_translator import GoogleTranslator
 import re
+from transformers import pipeline
+from gensim.models import Word2Vec
+from gensim.utils import tokenize
+import numpy as np
+from nltk.corpus import stopwords
+import nltk
+
+
+nltk.download('stopwords')
+stop_words = set(stopwords.words('portuguese'))
+
+model = Word2Vec.load("similaridade/modelo.w2v")
+
+def get_mean_vector(text):
+    tokens = list(tokenize(text, lower=True))
+    vectors = [model.wv[token] for token in tokens if token not in stop_words and token in model.wv]
+    if not vectors: 
+        return np.zeros(model.vector_size)
+    mean = np.mean(vectors, axis=0)
+    return mean
+
+
+def cosine(v1, v2):
+    norm_v1 = np.linalg.norm(v1)
+    norm_v2 = np.linalg.norm(v2)
+    if norm_v1 == 0 or norm_v2 == 0:
+        return 0  
+    return np.dot(v1, v2) / (norm_v1 * norm_v2)
+
+
+def splitTemas(texto):
+    paragraphs = texto.split('@@@@@')
+    return [p for p in paragraphs if p.strip()]
+
+
+def getTemasRelevantes(pergunta, temas):
+    sims = []
+    query = get_mean_vector(pergunta)
+    for tema in temas:
+        vetor = get_mean_vector(tema)
+        sim = cosine(query,vetor)
+        sims.append((tema,sim))
+    sorted_sims = sorted(sims,key=lambda x : x[1], reverse=True)
+    relevantes = [tema for tema, sim in sorted_sims[:5]]
+    return ' '.join(relevantes)
+
+
 app = Flask(__name__)
 
 def trocar_ficheiro(lang):
@@ -16,6 +63,10 @@ def trocar_ficheiro(lang):
         conceitos = json.load(file)
     file.close()
     return conceitos
+
+d =trocar_ficheiro('pt')
+definicoes = ' '.join(d[indice]['Definicao'].lower() for indice in d if 'Definicao' in d[indice])
+
 
 def getCampo(campoInteresse, concs):
     lista = []
@@ -334,6 +385,54 @@ def pesquisa_detalhada():
             return render_template("pesquisaDetalhada.html", pesquisa = False)
     else:
         return render_template("pesquisaDetalhada.html")
+
+
+@app.route("/qa", methods=['GET', 'POST'])
+
+
+def qa():
+    if request.method == 'POST':
+        termo = request.form.get("termo")
+        ms = request.form.get("mostsimilar")
+        nm = request.form.get("doesnotmatch")
+        if termo:
+            qa_pipeline = pipeline("question-answering", model="lfcc/bert-portuguese-squad")
+            f = open("similaridade/Livro-de-Resumos-2024_novo.xml", 'r', encoding='UTF-8')
+            texto = f.read()
+            f.close()
+            temas = splitTemas(texto)
+            temas_relevantes = getTemasRelevantes(termo, temas)
+            temas_relevantes += definicoes
+            resposta = qa_pipeline(question=termo, context=temas_relevantes)
+            resposta=resposta['answer']
+            rr = termo
+        else:
+            resposta = False
+            rr = ""
+        if ms:
+            try : mostsimilar = model.wv.most_similar(ms)[0][0]
+            except : mostsimilar = f"{ms} não está no vocabulário"
+
+        else:
+            mostsimilar = False
+
+        if nm:
+            nm = nm.split(', ')
+            if len(nm)>2: 
+                try : notmatch = model.wv.doesnt_match(nm)
+                except : notmatch = f"Um dos termos não está no vocabulário"
+                nmr = nm
+            else:
+                notmatch = "Insira pelo menos 3 termos"
+                nmr = ""
+        else:
+            notmatch = False
+            nmr = ""
+        return render_template("qa.html", pesquisa = True, resposta=resposta, mostsimilar=mostsimilar, notmatch=notmatch, nmr=nmr, ms=ms, rr=rr)
+    else:
+        return render_template("qa.html", pesquisa = False)
+
+
 
 
 
