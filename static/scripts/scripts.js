@@ -42,9 +42,12 @@ function handleSubmit(event) {
     event.preventDefault();
     const fontesAp = document.querySelector('input[name="fontesAp"]');
     const areasAp = document.querySelector('input[name="areasAp"]');
+    const SinAp = document.querySelector('input[name="SinAp"]');
+
     
     fontesAp.value = getBadgeText("selectedFontes");
     areasAp.value = getBadgeText("selectedAreas");
+    SinAp.value = getBadgeText("selectedSins");
 
     document.getElementById("add_entrada_form").submit();
 }

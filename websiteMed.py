@@ -114,7 +114,7 @@ def pesquisa_conc(lang="es"):
 
 
 @app.route("/conceitos/<lang>/<id_conc>")
-def consultar_Conceitos(id_conc, lang="es"):
+def consultar_Conceitos(id_conc, lang="es", warning=None):
     if lang !="es" and lang!="pt" and lang!="en":
         conceitos = trocar_ficheiro("en")
         dic_list = list(conceitos[id_conc].items())
@@ -134,7 +134,7 @@ def consultar_Conceitos(id_conc, lang="es"):
         conceito = conceitos[id_conc]
     total = len(conceitos)
     chaves_trad = {chave : GoogleTranslator(source="auto", target=lang).translate(chave) for chave in ['Relacionado', 'Fontes', 'Conceito', 'Sinonimos', 'Definicao', 'Área(s) de aplicação', 'Nota', 'Categoria gramatical', 'não disponível']}
-    return render_template('conc.html',conceito = conceito, lang= lang, id_conc = id_conc, conceitos = conceitos, ch_tr = chaves_trad, total=total)
+    return render_template('conc.html',conceito = conceito, lang= lang, id_conc = id_conc, conceitos = conceitos, ch_tr = chaves_trad, warning = warning, total = total)
 
 
 
@@ -150,87 +150,86 @@ def change_language():
 
 @app.route("/add_entrada", methods=["POST"])
 def add_entrada_nova():
-    print("AQUIIIIIIIIIIIII")
     data = request.form.to_dict(flat=True)
     conc = data["conc"]
-    defi = data["def"]
-    areas = data["areasAp"]
-    print(areas)
-    fontes = data["fontesAp"]
-    print(fontes)
-    sinonimos = data["sinonimos"]
-    index_rem = data["index_rem"]
-    """
-    if areas:
-        areas = areas.split(",")
-    if fontes:
-        fontes = fontes.split(",")
-    if sinonimos:
-        sinonimos = sinonimos.split(",")"""
-
     conceitos_en = trocar_ficheiro("en")
-    conceitos_es = trocar_ficheiro("es")
-    conceitos_pt = trocar_ficheiro("pt")
+    if conc:
+        defi = data["def"]
+        areas = data["areasAp"]
+        print(areas)
+        fontes = data["fontesAp"]
+        print(fontes)
+        sinonimos = data["SinAp"]
+        print(sinonimos)
+        index_rem = data["index_rem"]
 
+        conceitos_en = trocar_ficheiro("en")
+        conceitos_es = trocar_ficheiro("es")
+        conceitos_pt = trocar_ficheiro("pt")
+        conc_en = GoogleTranslator(source='auto', target='en').translate(conc)
+        conc_es = GoogleTranslator(source='auto', target='es').translate(conc)
+        conc_pt = GoogleTranslator(source='auto', target='pt').translate(conc)
 
-    conc_en = GoogleTranslator(source='auto', target='en').translate(conc)
-    conc_es = GoogleTranslator(source='auto', target='es').translate(conc)
-    conc_pt = GoogleTranslator(source='auto', target='pt').translate(conc)
+        if conc_en in [conceitos_en[conceito]["Termo"] for conceito in conceitos_en] or conc_es in [conceitos_es[conceito]["Termo"] for conceito in conceitos_es] or conc_pt in [conceitos_pt[conceito]["Termo"] for conceito in conceitos_pt]:
+            print("Invalid")
+            return render_template('conceitos.html', warning="Term already exists in one of the files! Insert failed!", lang="en", conceitos = conceitos_en)
+        else:
+            d_id = int(list(conceitos_en.keys())[-1]) + 1
+            print(d_id)
+            while d_id in conceitos_pt or d_id in conceitos_en or d_id in conceitos_es:   # failsafe
+                d_id +=1
 
-    if conc_en in conceitos_en or conc_es in conceitos_es or conc_pt in conceitos_pt:
-        print("Invalid")
-        return render_template("pesquisa_conc", warning="Already exists in one of the files!")
+            print(d_id)
+            dic_es = {}
+            dic_pt = {}
+            dic_en = {}
+
+            dic_en["Termo"] = GoogleTranslator(source='auto', target='en').translate(conc)
+            dic_es["Termo"] = GoogleTranslator(source='auto', target='es').translate(conc)
+            dic_pt["Termo"] = GoogleTranslator(source='auto', target='pt').translate(conc)
+
+            if defi:
+                dic_es["Definicao"] = GoogleTranslator(source='auto', target='es').translate(defi)
+                dic_en["Definicao"] = GoogleTranslator(source='auto', target='en').translate(defi)
+                dic_pt["Definicao"] = GoogleTranslator(source='auto', target='pt').translate(defi)
+            if index_rem:
+                dic_es["Index_Remissivo"] = index_rem
+                dic_en["Index_Remissivo"] = index_rem
+                dic_pt["Index_Remissivo"] = index_rem
+            if areas:
+                dic_es["Área(s) de aplicação"] = [GoogleTranslator(source='auto', target='es').translate(area.strip("*")) for area in areas.split(',')]
+                dic_en["Área(s) de aplicação"] = [GoogleTranslator(source='auto', target='en').translate(area.strip("*")) for area in areas.split(',')]
+                dic_pt["Área(s) de aplicação"] = [GoogleTranslator(source='auto', target='pt').translate(area.strip("*")) for area in areas.split(',')]
+            if fontes:
+                    dic_es["Fontes"] = [fonte for fonte in fontes.split(',')]
+                    dic_en["Fontes"] = [fonte for fonte in fontes.split(',')]
+                    dic_pt["Fontes"] = [fonte for fonte in fontes.split(',')]
+            conceitos_en[d_id] = dic_en
+            conceitos_es[d_id] = dic_es      
+            conceitos_pt[d_id] = dic_pt              
+            
+            file_en = open("dicionarios/doc_conc_en_V_GMS_outros_relacionados.json", 'w', encoding='UTF-8')
+            file_es = open("dicionarios/doc_conc_es_V_GMS_outros_relacionados.json", 'w',encoding='UTF-8')
+            file_pt = open("dicionarios/doc_conc_pt_V_GMS_outros_relacionados.json", 'w', encoding='UTF-8')
+
+            json.dump(conceitos_en, file_en, indent=4, ensure_ascii=False)
+            json.dump(conceitos_es, file_es, indent=4, ensure_ascii=False)
+            json.dump(conceitos_pt, file_pt, indent=4, ensure_ascii=False)
+
+            file_pt.close()
+            file_en.close()
+            file_es.close()
+            chaves_trad = {chave : GoogleTranslator(source="pt", target="en").translate(chave) for chave in ['Relacionado', 'Fontes', 'Conceito', 'Sinonimos', 'Definicao', 'Área(s) de aplicação', 'Nota', 'Categoria gramatical', 'não disponível']}
+        return redirect(url_for("consultar_Conceitos",lang="en", id_conc = d_id, warning = "Sucess!", ch_tr = chaves_trad ))
     else:
-        d_id = len(conceitos_en) + 1
-        dic_es = {}
-        dic_pt = {}
-        dic_en = {}
-
-        if defi:
-            dic_es["Definicao"] = GoogleTranslator(source='auto', target='es').translate(defi)
-            dic_en["Definicao"] = GoogleTranslator(source='auto', target='en').translate(defi)
-            dic_pt["Definicao"] = GoogleTranslator(source='auto', target='pt').translate(defi)
-        if index_rem:
-            dic_es["Index_Remissivo"] = index_rem
-            dic_en["Index_Remissivo"] = index_rem
-            dic_pt["Index_Remissivo"] = index_rem
-        if areas:
-            dic_es["Área(s) de aplicação"] = [GoogleTranslator(source='auto', target='es').translate(area) for area in areas.split(',')]
-            dic_en["Área(s) de aplicação"] = [GoogleTranslator(source='auto', target='en').translate(area) for area in areas.split(',')]
-            dic_pt["Área(s) de aplicação"] = [GoogleTranslator(source='auto', target='pt').translate(area) for area in areas.split(',')]
-        if fontes:
-                dic_es["Fontes"] = [fonte for fonte in fontes.split(',')]
-                dic_en["Fontes"] = [fonte for fonte in fontes.split(',')]
-                dic_pt["Fontes"] = [fonte for fonte in fontes.split(',')]
-
-        conceitos_en[d_id] = dic_en
-        conceitos_es[d_id] = dic_es      
-        conceitos_pt[d_id] = dic_pt              
-        
-        #file_en = open("dicionarios/doc_conc_en_V_GMS_outros_relacionados.json", 'w', encoding='UTF-8')
-        #file_es = open("dicionarios/doc_conc_es_V_GMS_outros_relacionados.json", 'w',encoding='UTF-8')
-        #file_pt = open("dicionarios/doc_conc_pt_V_GMS_outros_relacionados.json", 'w', encoding='UTF-8')
-
-        #json.dump(conceitos_en, file_en, indent=4, ensure_ascii=False)
-        #json.dump(conceitos_es, file_es, indent=4, ensure_ascii=False)
-        #json.dump(conceitos_pt, file_pt, indent=4, ensure_ascii=False)
-
-        #file_pt.close()
-        #file_en.close()
-        #file_es.close()
-
-    print(dic_en)
-    print(dic_es)
-    print(dic_pt)
-    return redirect(url_for('pesquisa_conc' ,lang="en"))
+        return render_template('conceitos.html', lang="en", warning = "Concept not specified! Insert failed!", conceitos = conceitos_en)
 
 
 @app.route("/apagar_entrada", methods=["POST"])
 def removeConc():
-    id_conc = request.form
-    print(id_conc)
+    id_conc = request.form["rc"]
     fic_en = trocar_ficheiro("en")
-    if id_conc in fic_en and False:
+    if id_conc in fic_en:
         fic_es = trocar_ficheiro("es")
         fic_pt = trocar_ficheiro("pt")
         del fic_en[id_conc]
@@ -251,8 +250,9 @@ def removeConc():
         warn = "Entry removed"
         print("Done")
     else:
-        warn = "Key not in dic"
-    return render_template("conceitos.html", lang="en", warning = warn)
+        warn = "There is no entry with that key!"
+    conceitos = trocar_ficheiro("en")
+    return render_template("conceitos.html", lang="en", warning = warn, conceitos=conceitos)
 
 
 

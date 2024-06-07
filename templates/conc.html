@@ -72,11 +72,17 @@
 
 </nav>
 
+{% if warning %}
+<div class="alert alert-success" role="alert">
+  {{warning}}
+</div>
+
+{% endif%}
 <div class="m-5">
   <div class="card">
     <div class="card-body d-flex align-content-center align-items-center">
       <div class="display-4">{{conceito.Termo}}</div>
-      <button type="button" class="btn" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-trigger="hover focus" data-bs-content="This is my popover">
+      <button type="button" class="btn" data-bs-toggle="popover" data-bs-title="Google Translate" data-bs-trigger="hover focus" data-bs-content="Some of the elements of this page were translated with Google Translate">
         <svg xmlns="http://www.w3.org/2000/svg" height="26" width="26" viewBox="0 0 512 512" id="google-translate">
           <path fill="#e6e6e6" d="M479.068 96h-216.32l-22.515 87.1-8.083 57.242 43.329 120.845 6.957 146.639h196.633c18.184 0 32.932-14.748 32.932-32.932V128.932C512 110.748 497.252 96 479.068 96z"></path>
           <path fill="#3a5bbc" d="m368.696 416-86.261 91.826L251.882 416l12.466-33.479z"></path>
