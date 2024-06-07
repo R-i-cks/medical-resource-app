@@ -51,3 +51,7 @@ function handleSubmit(event) {
 
     document.getElementById("add_entrada_form").submit();
 }
+
+$(document).ready( function () {
+    $('#table_id').DataTable();
+} );

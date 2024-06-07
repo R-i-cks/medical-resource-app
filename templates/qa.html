@@ -1,0 +1,41 @@
+{% extends 'layout.html'%}  # sou o filho
+
+{%block body%}
+
+<div class="container mt-1 ml-0">
+    <h3 class="text-start display-5">Question & Answer</h3>
+    <form action="/qa" method="POST">
+        <div class="mb-3">
+            <div class="card-body d-flex align-content-center align-items-center">
+              <h2 class="card-title" style="margin-right: 1%;  margin-top: 1%;">Pergunta:</h2>
+              <input class="form-control mr-sm-2 w-50" type="search" name="termo" placeholder="Faça uma pergunta (p.e.: O que é o abdomen?)" aria-label="Search">
+            </div>
+        </div>
+        {% if resposta %}
+        <p> Resposta para "<b>{{rr}}</b>": {{resposta}}</p>
+        {% endif %}
+        <div class="mb-3">
+          <div class="card-body d-flex align-content-center align-items-center">
+            <h2 class="card-title" style="margin-right: 1%;  margin-top: 1%;">Most Similar:</h2>
+            <input class="form-control mr-sm-2 w-50" type="search" name="mostsimilar" placeholder="Escreva um termo para averiguar qual o termos mais semelhante ao mesmo" aria-label="Search">
+          </div>
+        </div>
+        {% if mostsimilar %}
+        <p> Resultado do most_similar de <b>{{ms}}</b>: {{mostsimilar}}</p>
+        {% endif %}
+
+        <div class="mb-3">
+          <div class="card-body d-flex align-content-center align-items-center">
+            <h2 class="card-title" style="margin-right: 1%;  margin-top: 1%;">Doesn't match:</h2>
+            <input class="form-control mr-sm-2 w-50" type="search" name="doesnotmatch" placeholder="Escreva um conjunto de termos para averiguar qual deles não se enquadra" aria-label="Search">
+          </div>
+        </div>
+        {% if notmatch %}
+        <p>Resultado de doesnt_match de <b>{{', '.join(nmr)}}</b>: {{notmatch}}</p>
+        {% endif %}
+
+    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Perguntar</button>
+    </form>
+
+
+{%endblock%}

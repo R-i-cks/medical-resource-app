@@ -160,12 +160,3 @@ json.dump(dicionario,file_out,ensure_ascii=False,indent=4)
 file_out.close()
 
 """
-
-
-
-
-
-
-
-
-
