@@ -1,11 +1,9 @@
 
 
 function addBadge(inputId, containerId) {
-    console.log("This is running")
             const input = document.getElementById(inputId);
             const container = document.getElementById(containerId);
             const value = input.value.trim();
-
             if (value !== '') {
                 const badge = document.createElement('span');
                 badge.className = randomBadge();
@@ -28,14 +26,28 @@ function randomBadge(){
 }
 
 
+
+
+
 function getBadgeText(divId) {
     const container = document.getElementById(divId);
     const badgeTexts = [];
-    const badges = container.querySelectorAll('.badge');
-    badges.forEach(badge => {
-        badgeTexts.push(badge.textContent);
+    const badges = $('.badge', container);
+    badges.each(function() {
+        badgeTexts.push($(this).text()); 
     });
     const string_badges = badgeTexts.join(",") 
     return string_badges;
+}
+
+function handleSubmit(event) {
+    event.preventDefault();
+    const fontesAp = document.getElementById('fontesAp');
+    const areaAp = document.getElementById('areasAp');
+    console.log(getBadgeText("selectedFontes"))
+    console.log(getBadgeText("selectedAreas"))
+    fontesAp.value = getBadgeText("selectedFontes");
+    areaAp.value = getBadgeText("selectedAreas");
+    event.target.form.submit();
 }
 

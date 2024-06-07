@@ -98,22 +98,22 @@ def change_language():
 
 
 @app.route("/add_entrada", methods=["POST"])
-def add_entrada():
+def add_entrada_nova():
     conc = request.form["conc"]
     defi = request.form["def"]
-    areas = request.form.get("areas")
-    fontes = request.form.get("fontes")
+    areas = request.form
+    fontes = request.form["fontesAp"]
     sinonimos = request.form["sinonimos"]
     index_rem = request.form["index_rem"]
-
+    """
     if areas:
         areas = areas.split(",")
     if fontes:
         fontes = fontes.split(",")
     if sinonimos:
-        sinonimos = sinonimos.split(",")
+        sinonimos = sinonimos.split(",")"""
 
-    print(conc, defi, areas, fontes, index_rem, sinonimos)
+    print(conc, defi, areas, fontes, sinonimos, index_rem)
     conceitos_en = trocar_ficheiro("en")
     conceitos_es = trocar_ficheiro("es")
     conceitos_pt = trocar_ficheiro("pt")
@@ -168,8 +168,37 @@ def add_entrada():
     print(dic_en)
     print(dic_es)
     print(dic_pt)
-    return render_template("home.html", warning="Insert sucessfull!")
+    return redirect(url_for('pesquisa_conc' ,lang="en"))
 
+
+@app.route("/apagar_entrada", methods=["POST"])
+def removeConc():
+    id_conc = request.form
+    print(id_conc)
+    fic_en = trocar_ficheiro("en")
+    if id_conc in fic_en and False:
+        fic_es = trocar_ficheiro("es")
+        fic_pt = trocar_ficheiro("pt")
+        del fic_en[id_conc]
+        del fic_es[id_conc]
+        del fic_pt[id_conc]
+
+        file_en = open("dicionarios/doc_conc_en_V_GMS_outros_relacionados.json", 'w', encoding='UTF-8')
+        file_es = open("dicionarios/doc_conc_es_V_GMS_outros_relacionados.json", 'w',encoding='UTF-8')
+        file_pt = open("dicionarios/doc_conc_pt_V_GMS_outros_relacionados.json", 'w', encoding='UTF-8')
+
+        json.dump(fic_en, file_en, indent=4, ensure_ascii=False)
+        json.dump(fic_es, file_es, indent=4, ensure_ascii=False)
+        json.dump(fic_pt, file_pt, indent=4, ensure_ascii=False)
+
+        file_pt.close()
+        file_en.close()
+        file_es.close()
+        warn = "Entry removed"
+        print("Done")
+    else:
+        warn = "Key not in dic"
+    return render_template("conceitos.html", lang="en", warning = warn)
 
 
 
