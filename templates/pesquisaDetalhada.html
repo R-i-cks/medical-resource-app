@@ -5,10 +5,16 @@
 <div class="container mt-1 ml-0">
     <h3 class="text-start display-5">Pesquisa Detalhada</h3>
     <form action="/pesquisa_detalhada" method="POST">
-        <h6 class="text-start display-6">Operador de Pesquisa</h6>
-        <input type="radio" name="options" value="and" required="True"> AND <br>
-        <input type="radio" name="options" value="or" required="True"> OR <br>
-          <h6 class="text-start display-6">Fontes</h6>
+        <div class="mb-3">
+            <div class="card-body d-flex align-content-center align-items-center">
+              <h2 class="card-title" style="margin-right: 1%;">Operador de Pesquisa:</h2>
+                <input type="radio" style="margin-right: 0.5%;" name="options" value="and" required="True"><p style="margin-right: 1.5%; margin-bottom: 0%;"> AND </p><br>
+                <input type="radio" style="margin-right: 0.5%;" name="options" value="or" required="True"> OR <br>
+              </div>
+        </div>
+
+          
+        <h2 class="card-title" style="margin-right: 1%;margin-bottom: 1%;">Fontes:</h2>
         <div class="form-check">
             <input class="form-check-input" type="checkbox" name="sources" value="Glossário do Ministério da Saúde" id="flexCheck2">
             <label class="form-check-label" for="flexCheck2">
@@ -52,23 +58,41 @@
             </label>
         </div>
 
-          <h6 class="text-start display-6">Idioma</h6>
-        <select class="form-select w-25" id="validation"name="language">
-            <option selected disabled>Escolha um idioma</option>
-            <option value="en">Inglês (EN)</option>
-            <option value="es">Espanhol (ES)</option>
-            <option value="pt">Português (PT)</option>
-            <option value="todos">Todos</option>
-          </select>
-            <h6 class="text-start display-6">Termo</h6>
-          <input class="form-control mr-sm-2 w-50" type="search" name="termo" placeholder="O que deve incluir o termo?" aria-label="Search">
-            <h6 class="text-start display-6">Descrição</h6>
-          <input class="form-control mr-sm-2 w-50" type="search" name="descricao" placeholder="O que deve incluir a descrição?" aria-label="Search">
-            <h6 class="text-start display-6">Sinónimos</h6>
-          <input class="form-control mr-sm-2 w-50" type="search" name="sinonimos" placeholder="Indique sinónimos do termo" aria-label="Search">
-            <h6 class="text-start display-6">Relacionados</h6>
-          <input class="form-control mr-sm-2 w-50" type="search" name="relacionados" placeholder="Indique termos relacionados com a sua pesquisa" aria-label="Search">
-          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        <div class="mb-3">
+            <div class="card-body d-flex align-content-center align-items-center">
+              <h2 class="card-title" style="margin-right: 1%; margin-top: 1%;">Idioma:</h2>
+              <select class="form-select w-auto" id="validation"name="language">
+                <option selected disabled>Escolha um idioma</option>
+                <option value="en">Inglês (EN)</option>
+                <option value="es">Espanhol (ES)</option>
+                <option value="pt">Português (PT)</option>
+                <option value="todos">Todos</option>
+              </select>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <div class="card-body d-flex align-content-center align-items-center">
+              <h2 class="card-title" style="margin-right: 1%;  margin-top: 1%;">Termo:</h2>
+              <input class="form-control mr-sm-2 w-50" type="search" name="termo" placeholder="O que deve incluir o termo?" aria-label="Search">
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <div class="card-body d-flex align-content-center align-items-center">
+              <h2 class="card-title" style="margin-right: 1%;  margin-top: 1%;">Descrição:</h2>
+              <input class="form-control mr-sm-2 w-50" type="search" name="descricao" placeholder="O que deve incluir a descrição?" aria-label="Search">
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <div class="card-body d-flex align-content-center align-items-center">
+              <h2 class="card-title" style="margin-right: 1%;  margin-top: 1%;">Sinónimos:</h2>
+              <input class="form-control mr-sm-2 w-50" type="search" name="sinonimos" placeholder="Indique sinónimos do termo" aria-label="Search">
+            </div>
+        </div>
+
+    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
     </form>
 
 {%if pesquisa%}
