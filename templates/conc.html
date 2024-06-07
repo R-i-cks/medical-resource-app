@@ -1,190 +1,194 @@
 {% extends 'layout.html' %}
 
-
-  
-
 {% block body %}
+
+{% set batches = ['primary', 'secondary', 'success', 'danger', 'warning', 'info', 'light', 'dark'] %}
 
 
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary"  style="background-color: #5a441a;">
   <div class="container-fluid">
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link active" href="{{ url_for('consultar_Conceitos', lang='en', id_conc = id_conc ) }}">En</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="{{ url_for('consultar_Conceitos', lang='pt', id_conc = id_conc ) }}">Pt</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="{{ url_for('consultar_Conceitos', lang='es', id_conc = id_conc ) }}">Es</a>
+      </li>
+    </ul>
 
-<ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link active" href="{{ url_for('consultar_Conceitos', lang='en', id_conc = id_conc ) }}">En</a>
- </li>
-  <li class="nav-item">
-    <a class="nav-link active" href="{{ url_for('consultar_Conceitos', lang='pt', id_conc = id_conc ) }}">Pt</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link active"   href="{{ url_for('consultar_Conceitos', lang='es', id_conc = id_conc ) }}">Es</a>
-  </li>
-</ul>
+    <form action="/change_language" method="GET">
+      <label for="languageSelect">Select Language:</label>
+      <select class="form-select" aria-label="Language Select" name="lang">
+        <option selected disabled>Choose a language</option>
+        <option value="ar">Arabic</option>
+        <option value="bg">Bulgarian</option>
+        <option value="cs">Czech</option>
+        <option value="da">Danish</option>
+        <option value="de">German</option>
+        <option value="el">Greek</option>
+        <option value="et">Estonian</option>
+        <option value="fi">Finnish</option>
+        <option value="fr">French</option>
+        <option value="hu">Hungarian</option>
+        <option value="id">Indonesian</option>
+        <option value="it">Italian</option>
+        <option value="ja">Japanese</option>
+        <option value="ko">Korean</option>
+        <option value="lt">Lithuanian</option>
+        <option value="lv">Latvian</option>
+        <option value="nl">Dutch</option>
+        <option value="pl">Polish</option>
+        <option value="ro">Romanian</option>
+        <option value="ru">Russian</option>
+        <option value="sk">Slovak</option>
+        <option value="sl">Slovenian</option>
+        <option value="sv">Swedish</option>
+        <option value="tr">Turkish</option>
+        <option value="uk">Ukrainian</option>
+        <option value="zh">Chinese</option>
+      </select>
+      <input type="hidden" name="id_conc" value="{{ id_conc }}">
+      <button type="submit" id="langButton" class="btn btn-primary">Submit</button>
+    </form> 
+  </div>
+</nav>
 
-<div>
-<form action="/change_language" method="GET">
-  <label for="languageSelect">Select Language:</label>
-  <select class="form-select" aria-label="Language Select" name="lang">
-    <option selected disabled>Choose a language</option>
-    <option value="ar">Arabic</option>
-    <option value="bg">Bulgarian</option>
-    <option value="cs">Czech</option>
-    <option value="da">Danish</option>
-    <option value="de">German</option>
-    <option value="el">Greek</option>
-    <option value="et">Estonian</option>
-    <option value="fi">Finnish</option>
-    <option value="fr">French</option>
-    <option value="hu">Hungarian</option>
-    <option value="id">Indonesian</option>
-    <option value="it">Italian</option>
-    <option value="ja">Japanese</option>
-    <option value="ko">Korean</option>
-    <option value="lt">Lithuanian</option>
-    <option value="lv">Latvian</option>
-    <option value="nl">Dutch</option>
-    <option value="pl">Polish</option>
-    <option value="ro">Romanian</option>
-    <option value="ru">Russian</option>
-    <option value="sk">Slovak</option>
-    <option value="sl">Slovenian</option>
-    <option value="sv">Swedish</option>
-    <option value="tr">Turkish</option>
-    <option value="uk">Ukrainian</option>
-    <option value="zh">Chinese</option>
-  </select>
-  <input type="hidden" name="id_conc" value="{{ id_conc }}">
-  <button type="submit" id="langButton" class="btn btn-primary" >Submit</button>
-</form> 
+<div class="m-5">
+  <div class="card">
+    <div class="card-body d-flex align-content-center align-items-center">
+      <div class="display-4">{{conceito.Termo}}</div>
+      <button type="button" class="btn" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-trigger="hover focus" data-bs-content="This is my popover">
+        <svg xmlns="http://www.w3.org/2000/svg" height="26" width="26" viewBox="0 0 512 512" id="google-translate">
+          <path fill="#e6e6e6" d="M479.068 96h-216.32l-22.515 87.1-8.083 57.242 43.329 120.845 6.957 146.639h196.633c18.184 0 32.932-14.748 32.932-32.932V128.932C512 110.748 497.252 96 479.068 96z"></path>
+          <path fill="#3a5bbc" d="m368.696 416-86.261 91.826L251.882 416l12.466-33.479z"></path>
+          <path fill="gray" d="M469.565 244.174v-20.87h-79.304v-29.217h-20.87v29.217H297.92v20.87h115.89c-6.446 13.572-17.621 35.215-32.978 58.035-14.132-17.649-23.062-29.931-23.168-30.077l-6.129-8.445-16.892 12.255 6.127 8.445c.477.658 10.876 14.963 27.338 35.3-11.222 13.749-31.808 36.106-42.655 46.952l14.756 14.756c9.362-9.362 28.774-30.214 41.426-45.327 16.459 19.553 32.523 37.194 47.854 52.526l7.378 7.378 14.758-14.755-7.378-7.378C428.408 358 411.728 339.575 394.6 319.04c22.133-31.823 36.48-61.956 42.2-74.866h32.765z"></path>
+          <path fill="#518ef8" d="M349.329 357.523 368.696 416H32.932C14.734 416 0 401.252 0 383.068V37.106C0 18.922 14.734 4.174 32.932 4.174h199.416L262.748 96l45.607 137.739 40.974 123.784z"></path>
+          <path fill="#fff" d="M149.301 287.374c-42.77 0-77.565-34.795-77.565-77.565s34.795-77.565 77.565-77.565c20.704 0 40.182 8.065 54.845 22.712l-14.749 14.766c-10.723-10.71-24.961-16.608-40.097-16.608-31.263 0-56.696 25.433-56.696 56.696s25.433 56.696 56.696 56.696c27.698 0 50.82-19.967 55.733-46.261h-55.731v-20.87h77.565v10.435c-.001 42.769-34.796 77.564-77.566 77.564z"></path>
+        </svg>
+      </button>
+    </div>
   </div>
 
-  </nav>
-</div>
+  <br>
 
-
-<div class="card">
-    <div class="card-body">
-        <h2><b>{{conceito.Termo}}</b></h2>
-        <button type="button" class="btn " data-bs-toggle="popover" data-bs-title="Popover title" data-bs-trigger="hover focus" data-bs-content="This is my popover">
-          <svg xmlns="http://www.w3.org/2000/svg" height = 26 width = 26 viewBox="0 0 512 512" id="google-translate"><path fill="#e6e6e6" d="M479.068 96h-216.32l-22.515 87.1-8.083 57.242 43.329 120.845 6.957 146.639h196.633c18.184 0 32.932-14.748 32.932-32.932V128.932C512 110.748 497.252 96 479.068 96z"></path><path fill="#3a5bbc" d="m368.696 416-86.261 91.826L251.882 416l12.466-33.479z"></path><path fill="gray" d="M469.565 244.174v-20.87h-79.304v-29.217h-20.87v29.217H297.92v20.87h115.89c-6.446 13.572-17.621 35.215-32.978 58.035-14.132-17.649-23.062-29.931-23.168-30.077l-6.129-8.445-16.892 12.255 6.127 8.445c.477.658 10.876 14.963 27.338 35.3-11.222 13.749-31.808 36.106-42.655 46.952l14.756 14.756c9.362-9.362 28.774-30.214 41.426-45.327 16.459 19.553 32.523 37.194 47.854 52.526l7.378 7.378 14.758-14.755-7.378-7.378C428.408 358 411.728 339.575 394.6 319.04c22.133-31.823 36.48-61.956 42.2-74.866h32.765z"></path><path fill="#518ef8" d="M349.329 357.523 368.696 416H32.932C14.734 416 0 401.252 0 383.068V37.106C0 18.922 14.734 4.174 32.932 4.174h199.416L262.748 96l45.607 137.739 40.974 123.784z"></path><path fill="#fff" d="M149.301 287.374c-42.77 0-77.565-34.795-77.565-77.565s34.795-77.565 77.565-77.565c20.704 0 40.182 8.065 54.845 22.712l-14.749 14.766c-10.723-10.71-24.961-16.608-40.097-16.608-31.263 0-56.696 25.433-56.696 56.696s25.433 56.696 56.696 56.696c27.698 0 50.82-19.967 55.733-46.261h-55.731v-20.87h77.565v10.435c-.001 42.769-34.796 77.564-77.566 77.564z"></path></svg>
-          </button>
+  <div class="mb-3">
+    <div class="card-body d-flex align-content-center align-items-center">
+      <img style="width: 50px; margin-right: 1%;" src="https://cdn-icons-png.freepik.com/512/1582/1582286.png">
+      <h2 class="card-title" style="margin-right: 1%;">{{ch_tr.Definicao}}:</h2>
+      {% if conceito.Definicao %}
+        <p style="margin: 0%;" class="lead"><b>{{conceito.Definicao}}</b></p>
+      {% else %}
+        <p style="margin: 0%;" class="lead"> {{ch_tr.Definicao}} {{ch_tr['não disponível']}}</p>
+      {% endif %}
     </div>
   </div>
 
 
-<br>
+  <div class="mb-3">
+    <div class="card-body d-flex align-content-center align-items-center">
+      <img style="width: 50px; margin-right: 1%;" src="https://cdn-icons-png.flaticon.com/512/4804/4804197.png">
+      <h2 class="card-title" style="margin-right: 1%;">{{ch_tr['Área(s) de aplicação']}}:</h2>
+      {% if conceito["Área(s) de aplicação"] %}
+        <p style="margin: 0%;" class="lead">{{'; '.join(conceito["Área(s) de aplicação"])}}</p>
+      {% else %}
+        <p style="margin: 0%;" class="lead"> {{ch_tr['Área(s) de aplicação']}} {{ch_tr['não disponível'] }}</p>
+      {% endif %}
+    </div>
+  </div>
 
-  <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="mb-3">
+    <div class="card-body d-flex align-content-center align-items-center">
+      <img style="width: 50px; margin-right: 1%;" src="https://icons.veryicon.com/png/o/business/official-icon-of-the-insurer/term.png">
+      <h2 class="card-title" style="margin-right: 1%;">{{ch_tr.Fontes}}: </h2>
 
-    {% if conceito.Definicao %}
-      <div class="col">
-        <div class="card text-bg-primary mb-3">
-          <div class="card-body">
-            <h5 class="card-title">{{ch_tr.Definicao}}</h5>
-            <p class="card-text">{{conceito.Definicao}}</p>
-          </div>
-        </div>
-      </div>
-    {% endif %}
-
-    {% if conceito["Área(s) de aplicação"] %}
-      <div class="col">
-        <div class="card text-bg-secondary mb-3">
-          
-          <div class="card-body">
-            <h5 class="card-title">{{ch_tr["Área(s) de aplicação"]}}</h5>
-            {% for a in conceito["Área(s) de aplicação"] %}
-              <p class="card-text">{{a}}</p>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-    {% endif %}
-
-    {% if conceito.Nota %}
-      <div class="col">
-        <div class="card text-bg-success mb-3">
-          <div class="card-body">
-            <h5 class="card-title">ch_tr.Nota</h5>
-            <p class="card-text">{{conceito.Nota}}</p>
-          </div>
-        </div>
-      </div>
-    {% endif%}
-
-    {% if conceito["Categoria gramatical"] %} 
-    <div class="col">
-      <div class="card text-bg-info mb-3">
-        <div class="card-body">
-          <h5 class="card-title">{{ch_tr["Categoria gramatical"]}}</h5>
-          {% for cat in conceito["Categoria gramatical"] %}
-            <p class="card-text">{{cat}}</p>
+        {% if conceito.Fontes %}
+          {% for f in conceito["Fontes"] %}
+            {% set b = batches[loop.index-1] %}
+            <p style="margin: 0%; margin-right: 1%;" class="lead"><span class="badge bg-{{b}}">{{f}}</span></p>
           {% endfor %}
-        </div>
+        {% else %}
+          <p style="margin: 0%;" class="lead"> {{ch_tr.Fontes}} {{ch_tr['não disponível']}}</p>
+        {% endif %}
+
+    </div>
+  </div>
+
+
+
+  {% if conceito.Relacionado %}
+
+    <div class="mb-3">
+      <div class="card-body d-flex align-content-center align-items-center">
+        <img style="width: 50px; margin-right: 1%;" src="https://static.thenounproject.com/png/3797140-200.png">
+        <h2 class="card-title" style="margin-right: 1%;">{{ch_tr.Relacionado}}: </h2>
+          {% for r in conceito["Relacionado"] %}
+            {% set b = batches[loop.index-1] %}
+            <a class="lead" href = "{{ url_for('consultar_Conceitos', lang='es', id_conc = conceito[r] ) }}"><span class="badge bg-{{b}}">{{conceitos[r].Termo}}</span></a>
+          {% endfor %}
       </div>
     </div>
-  {% endif %}
 
-    {% if conceito.Fontes %}
-      <div class="col">
-        <div class="card text-bg-light mb-3">
-          <div class="card-body">
-            <h5 class="card-title">{{ch_tr.Fontes}}</h5>
-            {% for f in conceito.Fontes %}
-              <p class="card-text">{{f}}</p>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-    {% endif %}
-
-    {% if conceito.Relacionados %}
-    <div class="col">
-      <div class="card text-bg-light mb-3">
-        <div class="card-body">
-          <h5 class="card-title">{{ch_tr.Relacionados}}</h5>
-          {% for f in conceito.Relacionados %}
-            <p class="card-text">{{f}}</p>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
   {% endif %}
 
 
   {% if conceito.Sinonimos %}
-  <div class="col">
-    <div class="card text-bg-light mb-3">
-      <div class="card-body">
-        <h5 class="card-title">{{ch_tr.Sinonimos}}</h5>
-        {% for f in conceito.Sinonimos %}
-          <p class="card-text">{{f}}</p>
-        {% endfor %}
+  <div class="mb-3">
+    <div class="card-body d-flex align-content-center align-items-center">
+      <img style="width: 50px; margin-right: 1%;" src="https://cdn0.iconfinder.com/data/icons/octicons/1024/sync-512.png">
+      <h2 class="card-title" style="margin-right: 1%;">{{ch_tr.Sinonimos}}: </h2>
+        <p style="margin: 0%;" class="lead">{{'; '.join(conceito["Sinonimos"])}}</p>
       </div>
     </div>
+  {% endif %}
+
+
+  {% if conceito["Categoria gramatical"] %} 
+
+  <div class="mb-3">
+    <div class="card-body d-flex align-content-center align-items-center">
+      <img style="width: 50px; margin-right: 1%;" src="https://cdn1.iconfinder.com/data/icons/website-library-part-3/48/Website-Check-Spelling-Grammar-512.png">
+      <h2 class="card-title" style="margin-right: 1%;">{{ch_tr["Categoria gramatical"]}}: </h2>
+        <p style="margin: 0%;" class="lead">{{'; '.join(conceito["Categoria gramatical"])}}</p>
+    </div>
   </div>
-{% endif %}
+
+  {% endif %}
 
 
 
-  </div>
+  {% if conceito.Nota %}
+    <div class="mb-3">
+      <div class="card-body d-flex align-content-center align-items-center">
+        <img style="width: 50px; margin-right: 1%;" src="https://cdn.icon-icons.com/icons2/2715/PNG/512/warning_icon_172115.png">
+        <h2 class="card-title" style="margin-right: 1%;">{{ch_tr.Nota}}: </h2>
+          <p style="margin: 0%;" class="lead">{{conceito.Nota}}</p>
+      </div>
+    </div>
+
+  {% endif %}
 
 
 
-{% if conceito.Index_Remissivo %}
+  {% if conceito.Index_Remissivo %}
 
 
-<div class="card">
-  <div class="card-header">
-    Entrada remissiva
-  </div>
-  <div class="card-body">
-    <blockquote class="blockquote mb-0">
-        <a class="nav-link active"   href="{{ url_for('consultar_Conceitos', lang='es', id_conc = conceito.Index_Remissivo ) }}">{{ conceitos[conceito.Index_Remissivo].Termo }}</a>
-    </blockquote>
-  </div>
+      <div class="card">
+        <div class="card-header">
+          Entrada remissiva
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+              <a class="nav-link active"   href="{{ url_for('consultar_Conceitos', lang='es', id_conc = conceito.Index_Remissivo ) }}">{{ conceitos[conceito.Index_Remissivo].Termo }}</a>
+          </blockquote>
+        </div>
+      </div>
+
 </div>
+
 
 {% endif %}
 
