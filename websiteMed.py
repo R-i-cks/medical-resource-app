@@ -132,9 +132,9 @@ def consultar_Conceitos(id_conc, lang="es"):
     else:
         conceitos = trocar_ficheiro(lang)
         conceito = conceitos[id_conc]
-        
+    total = len(conceitos)
     chaves_trad = {chave : GoogleTranslator(source="auto", target=lang).translate(chave) for chave in ['Relacionado', 'Fontes', 'Conceito', 'Sinonimos', 'Definicao', 'Área(s) de aplicação', 'Nota', 'Categoria gramatical', 'não disponível']}
-    return render_template('conc.html',conceito = conceito, lang= lang, id_conc = id_conc, conceitos = conceitos, ch_tr = chaves_trad)
+    return render_template('conc.html',conceito = conceito, lang= lang, id_conc = id_conc, conceitos = conceitos, ch_tr = chaves_trad, total=total)
 
 
 
