@@ -275,116 +275,120 @@ def pesquisa_detalhada():
         sinonimos = request.form.get("sinonimos")
         relacionados = request.form.get("relacionados")
 
-        if selected_sources or selected_language or termo or descricao or sinonimos or relacionados:
-            if selected_language:
-                if selected_language == 'en':
-                    conceitos = {'en': trocar_ficheiro('en')}
-                elif selected_language == 'pt':
-                    conceitos = {'pt': trocar_ficheiro('pt')}
-                elif selected_language == 'es':
-                    conceitos = {'es': trocar_ficheiro('es')}
-                else:
-                    conceitosen = trocar_ficheiro('en')
-                    conceitoses = trocar_ficheiro('es')
-                    conceitospt = trocar_ficheiro('pt')
-                    conceitos = {'es': conceitoses, 'en': conceitosen, 'pt': conceitospt}
+        # Carregar os conceitos com base no idioma selecionado
+        if selected_language:
+            if selected_language == 'en':
+                conceitos = {'en': trocar_ficheiro('en')}
+            elif selected_language == 'pt':
+                conceitos = {'pt': trocar_ficheiro('pt')}
+            elif selected_language == 'es':
+                conceitos = {'es': trocar_ficheiro('es')}
             else:
                 conceitosen = trocar_ficheiro('en')
                 conceitoses = trocar_ficheiro('es')
                 conceitospt = trocar_ficheiro('pt')
                 conceitos = {'es': conceitoses, 'en': conceitosen, 'pt': conceitospt}
-
-            matches = {'en': {}, 'es': {}, 'pt': {}}
-
-            if option == 'or':
-                if selected_sources:
-                    for idioma in conceitos:
-                        for indice in conceitos[idioma]:
-                            if 'Fontes' in conceitos[idioma][indice]:
-                                for source in selected_sources:
-                                    if source in conceitos[idioma][indice]['Fontes']:
-                                        print(source)
-                                        matches[idioma][indice] = conceitos[idioma][indice]
-                if termo:
-                    for idioma in conceitos:
-                        for indice in conceitos[idioma]:
-                            if conceitos[idioma][indice]['Termo']:
-                                if termo.lower() in conceitos[idioma][indice]['Termo'].lower():
-                                    matches[idioma][indice] = conceitos[idioma][indice]
-                if descricao:
-                    for idioma in conceitos:
-                        for indice in conceitos[idioma]:
-                            if 'Definicao' in conceitos[idioma][indice]:
-                                if descricao.lower() in conceitos[idioma][indice]['Definicao'].lower():
-                                    matches[idioma][indice] = conceitos[idioma][indice]
-                if sinonimos:
-                    for idioma in conceitos:
-                        for indice in conceitos[idioma]:
-                            if 'Sinonimos' in conceitos[idioma][indice]:
-                                s = ' '.join(conceitos[idioma][indice]['Sinonimos'])
-                                if sinonimos.lower() in s.lower():
-                                    matches[idioma][indice] = conceitos[idioma][indice]
-                if selected_language and not selected_sources and not termo and not relacionados and not sinonimos and not descricao:
-                    matches = conceitos
-                
-                return render_template("pesquisaDetalhada.html", pesquisa = True, matches = matches)
-            else: # AND
-                
-                matchesT = {'en': {}, 'es': {}, 'pt': {}}
-                if selected_sources:
-                    for idioma in conceitos:
-                        for indice in conceitos[idioma]:
-                            if 'Fontes' in conceitos[idioma][indice]:
-                                count = 0
-                                for source in selected_sources:
-                                    if source in conceitos[idioma][indice]['Fontes']:
-                                        count +=1
-                                if count == len(selected_sources):
-                                    matches[idioma][indice] = conceitos[idioma][indice]
-
-                if termo:
-                    matchesT = {'en': {}, 'es': {}, 'pt': {}}
-                    for idioma in conceitos:
-                        for indice in conceitos[idioma]:
-                            if conceitos[idioma][indice]['Termo']:
-                                if termo.lower() in conceitos[idioma][indice]['Termo'].lower():
-                                    matchesT[idioma][indice] = conceitos[idioma][indice]
-                            if indice in matches[idioma] and indice not in matchesT[idioma]:
-                                print("OHNAOOO", indice)
-                                del matches[idioma][indice]
-
-                                    
-
-                if descricao:
-                    matchesT = {'en': {}, 'es': {}, 'pt': {}}
-                    for idioma in conceitos:
-                        for indice in conceitos[idioma]:
-                            if 'Definicao' in conceitos[idioma][indice]:
-                                if descricao.lower() in conceitos[idioma][indice]['Definicao'].lower():
-                                    matchesT[idioma][indice] = conceitos[idioma][indice]
-
-                            if indice in matches[idioma] and indice not in matchesT[idioma]:
-                                del matches[idioma][indice]
-
-                if sinonimos:
-                    matchesT = {'en': {}, 'es': {}, 'pt': {}}
-                    for idioma in conceitos:
-                        for indice in conceitos[idioma]:
-                            if 'Sinonimos' in conceitos[idioma][indice]:
-                                s = ' '.join(conceitos[idioma][indice]['Sinonimos'])
-                                if sinonimos.lower() in s.lower():
-                                    matchesT[idioma][indice] = conceitos[idioma][indice]
-
-                            if indice in matches[idioma] and indice not in matchesT[idioma]:
-                                del matches[idioma][indice]
-
-                if selected_language and not selected_sources and not termo and not relacionados and not sinonimos and not descricao:
-                    matches = conceitos
-                return render_template("pesquisaDetalhada.html", pesquisa = True, matches = matches)
         else:
-            return render_template("pesquisaDetalhada.html", pesquisa = False)
+            conceitosen = trocar_ficheiro('en')
+            conceitoses = trocar_ficheiro('es')
+            conceitospt = trocar_ficheiro('pt')
+            conceitos = {'es': conceitoses, 'en': conceitosen, 'pt': conceitospt}
+
+        matches = {'en': {}, 'es': {}, 'pt': {}}
+
+        if option == 'or':
+            if selected_sources:
+                for idioma in conceitos:
+                    for indice in conceitos[idioma]:
+                        if 'Fontes' in conceitos[idioma][indice]:
+                            for source in selected_sources:
+                                if source in conceitos[idioma][indice]['Fontes']:
+                                    matches[idioma][indice] = conceitos[idioma][indice]
+            if termo:
+                for idioma in conceitos:
+                    for indice in conceitos[idioma]:
+                        if conceitos[idioma][indice]['Termo']:
+                            if termo.lower() in conceitos[idioma][indice]['Termo'].lower():
+                                termo_novo = re.sub(rf'({re.escape(termo.lower())})', r'<mark>\1</mark>', conceitos[idioma][indice]['Termo'].lower())
+                                matches[idioma][indice] = conceitos[idioma][indice]
+                                matches[idioma][indice]['Termo'] = termo_novo
+            if descricao:
+                for idioma in conceitos:
+                    for indice in conceitos[idioma]:
+                        if 'Definicao' in conceitos[idioma][indice] and descricao.lower() in conceitos[idioma][indice]['Definicao'].lower():
+                            definicao = re.sub(rf'({re.escape(descricao.lower())})', r'<mark>\1</mark>', conceitos[idioma][indice]['Definicao'].lower())
+                            matches[idioma][indice] = conceitos[idioma][indice]
+                            matches[idioma][indice]['Definicao'] = definicao
+            if sinonimos:
+                for idioma in conceitos:
+                    for indice in conceitos[idioma]:
+                        if 'Sinonimos' in conceitos[idioma][indice]:
+                            s = ' '.join(conceitos[idioma][indice]['Sinonimos'])
+                            if sinonimos.lower() in s.lower():
+                                matches[idioma][indice] = conceitos[idioma][indice]
+            if selected_language and not selected_sources and not termo and not relacionados and not sinonimos and not descricao:
+                matches = conceitos
+
+        elif option == 'and':
+            matchesT = {'en': {}, 'es': {}, 'pt': {}}
+            if selected_sources:
+                for idioma in conceitos:
+                    for indice in conceitos[idioma]:
+                        if 'Fontes' in conceitos[idioma][indice]:
+                            count = 0
+                            for source in selected_sources:
+                                if source in conceitos[idioma][indice]['Fontes']:
+                                    count += 1
+                            if count == len(selected_sources):
+                                matches[idioma][indice] = conceitos[idioma][indice]
+            else:
+                matches = conceitos
+            
+            if termo:
+                matchesT = {'en': {}, 'es': {}, 'pt': {}}
+                for idioma in conceitos:
+                    for indice in conceitos[idioma]:
+                        if conceitos[idioma][indice]['Termo']:
+                            if termo.lower() in conceitos[idioma][indice]['Termo'].lower():
+                                termo_novo = re.sub(rf'({re.escape(termo.lower())})', r'<mark>\1</mark>', conceitos[idioma][indice]['Termo'].lower())
+                                matchesT[idioma][indice] = conceitos[idioma][indice]
+                                matchesT[idioma][indice]['Termo'] = termo_novo
+                    for indice in list(matches[idioma].keys()):
+                        if indice not in matchesT[idioma]:
+                            del matches[idioma][indice]
+
+            if descricao:
+                matchesT = {'en': {}, 'es': {}, 'pt': {}}
+                for idioma in conceitos:
+                    for indice in conceitos[idioma]:
+                        if 'Definicao' in conceitos[idioma][indice] and descricao.lower() in conceitos[idioma][indice]['Definicao'].lower():
+                            definicao_nova = re.sub(rf'({re.escape(descricao.lower())})', r'<mark>\1</mark>', conceitos[idioma][indice]['Definicao'].lower())
+                            matchesT[idioma][indice] = conceitos[idioma][indice]
+                            matchesT[idioma][indice]['Definicao'] = definicao_nova
+                    for indice in list(matches[idioma].keys()):
+                        if indice not in matchesT[idioma]:
+                            del matches[idioma][indice]
+
+            if sinonimos:
+                matchesT = {'en': {}, 'es': {}, 'pt': {}}
+                for idioma in conceitos:
+                    for indice in conceitos[idioma]:
+                        if 'Sinonimos' in conceitos[idioma][indice]:
+                            s = ' '.join(conceitos[idioma][indice]['Sinonimos'])
+                            if sinonimos.lower() in s.lower():
+                                sinonimos_novo = re.sub(rf'({re.escape(sinonimos.lower())})', r'<mark>\1</mark>', '@'.join(conceitos[idioma][indice]['Sinonimos']).lower())
+                                matchesT[idioma][indice] = conceitos[idioma][indice]
+                                matchesT[idioma][indice]['Sinonimos'] = sinonimos_novo.split("@")
+                    for indice in list(matches[idioma].keys()):
+                        if indice not in matchesT[idioma]:
+                            del matches[idioma][indice]
+
+            if selected_language and not selected_sources and not termo and not relacionados and not sinonimos and not descricao:
+                matches = conceitos
+
+        return render_template("pesquisaDetalhada.html", pesquisa=True, matches=matches)
     else:
-        return render_template("pesquisaDetalhada.html")
+        return render_template("pesquisaDetalhada.html", pesquisa=False)
 
 
 @app.route("/qa", methods=['GET', 'POST'])
