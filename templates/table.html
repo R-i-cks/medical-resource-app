@@ -1,19 +1,22 @@
-{% extends 'layout.html'%}  # sou o filho
+{% extends 'layout.html'%}
 
 {%block body%}
 
 <table id="table_id" class="display">
     <thead>
         <tr>
-            <th>Conceito</th>
-            <th>Descrição</th>
+            <th>Concept in English</th>
+            <th>Concepto en Español</th>
+            <th>Conceito em Português</th>
         </tr>
     </thead>
     <tbody>
         {%for conceito in conceitos%}
         <tr>
-            <td><a href="/conceitos/{{conceito}}" class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">{{conceitos[conceito]['Termo']}}</a></td>
-            <td>{{conceitos[conceito]['Traducoes']}}</td>
+            <td><a href="/conceitos/en/{{conceito}}" class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">{{conceitos[conceito]['Termo']}}</a></td>
+            {% for trad in conceitos[conceito]["Traducoes"] %}
+                <td><a href="/conceitos/{{trad}}/{{conceito}}" class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">{{conceitos[conceito]["Traducoes"][trad]}}</a></td>
+            {%endfor%}
         </tr>
         {%endfor%}
 
