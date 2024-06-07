@@ -6,55 +6,70 @@
 
 
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary"  style="background-color: #5a441a;">
-  <div class="container-fluid">
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link active" href="{{ url_for('consultar_Conceitos', lang='en', id_conc = id_conc ) }}">En</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="{{ url_for('consultar_Conceitos', lang='pt', id_conc = id_conc ) }}">Pt</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="{{ url_for('consultar_Conceitos', lang='es', id_conc = id_conc ) }}">Es</a>
-      </li>
-    </ul>
 
-    <form action="/change_language" method="GET">
-      <label for="languageSelect">Select Language:</label>
-      <select class="form-select" aria-label="Language Select" name="lang">
-        <option selected disabled>Choose a language</option>
-        <option value="ar">Arabic</option>
-        <option value="bg">Bulgarian</option>
-        <option value="cs">Czech</option>
-        <option value="da">Danish</option>
-        <option value="de">German</option>
-        <option value="el">Greek</option>
-        <option value="et">Estonian</option>
-        <option value="fi">Finnish</option>
-        <option value="fr">French</option>
-        <option value="hu">Hungarian</option>
-        <option value="id">Indonesian</option>
-        <option value="it">Italian</option>
-        <option value="ja">Japanese</option>
-        <option value="ko">Korean</option>
-        <option value="lt">Lithuanian</option>
-        <option value="lv">Latvian</option>
-        <option value="nl">Dutch</option>
-        <option value="pl">Polish</option>
-        <option value="ro">Romanian</option>
-        <option value="ru">Russian</option>
-        <option value="sk">Slovak</option>
-        <option value="sl">Slovenian</option>
-        <option value="sv">Swedish</option>
-        <option value="tr">Turkish</option>
-        <option value="uk">Ukrainian</option>
-        <option value="zh">Chinese</option>
-      </select>
-      <input type="hidden" name="id_conc" value="{{ id_conc }}">
-      <button type="submit" id="langButton" class="btn btn-primary">Submit</button>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary"  style="background-color: #5a441a;">
+
+  <div class="container-fluid">
+    <div>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="{{ url_for('consultar_Conceitos', lang='en', id_conc = id_conc ) }}">En</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="{{ url_for('consultar_Conceitos', lang='pt', id_conc = id_conc ) }}">Pt</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="{{ url_for('consultar_Conceitos', lang='es', id_conc = id_conc ) }}">Es</a>
+        </li>
+      </ul>
+    </div>  
+  <div>
+  <div class="mb-0">
+    <form action="/change_language" method="GET" class="mb-0">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <label for="languageSelect" class="align-middle me-2" >Select Language:</label>
+        </li>
+        <li class="nav-item">
+          <select class="form-select" aria-label="Language Select" name="lang">
+            <option selected disabled>Choose a language</option>
+            <option value="ar">Arabic</option>
+            <option value="bg">Bulgarian</option>
+            <option value="cs">Czech</option>
+            <option value="da">Danish</option>
+            <option value="de">German</option>
+            <option value="el">Greek</option>
+            <option value="et">Estonian</option>
+            <option value="fi">Finnish</option>
+            <option value="fr">French</option>
+            <option value="hu">Hungarian</option>
+            <option value="id">Indonesian</option>
+            <option value="it">Italian</option>
+            <option value="ja">Japanese</option>
+            <option value="ko">Korean</option>
+            <option value="lt">Lithuanian</option>
+            <option value="lv">Latvian</option>
+            <option value="nl">Dutch</option>
+            <option value="pl">Polish</option>
+            <option value="ro">Romanian</option>
+            <option value="ru">Russian</option>
+            <option value="sk">Slovak</option>
+            <option value="sl">Slovenian</option>
+            <option value="sv">Swedish</option>
+            <option value="tr">Turkish</option>
+            <option value="uk">Ukrainian</option>
+            <option value="zh">Chinese</option>
+          </select>
+        </li>
+        <li class="nav-item">
+          <input type="hidden" name="id_conc" value="{{ id_conc }}">
+          <button type="submit" id="langButton" class="btn btn-primary">Submit</button>
+        </li>
+      </ul>
     </form> 
   </div>
+
 </nav>
 
 <div class="m-5">
