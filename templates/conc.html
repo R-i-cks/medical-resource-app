@@ -69,8 +69,110 @@
       </ul>
     </form> 
   </div>
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Change entry
+  </button>
 
 </nav>
+
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Change entry</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <form id="add_entrada_form" action="/alterar_entrada/{{lang}}/{{id_conc}}" method="POST">
+                  <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon1">@</span>
+                      <input type="text" class="form-control" name="conc" id="validationServer01" placeholder="{{conceito.Termo}}" aria-label="Conceito" aria-describedby="basic-addon1" required>
+                  </div>
+
+                  <div class="input-group">
+                      <span class="input-group-text">Definição</span>
+                      <textarea class="form-control" aria-label="Definição" name="def">{{conceito.Definicao}}</textarea>
+                  </div>
+
+                  <label for="exampleDataList" class="form-label">Áreas de aplicação</label>
+                  <input class="form-control mb-3" list="datalistOptions" id="areasInput" placeholder="Type to search...">
+                  <datalist id="datalistOptions">
+                      {% for area in areas %}
+                          <option value="{{area}}">
+                      {% endfor %}
+                  </datalist>
+                  <div class="input-group-append">
+                      <button class="btn btn-outline-secondary" type="button" id="addArea" onclick="addBadge('areasInput', 'selectedAreas')">+</button>
+                  </div>
+                  <br>
+                  <input type="hidden" name="areasAp" id="areasAp">
+                  <div id="selectedAreas" class="mb-3">
+                    {% for a in conceito["Área(s) de aplicação"] %}
+                      {% set b = batches[loop.index-1] %}
+                      <span class="badge rounded-pill text-bg-{{b}}">{{a}}</span>
+                    {% endfor %}
+                  </div>
+                  <label for="exampleDataList" class="form-label">Fontes</label>
+                  <input class="form-control mb-3" id="fontesInput" placeholder="Source 1">
+                  <div class="input-group-append">
+                      <button class="btn btn-outline-secondary" type="button" id="addFonte" onclick="addBadge('fontesInput', 'selectedFontes')">+</button>
+                  </div>
+                  <br>
+                  <input type="hidden" name="fontesAp" id="fontesAp">
+                  <div id="selectedFontes" class="mb-3">
+
+                    {% for f in conceito.Fontes %}
+                      {% set b = batches[loop.index-1] %}
+                      <span class="badge rounded-pill text-bg-{{b}}">{{f}}</span>
+                    {% endfor %}
+                  </div>
+
+                  <br>
+
+                  <label for="exampleDataList" class="form-label">Sinónimos</label>
+
+                  <input class="form-control" id="SinInput" name="sinonimos" placeholder="SIN 1">
+                  <br>
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="addSin" onclick="addBadge('SinInput', 'selectedSins')">+</button>
+                  </div>
+                  <br>
+                  <input type="hidden" name="SinAp" id="SinAp">
+                  <div id="selectedSins" class="mb-3">
+                    {% for s in conceito.Sinonimos %}
+                    {% set b = batches[loop.index-1] %}
+                    <span class="badge rounded-pill text-bg-{{b}}">{{s}}</span>
+                  {% endfor %}
+                  </div>
+
+                  <br>
+
+                  <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon1">Index Remissivo</span>
+                      <input type="text" class="form-control" placeholder="{{conceito.Index_Remissivo}}" name="index_rem" aria-label="Index remissivo" aria-describedby="basic-addon1">
+                  </div>
+
+
+                  <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                    <label class="btn btn-outline-warning" for="btnradio1">Change this idiom: {{lang}}</label>
+                  
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                    <label class="btn btn-outline-danger" for="btnradio2">Change all idioms</label>
+                  
+                  </div>
+
+                  <input type="hidden" id="selectedRadio" name="selectedRadio" value="btnradio1">
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button id='submitButton' class="btn btn-primary" onclick="handleSubmit(event)">Submit</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
 
 {% if warning %}
 <div class="alert alert-success" role="alert">

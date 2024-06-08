@@ -55,3 +55,28 @@ function handleSubmit(event) {
 $(document).ready( function () {
     $('#table_id').DataTable();
 } );
+
+
+function addEventL(contains){
+const badges = contains.getElementsByClassName('badge');
+    for (let badge of badges) {
+        badge.addEventListener('click', function () {
+            contains.removeChild(badge)});
+    };
+}
+
+addEventL(document.getElementById("selectedAreas"))
+addEventL(document.getElementById("selectedFontes"))
+addEventL(document.getElementById("selectedSins"))
+
+
+function handleRadioChange(event) {
+    const selectedValue = event.target.id; 
+    document.getElementById('selectedRadio').value = selectedValue; 
+    document.getElementById('result').textContent = selectedValue;
+}
+
+const radios = document.getElementsByName('btnradio');
+for (const radio of radios) {
+    radio.addEventListener('change', handleRadioChange);
+}

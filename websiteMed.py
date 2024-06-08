@@ -219,10 +219,139 @@ def add_entrada_nova():
             file_pt.close()
             file_en.close()
             file_es.close()
-            chaves_trad = {chave : GoogleTranslator(source="pt", target="en").translate(chave) for chave in ['Relacionado', 'Fontes', 'Conceito', 'Sinonimos', 'Definicao', 'Área(s) de aplicação', 'Nota', 'Categoria gramatical', 'não disponível']}
+            chaves_trad = {chave : GoogleTranslator(source="auto", target="en").translate(chave) for chave in ['Relacionado', 'Fontes', 'Conceito', 'Sinonimos', 'Definicao', 'Área(s) de aplicação', 'Nota', 'Categoria gramatical', 'não disponível']}
         return redirect(url_for("consultar_Conceitos",lang="en", id_conc = d_id, warning = "Sucess!", ch_tr = chaves_trad ))
     else:
         return render_template('conceitos.html', lang="en", warning = "Concept not specified! Insert failed!", conceitos = conceitos_en)
+
+
+@app.route("/alterar_entrada/<lang>/<id_conc>", methods=["POST"])
+def alterarConc(lang,id_conc):
+    data = request.form.to_dict(flat=True)
+    print(data)
+    chaves_trad = {chave : GoogleTranslator(source="pt", target="en").translate(chave) for chave in ['Relacionado', 'Fontes', 'Conceito', 'Sinonimos', 'Definicao', 'Área(s) de aplicação', 'Nota', 'Categoria gramatical', 'não disponível']}
+    if data["selectedRadio"] == "btnradio1":
+        conceitos_lang = trocar_ficheiro(lang)
+
+        if data["conc"]:
+            if data["conc"] not in [conceitos_lang[id_]["Termo"] for id_ in conceitos_lang]:
+                conceitos_lang[id_conc]["Termo"] = data["conc"]
+            else:
+                redirect(url_for("consultar_Conceitos",lang="en", id_conc = id_conc, warning = f"Term already in file!", ch_tr = chaves_trad ))
+        
+        if data["def"]:
+            conceitos_lang[id_conc]["Definicao"] = data["def"]
+        else:
+            conceitos_lang[id_conc]["Definicao"] = ""
+
+        if data["areasAp"]:
+            conceitos_lang[id_conc]["Área(s) de aplicação"] = data["areasAp"].split(",")
+        else:
+            conceitos_lang[id_conc]["Área(s) de aplicação"] = []
+
+        if data["fontesAp"]:
+            conceitos_lang[id_conc]["Fontes"] = data["fontesAp"].split(",")
+            print( id_conc)
+        else:
+            conceitos_lang[id_conc]["Fontes"] = []
+        
+        if data["SinAp"]:
+             conceitos_lang[id_conc]["Sinonimos"] = data["SinAp"].split(",")
+        else:
+            conceitos_lang[id_conc]["Sinonimos"] = []
+        
+        if data["index_rem"]:
+            if data["index_rem"] in conceitos_lang:
+                conceitos_lang[id_conc]["Index_Remissivo"]  = data["index_rem"]
+            else:
+                conceitos_lang[id_conc]["Index_Remissivo"]  = ""
+        
+
+        file = "dicionarios/doc_conc_" + lang + "_V_GMS_outros_relacionados.json"
+        file_out = open(file, 'w', encoding='UTF-8')
+        json.dump(conceitos_lang, file_out, indent=4, ensure_ascii=False)
+        file_out.close()
+
+        return redirect(url_for("consultar_Conceitos",lang="en", id_conc = id_conc, warning = f"Concept changed successfully at {lang} dictionary!", ch_tr = chaves_trad ))
+    else:
+        conceitos_en = trocar_ficheiro("en")
+        conceitos_es = trocar_ficheiro("es")
+        conceitos_pt = trocar_ficheiro("pt")
+
+
+        if data["conc"]:
+            t_en = GoogleTranslator(source=lang, target="en").translate(data["conc"])
+            t_es = GoogleTranslator(source=lang, target="es").translate(data["conc"])
+            t_pt = GoogleTranslator(source=lang, target="pt").translate(data["conc"])
+
+            if t_en not in [conceitos_en[id_]["Termo"] for id_ in conceitos_en] and t_es not in [conceitos_es[id_]["Termo"] for id_ in conceitos_es] and t_pt not in [conceitos_pt[id_]["Termo"] for id_ in conceitos_pt]:
+
+                conceitos_en[id_conc]["Termo"] = t_en
+                conceitos_es[id_conc]["Termo"] = t_es
+                conceitos_pt[id_conc]["Termo"] = t_pt
+
+            else:
+                redirect(url_for("consultar_Conceitos",lang="en", id_conc = id_conc, warning = f"This term already exists in at least one of the dictionaries!", ch_tr = chaves_trad ))
+        
+        if data["def"]:
+            conceitos_en[id_conc]["Definicao"] = GoogleTranslator(source=lang, target="en").translate(data["def"])
+            conceitos_es[id_conc]["Definicao"] = GoogleTranslator(source=lang, target="es").translate(data["def"])
+            conceitos_pt[id_conc]["Definicao"] = GoogleTranslator(source=lang, target="pt").translate(data["def"])
+        else:
+            conceitos_en[id_conc]["Definicao"] = ""
+            conceitos_es[id_conc]["Definicao"] = ""
+            conceitos_pt[id_conc]["Definicao"] = ""
+
+        if data["areasAp"]:
+            conceitos_en[id_conc]["Área(s) de aplicação"] = [GoogleTranslator(source=lang, target="en").translate(elem) for elem in data["areasAp"].split(",")]
+            conceitos_es[id_conc]["Área(s) de aplicação"] = [GoogleTranslator(source=lang, target="es").translate(elem) for elem in data["areasAp"].split(",")]
+            conceitos_pt[id_conc]["Área(s) de aplicação"] = [GoogleTranslator(source=lang, target="pt").translate(elem) for elem in data["areasAp"].split(",")]
+        else:
+            conceitos_en[id_conc]["Área(s) de aplicação"] = ""
+            conceitos_es[id_conc]["Área(s) de aplicação"] = ""
+            conceitos_pt[id_conc]["Área(s) de aplicação"] = ""
+        if data["fontesAp"]:
+            conceitos_en[id_conc]["Fontes"] = [GoogleTranslator(source=lang, target="en").translate(elem) for elem in data["fontesAp"].split(",")]
+            conceitos_es[id_conc]["Fontes"] = [GoogleTranslator(source=lang, target="es").translate(elem) for elem in data["fontesAp"].split(",")]
+            conceitos_pt[id_conc]["Fontes"] = [GoogleTranslator(source=lang, target="pt").translate(elem) for elem in data["fontesAp"].split(",")]
+        else:
+            conceitos_en[id_conc]["Fontes"] = ""
+            conceitos_es[id_conc]["Fontes"] = ""
+            conceitos_pt[id_conc]["Fontes"] = ""
+        
+        if data["SinAp"]:
+            conceitos_en[id_conc]["Sinonimos"] = [GoogleTranslator(source=lang, target="en").translate(elem) for elem in data["SinAp"].split(",")]
+            conceitos_es[id_conc]["Sinonimos"] = [GoogleTranslator(source=lang, target="es").translate(elem) for elem in data["SinAp"].split(",")]
+            conceitos_pt[id_conc]["Sinonimos"] = [GoogleTranslator(source=lang, target="pt").translate(elem) for elem in data["SinAp"].split(",")]
+        else:
+            conceitos_en[id_conc]["Sinonimos"] = ""
+            conceitos_es[id_conc]["Sinonimos"] = ""
+            conceitos_pt[id_conc]["Sinonimos"] = ""
+
+        if data["index_rem"]:
+            if data["index_rem"] in conceitos_en and data["index_rem"] in conceitos_es and data["index_rem"] in conceitos_pt:
+                conceitos_en[id_conc]["Index_Remissivo"]  = data["index_rem"]
+                conceitos_es[id_conc]["Index_Remissivo"]  = data["index_rem"]
+                conceitos_pt[id_conc]["Index_Remissivo"]  = data["index_rem"]
+            else:
+                conceitos_en[id_conc]["Index_Remissivo"]  = ""
+                conceitos_es[id_conc]["Index_Remissivo"]  = ""
+                conceitos_pt[id_conc]["Index_Remissivo"]  = ""
+
+
+        file_en = open("dicionarios/doc_conc_en_V_GMS_outros_relacionados.json", 'w', encoding='UTF-8')
+        file_es = open("dicionarios/doc_conc_es_V_GMS_outros_relacionados.json", 'w',encoding='UTF-8')
+        file_pt = open("dicionarios/doc_conc_pt_V_GMS_outros_relacionados.json", 'w', encoding='UTF-8')
+
+        json.dump(conceitos_en, file_en, indent=4, ensure_ascii=False)
+        json.dump(conceitos_es, file_es, indent=4, ensure_ascii=False)
+        json.dump(conceitos_pt, file_pt, indent=4, ensure_ascii=False)
+
+        file_pt.close()
+        file_en.close()
+        file_es.close()
+        redirect(url_for("consultar_Conceitos",lang="en", id_conc = id_conc, warning = f"Concept changed successfully in all dictionaries!", ch_tr = chaves_trad ))
+
 
 
 @app.route("/apagar_entrada", methods=["POST"])
