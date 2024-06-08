@@ -114,9 +114,9 @@
                 <tr>
                     <td>{{indice}}</td>
                     <td>{{idioma}}</td>
-                    <td>{{matches[idioma][indice]['Termo']}}</td>
+                    <td>{{matches[idioma][indice]['Termo'] | safe }}</td>
                     {% if matches[idioma][indice]['Definicao'] %}
-                        <td>{{matches[idioma][indice]['Definicao']}}</td>
+                        <td>{{matches[idioma][indice]['Definicao'] | safe }}</td>
                     {% else %}
                         <td>Definição não disponível</td>
                     {%endif%}
@@ -126,7 +126,7 @@
                         <td>Fontes não disponíveis</td>
                     {%endif%}
                     {% if matches[idioma][indice]['Sinonimos'] %}
-                        <td>{{ ', '.join(matches[idioma][indice]['Sinonimos']) }}</td>
+                        <td>{{ ', '.join(matches[idioma][indice]['Sinonimos']) | safe }}</td>
                     {% else %}
                         <td>Sinonimos não disponíveis</td>
                     {%endif%}

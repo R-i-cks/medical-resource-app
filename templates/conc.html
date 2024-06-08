@@ -321,11 +321,9 @@
   {% else %}
     <button class="btn btn-light mx-2" disabled><image style="width: 40px;" src="https://cdn.icon-icons.com/icons2/1946/PNG/512/1904658-arrow-arrow-left-change-direction-left-next-undo_122508.png"></image></button>
   {% endif %}
-  {% if number < total %}
+
     <a class="btn btn-light mx-2" href="{{ url_for('consultar_Conceitos', lang=lang, id_conc=number + 1) }}"><image style="width: 40px;" src="https://cdn.icon-icons.com/icons2/1946/PNG/512/1904671-arrow-arrow-right-change-direction-next-page-right_122521.png"></image></a>
-  {% else %}
-    <button class="btn btn-light mx-2" disabled><image style="width: 40px;" src="https://cdn.icon-icons.com/icons2/1946/PNG/512/1904671-arrow-arrow-right-change-direction-next-page-right_122521.png"></image></button>
-  {% endif %}
+
 </div>
 
 {% endblock %}
