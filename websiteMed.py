@@ -442,12 +442,19 @@ def pesquisa_detalhada():
                                 matches[idioma][indice] = conceitos[idioma][indice]
                                 matches[idioma][indice]['Termo'] = termo_novo
             if descricao:
+                print(descricao)
                 for idioma in conceitos:
                     for indice in conceitos[idioma]:
+                        if indice == "4341":
+                            print(conceitos[idioma][indice]['Definicao'], descricao.lower())
                         if 'Definicao' in conceitos[idioma][indice] and descricao.lower() in conceitos[idioma][indice]['Definicao'].lower():
+                            print("oiiiiiiiiiiiiiiii")
                             definicao = re.sub(rf'({re.escape(descricao.lower())})', r'<mark>\1</mark>', conceitos[idioma][indice]['Definicao'].lower())
-                            matches[idioma][indice] = conceitos[idioma][indice]
-                            matches[idioma][indice]['Definicao'] = definicao
+                            if indice not in matches[idioma]:
+                                matches[idioma][indice] = conceitos[idioma][indice]
+                                matches[idioma][indice]['Definicao'] = definicao
+                            else:
+                                matches[idioma][indice]['Definicao'] = definicao
             if sinonimos:
                 for idioma in conceitos:
                     for indice in conceitos[idioma]:
@@ -518,6 +525,8 @@ def pesquisa_detalhada():
         return render_template("pesquisaDetalhada.html", pesquisa=True, matches=matches)
     else:
         return render_template("pesquisaDetalhada.html", pesquisa=False)
+
+
 
 
 @app.route("/qa", methods=['GET', 'POST'])
