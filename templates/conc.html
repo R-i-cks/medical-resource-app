@@ -250,7 +250,7 @@
         <h2 class="card-title" style="margin-right: 1%;">{{ch_tr.Relacionado}}: </h2>
           {% for r in conceito["Relacionado"] %}
             {% set b = batches[loop.index-1] %}
-            <a class="lead" href = "{{ url_for('consultar_Conceitos', lang='es', id_conc = conceito[r] ) }}"><span class="badge bg-{{b}}">{{conceitos[r].Termo}}</span></a>
+            <a class="lead" href = "/conceitos/{{lang}}/{{r}}"><span class="badge bg-{{b}}">{{conceitos[r].Termo}}</span></a>
           {% endfor %}
       </div>
     </div>

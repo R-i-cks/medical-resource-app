@@ -114,7 +114,7 @@
                 <tr>
                     <td>{{indice}}</td>
                     <td>{{idioma}}</td>
-                    <td>{{matches[idioma][indice]['Termo'] | safe }}</td>
+                    <td><a class="list-group-item list-group-item-action" href="/conceitos/{{idioma}}/{{indice}}">{{matches[idioma][indice]['Termo'] | safe }}</a></td>
                     {% if matches[idioma][indice]['Definicao'] %}
                         <td>{{matches[idioma][indice]['Definicao'] | safe }}</td>
                     {% else %}
