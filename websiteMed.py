@@ -117,21 +117,27 @@ def pesquisa_conc(lang="es"):
 def consultar_Conceitos(id_conc, lang="es", warning=None):
     if lang !="es" and lang!="pt" and lang!="en":
         conceitos = trocar_ficheiro("en")
-        dic_list = list(conceitos[id_conc].items())
-        conceito = {}
-        for dupla in dic_list:
-            if isinstance(dupla[1],list):
-                if dupla[0]!= "Fontes":
-                    conceito[dupla[0]] = [str(GoogleTranslator(source="auto", target=lang).translate(elem)) for elem in dupla[1]]
+        if id_conc in conceitos:
+            dic_list = list(conceitos[id_conc].items())
+            conceito = {}
+            for dupla in dic_list:
+                if isinstance(dupla[1],list):
+                    if dupla[0]!= "Fontes":
+                        conceito[dupla[0]] = [str(GoogleTranslator(source="auto", target=lang).translate(elem)) for elem in dupla[1]]
+                    else:
+                        conceito[dupla[0]] = dupla[1]
                 else:
-                    conceito[dupla[0]] = dupla[1]
-            else:
-                if dupla[0]!= "Traducoes":
-                    conceito[dupla[0]] = str(GoogleTranslator(source="auto", target=lang).translate(dupla[1])) 
-                    
+                    if dupla[0]!= "Traducoes":
+                        conceito[dupla[0]] = str(GoogleTranslator(source="auto", target=lang).translate(dupla[1])) 
+        else:
+               warning = GoogleTranslator("pt",lang).translate("De momento esta página não está disponível, pedimos desculpa pelo incómodo")
+               render_template('conc.html', lang= lang, id_conc = id_conc, conceitos = conceitos, ch_tr = chaves_trad, warning = warning)            
     else:
         conceitos = trocar_ficheiro(lang)
-        conceito = conceitos[id_conc]
+        if id_conc in conceitos:
+            conceito = conceitos[id_conc]
+        else:
+            render_template('conc.html', lang= lang, id_conc = id_conc, conceitos = conceitos, ch_tr = chaves_trad, warning = warning)
     total = len(conceitos)
     chaves_trad = {chave : GoogleTranslator(source="auto", target=lang).translate(chave) for chave in ['Relacionado', 'Fontes', 'Conceito', 'Sinonimos', 'Definicao', 'Área(s) de aplicação', 'Nota', 'Categoria gramatical', 'não disponível']}
     return render_template('conc.html',conceito = conceito, lang= lang, id_conc = id_conc, conceitos = conceitos, ch_tr = chaves_trad, warning = warning, total = total)
@@ -162,6 +168,8 @@ def add_entrada_nova():
         sinonimos = data["SinAp"]
         print(sinonimos)
         index_rem = data["index_rem"]
+        nota = data["nota"]
+        print(nota)
 
         conceitos_en = trocar_ficheiro("en")
         conceitos_es = trocar_ficheiro("es")
@@ -192,6 +200,10 @@ def add_entrada_nova():
                 dic_es["Definicao"] = GoogleTranslator(source='auto', target='es').translate(defi)
                 dic_en["Definicao"] = GoogleTranslator(source='auto', target='en').translate(defi)
                 dic_pt["Definicao"] = GoogleTranslator(source='auto', target='pt').translate(defi)
+            if nota:
+                dic_es["Nota"] = GoogleTranslator(source='auto', target='es').translate(nota)
+                dic_en["Nota"] = GoogleTranslator(source='auto', target='en').translate(nota)
+                dic_pt["Nota"] = GoogleTranslator(source='auto', target='pt').translate(nota)
             if index_rem:
                 dic_es["Index_Remissivo"] = index_rem
                 dic_en["Index_Remissivo"] = index_rem
