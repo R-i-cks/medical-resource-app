@@ -822,7 +822,8 @@
         "Relacionado": [
             "6872"
         ],
-        "Nota": "Evítese “acné”"
+        "Nota": "Evítese “acné”",
+        "Definicao": ""
     },
     "50": {
         "Traducoes": {
@@ -891,12 +892,15 @@
         },
         "Termo": "acondroplasia",
         "Fontes": [
-            "Vocabulário de Medicina"
+            "Vocabulario de medicina"
         ],
         "Categoria gramatical": "f",
         "Área(s) de aplicação": [
-            "Patoloxías"
-        ]
+            "Patologías *"
+        ],
+        "Definicao": "",
+        "Sinonimos": "",
+        "Nota": ""
     },
     "55": {
         "Traducoes": {

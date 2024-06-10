@@ -130,16 +130,24 @@ def consultar_Conceitos(id_conc, lang="es", warning=None):
                     if dupla[0]!= "Traducoes":
                         conceito[dupla[0]] = str(GoogleTranslator(source="auto", target=lang).translate(dupla[1])) 
         else:
+               chaves_trad = {chave : GoogleTranslator(source="auto", target=lang).translate(chave) for chave in ['Relacionado', 'Fontes', 'Conceito', 'Sinonimos', 'Definicao', 'Área(s) de aplicação', 'Categoria gramatical', 'não disponível', "Index Remissivo", "Change Entry", "Change this idiom", "Change all idioms", "Close", "Submit"]}
+               chaves_trad["Nota"] = GoogleTranslator(source="pt", target=lang).translate("Observação")
+               conceito = {}
                warning = GoogleTranslator("pt",lang).translate("De momento esta página não está disponível, pedimos desculpa pelo incómodo")
-               render_template('conc.html', lang= lang, id_conc = id_conc, conceitos = conceitos, ch_tr = chaves_trad, warning = warning)            
+               render_template('conc.html', lang= lang, id_conc = id_conc, conceitos = conceitos, ch_tr = chaves_trad, warning = warning, conceito = conceito)            
     else:
         conceitos = trocar_ficheiro(lang)
         if id_conc in conceitos:
             conceito = conceitos[id_conc]
         else:
-            render_template('conc.html', lang= lang, id_conc = id_conc, conceitos = conceitos, ch_tr = chaves_trad, warning = warning)
+            conceito = {}
+            warning = GoogleTranslator("pt",lang).translate("De momento esta página não está disponível, pedimos desculpa pelo incómodo")
+            chaves_trad = {chave : GoogleTranslator(source="auto", target=lang).translate(chave) for chave in ['Relacionado', 'Fontes', 'Conceito', 'Sinonimos', 'Definicao', 'Área(s) de aplicação', 'Categoria gramatical', 'não disponível', "Index Remissivo", "Change Entry", "Change this idiom", "Change all idioms", "Close", "Submit"]}
+            chaves_trad["Nota"] = GoogleTranslator(source="pt", target=lang).translate("Observação")
+            render_template('conc.html', lang= lang, id_conc = id_conc, conceitos = conceitos, ch_tr = chaves_trad, warning = warning, conceito = conceito)
     total = len(conceitos)
-    chaves_trad = {chave : GoogleTranslator(source="auto", target=lang).translate(chave) for chave in ['Relacionado', 'Fontes', 'Conceito', 'Sinonimos', 'Definicao', 'Área(s) de aplicação', 'Nota', 'Categoria gramatical', 'não disponível']}
+    chaves_trad = {chave : GoogleTranslator(source="auto", target=lang).translate(chave) for chave in ['Relacionado', 'Fontes', 'Conceito', 'Sinonimos', 'Definicao', 'Área(s) de aplicação', 'Categoria gramatical', 'não disponível', "Index Remissivo", "Change Entry", "Change this idiom", "Change all idioms", "Close", "Submit"]}
+    chaves_trad["Nota"] = GoogleTranslator(source="pt", target=lang).translate("Observação")
     return render_template('conc.html',conceito = conceito, lang= lang, id_conc = id_conc, conceitos = conceitos, ch_tr = chaves_trad, warning = warning, total = total)
 
 
@@ -170,6 +178,7 @@ def add_entrada_nova():
         index_rem = data["index_rem"]
         nota = data["nota"]
         print(nota)
+        relacionados = data["relacionadoAp"]
 
         conceitos_en = trocar_ficheiro("en")
         conceitos_es = trocar_ficheiro("es")
@@ -216,6 +225,11 @@ def add_entrada_nova():
                     dic_es["Fontes"] = [fonte for fonte in fontes.split(',')]
                     dic_en["Fontes"] = [fonte for fonte in fontes.split(',')]
                     dic_pt["Fontes"] = [fonte for fonte in fontes.split(',')]
+            if relacionados:
+                    dic_es["Relacionado"] = [relacionado for relacionado in relacionados.split(',')]
+                    dic_en["Relacionado"] = [relacionado for relacionado in relacionados.split(',')]
+                    dic_pt["Relacionado"] = [relacionado for relacionado in relacionados.split(',')]
+            
             conceitos_en[d_id] = dic_en
             conceitos_es[d_id] = dic_es      
             conceitos_pt[d_id] = dic_pt              
@@ -231,7 +245,8 @@ def add_entrada_nova():
             file_pt.close()
             file_en.close()
             file_es.close()
-            chaves_trad = {chave : GoogleTranslator(source="auto", target="en").translate(chave) for chave in ['Relacionado', 'Fontes', 'Conceito', 'Sinonimos', 'Definicao', 'Área(s) de aplicação', 'Nota', 'Categoria gramatical', 'não disponível']}
+            chaves_trad = {chave : GoogleTranslator(source="auto", target="en").translate(chave) for chave in ['Relacionado', 'Fontes', 'Conceito', 'Sinonimos', 'Definicao', 'Área(s) de aplicação', 'Categoria gramatical', 'não disponível', "Index Remissivo", "Change Entry", "Change this idiom", "Change all idioms", "Close", "Submit"]}
+            chaves_trad["Nota"] = GoogleTranslator(source="pt", target=lang).translate("Observação")
         return redirect(url_for("consultar_Conceitos",lang="en", id_conc = d_id, warning = "Sucess!", ch_tr = chaves_trad ))
     else:
         return render_template('conceitos.html', lang="en", warning = "Concept not specified! Insert failed!", conceitos = conceitos_en)
@@ -241,7 +256,8 @@ def add_entrada_nova():
 def alterarConc(lang,id_conc):
     data = request.form.to_dict(flat=True)
     print(data)
-    chaves_trad = {chave : GoogleTranslator(source="pt", target="en").translate(chave) for chave in ['Relacionado', 'Fontes', 'Conceito', 'Sinonimos', 'Definicao', 'Área(s) de aplicação', 'Nota', 'Categoria gramatical', 'não disponível']}
+    chaves_trad = {chave : GoogleTranslator(source="pt", target=lang).translate(chave) for chave in ['Relacionado', 'Fontes', 'Conceito', 'Sinonimos', 'Definicao', 'Área(s) de aplicação', 'Categoria gramatical', 'não disponível', "Index Remissivo", "Change Entry", "Change this idiom", "Change all idioms", "Close", "Submit"]}
+    chaves_trad["Nota"] = GoogleTranslator(source="pt", target=lang).translate("Observação")
     if data["selectedRadio"] == "btnradio1":
         conceitos_lang = trocar_ficheiro(lang)
 
@@ -255,6 +271,11 @@ def alterarConc(lang,id_conc):
             conceitos_lang[id_conc]["Definicao"] = data["def"]
         else:
             conceitos_lang[id_conc]["Definicao"] = ""
+
+        if data["nota"]:
+            conceitos_lang[id_conc]["Nota"] = data["nota"]
+        else:
+            conceitos_lang[id_conc]["Nota"] = ""
 
         if data["areasAp"]:
             conceitos_lang[id_conc]["Área(s) de aplicação"] = data["areasAp"].split(",")
@@ -271,6 +292,13 @@ def alterarConc(lang,id_conc):
              conceitos_lang[id_conc]["Sinonimos"] = data["SinAp"].split(",")
         else:
             conceitos_lang[id_conc]["Sinonimos"] = []
+        
+        if data["relacionadoAp"]:
+            conceitos_lang[id_conc]["Relacionado"] = data["relacionadoAp"].split(",")
+            print( id_conc)
+        else:
+            conceitos_lang[id_conc]["Relacionado"] = []
+        
         
         if data["index_rem"]:
             if data["index_rem"] in conceitos_lang:
@@ -314,6 +342,15 @@ def alterarConc(lang,id_conc):
             conceitos_es[id_conc]["Definicao"] = ""
             conceitos_pt[id_conc]["Definicao"] = ""
 
+        if data["nota"]:
+            conceitos_en[id_conc]["Nota"] = GoogleTranslator(source=lang, target="en").translate(data["nota"])
+            conceitos_es[id_conc]["Nota"] = GoogleTranslator(source=lang, target="es").translate(data["nota"])
+            conceitos_pt[id_conc]["Nota"] = GoogleTranslator(source=lang, target="pt").translate(data["nota"])
+        else:
+            conceitos_en[id_conc]["Nota"] = ""
+            conceitos_es[id_conc]["Nota"] = ""
+            conceitos_pt[id_conc]["Nota"] = ""
+
         if data["areasAp"]:
             conceitos_en[id_conc]["Área(s) de aplicação"] = [GoogleTranslator(source=lang, target="en").translate(elem) for elem in data["areasAp"].split(",")]
             conceitos_es[id_conc]["Área(s) de aplicação"] = [GoogleTranslator(source=lang, target="es").translate(elem) for elem in data["areasAp"].split(",")]
@@ -323,9 +360,9 @@ def alterarConc(lang,id_conc):
             conceitos_es[id_conc]["Área(s) de aplicação"] = ""
             conceitos_pt[id_conc]["Área(s) de aplicação"] = ""
         if data["fontesAp"]:
-            conceitos_en[id_conc]["Fontes"] = [GoogleTranslator(source=lang, target="en").translate(elem) for elem in data["fontesAp"].split(",")]
-            conceitos_es[id_conc]["Fontes"] = [GoogleTranslator(source=lang, target="es").translate(elem) for elem in data["fontesAp"].split(",")]
-            conceitos_pt[id_conc]["Fontes"] = [GoogleTranslator(source=lang, target="pt").translate(elem) for elem in data["fontesAp"].split(",")]
+            conceitos_en[id_conc]["Fontes"] = [elem for elem in data["fontesAp"].split(",")]
+            conceitos_es[id_conc]["Fontes"] = [elem for elem in data["fontesAp"].split(",")]
+            conceitos_pt[id_conc]["Fontes"] = [elem for elem in data["fontesAp"].split(",")]
         else:
             conceitos_en[id_conc]["Fontes"] = ""
             conceitos_es[id_conc]["Fontes"] = ""
@@ -339,6 +376,17 @@ def alterarConc(lang,id_conc):
             conceitos_en[id_conc]["Sinonimos"] = ""
             conceitos_es[id_conc]["Sinonimos"] = ""
             conceitos_pt[id_conc]["Sinonimos"] = ""
+        
+        if data["relacionadoAp"]:
+            print( data["relacionadoAp"].split(","))
+            conceitos_en[id_conc]["Relacionado"] = [elem for elem in data["relacionadoAp"].split(",")]
+            conceitos_es[id_conc]["Relacionado"] = [elem for elem in data["relacionadoAp"].split(",")]
+            conceitos_pt[id_conc]["Relacionado"] = [elem for elem in data["relacionadoAp"].split(",")]
+        else:
+            conceitos_en[id_conc]["Relacionado"] = ""
+            conceitos_es[id_conc]["Relacionado"] = ""
+            conceitos_pt[id_conc]["Relacionado"] = ""
+        
 
         if data["index_rem"]:
             if data["index_rem"] in conceitos_en and data["index_rem"] in conceitos_es and data["index_rem"] in conceitos_pt:
@@ -362,7 +410,7 @@ def alterarConc(lang,id_conc):
         file_pt.close()
         file_en.close()
         file_es.close()
-        redirect(url_for("consultar_Conceitos",lang="en", id_conc = id_conc, warning = f"Concept changed successfully in all dictionaries!", ch_tr = chaves_trad ))
+        return redirect(url_for("consultar_Conceitos",lang="en", id_conc = id_conc, warning = f"Concept changed successfully in all dictionaries!", ch_tr = chaves_trad ))
 
 
 
