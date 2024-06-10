@@ -53,9 +53,6 @@
                   <div class="input-group mb-3">
                       <span class="input-group-text" id="basic-addon1">@</span>
                       <input type="text" class="form-control" name="conc" id="validationServer01" placeholder="Conceito" aria-label="Conceito" aria-describedby="basic-addon1" required>
-                      <div id="validationServerUsernameFeedback" class="invalid-feedback">
-                          This concept is already in the database!
-                      </div>
                   </div>
 
                   <div class="input-group">
@@ -101,6 +98,17 @@
 
                   <br>
 
+                  <input type="text" class="form-control mb-3" id="relacionadoInput" placeholder="Related 1">
+                  <div class="input-group-append">
+                      <button class="btn btn-outline-secondary" type="button" id="addFonte" onclick="addBadge('relacionadoInput', 'selectedRelacionados')">+</button>
+                  </div>
+                  <br>
+                  <input type="hidden" name="relacionadoAp" id="relacionadoAp">
+                  <div id="selectedRelacionados" class="mb-3">
+                  </div>
+
+                  <br>
+
                   <div class="input-group mb-3">
                       <span class="input-group-text" id="basic-addon1">Index_Remissivo</span>
                       <input type="text" class="form-control" placeholder="Index Remissivo" name="index_rem" aria-label="Index remissivo" aria-describedby="basic-addon1">
@@ -137,7 +145,7 @@
         <form action="/apagar_entrada" method="POST">
 
           <div class="mb-3">
-            <label for="RemoveConceito" class="form-label">Email address</label>
+            <label for="RemoveConceito" class="form-label">Id conceito</label>
             <input type="number" class="form-control" name="rc" placeholder="Id válido" required>
           </div>
 

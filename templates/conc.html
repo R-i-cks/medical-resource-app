@@ -94,6 +94,13 @@
                       <textarea class="form-control" aria-label="Definição" name="def">{{conceito.Definicao}}</textarea>
                   </div>
 
+                  <br>
+                  <label  class="form-label"></label>
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">{{ch_tr["Variante"]}}</span>
+                    <textarea class="form-control" aria-label="Definição" name="var">{{conceito.Variante}}</textarea>
+                </div>
+
                   <label for="exampleDataList" class="form-label">{{ch_tr["Área(s) de aplicação"]}}</label>
                   <input class="form-control mb-3" list="datalistOptions" id="areasInput" placeholder="Type to search...">
                   <datalist id="datalistOptions">
@@ -232,6 +239,17 @@
     </div>
   </div>
 
+  <div class="mb-3">
+    <div class="card-body d-flex align-content-center align-items-center">
+      <img style="width: 50px; margin-right: 1%;" src="https://cdn1.iconfinder.com/data/icons/website-library-part-3/48/Website-Check-Spelling-Grammar-512.png">
+      <h2 class="card-title" style="margin-right: 1%;">{{ch_tr.Variante}}:</h2>
+      {% if conceito.Variante %}
+        <p style="margin: 0%;" class="lead"><b>{{conceito.Variante}}</b></p>
+      {% else %}
+        <p style="margin: 0%;" class="lead"> {{ch_tr.Variante}} {{ch_tr['não disponível']}}</p>
+      {% endif %}
+    </div>
+  </div>
 
   <div class="mb-3">
     <div class="card-body d-flex align-content-center align-items-center">
