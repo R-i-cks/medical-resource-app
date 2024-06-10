@@ -179,7 +179,6 @@
 <table id="dados"  class="table table-hover sticky-header">
     <thead class="thead-light">
         <tr>
-          <th scope="col"><h2 class="text-start display-5">Índice</h2></th>
           <th scope="col"><h2 class="text-start display-5">Conceito</h2></th>
           <th scope="col"><h2 class="text-start display-5">Fonte(s)</h2></th>
           <th scope="col"><h2 class="text-start display-5">Semelhante(s)</h2></th>
@@ -188,8 +187,7 @@
     <tbody>
         {% for conceito in conceitos %}
         <tr>
-            <td><a class="list-group-item list-group-item-action" href="/conceitos/{{lang}}/{{conceito}}">{{conceito}}</a></td>
-            <td>{{conceitos[conceito].Termo}}</td>
+            <td><a class="list-group-item list-group-item-action" href="/conceitos/{{lang}}/{{conceito}}">{{conceitos[conceito].Termo}}</a></td>
             <td>{{', '.join(conceitos[conceito].Fontes)}}</td>
             <td>{{', '.join(conceitos[conceito].Sinonimos)}}</td>
         </tr>
