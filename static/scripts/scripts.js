@@ -43,11 +43,13 @@ function handleSubmit(event) {
     const fontesAp = document.querySelector('input[name="fontesAp"]');
     const areasAp = document.querySelector('input[name="areasAp"]');
     const SinAp = document.querySelector('input[name="SinAp"]');
+    const RelAp = document.querySelector('input[name="relacionadoAp"]');
 
     
     fontesAp.value = getBadgeText("selectedFontes");
     areasAp.value = getBadgeText("selectedAreas");
     SinAp.value = getBadgeText("selectedSins");
+    RelAp.value = getBadgeText("selectedRelacionados");
 
     document.getElementById("add_entrada_form").submit();
 }
@@ -68,6 +70,7 @@ const badges = contains.getElementsByClassName('badge');
 addEventL(document.getElementById("selectedAreas"))
 addEventL(document.getElementById("selectedFontes"))
 addEventL(document.getElementById("selectedSins"))
+addEventL(document.getElementById("selectedRelacionados"))
 
 
 function handleRadioChange(event) {

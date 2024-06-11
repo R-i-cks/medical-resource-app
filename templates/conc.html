@@ -59,7 +59,6 @@
             <option value="sv">Swedish</option>
             <option value="tr">Turkish</option>
             <option value="uk">Ukrainian</option>
-            <option value="zh">Chinese</option>
           </select>
         </li>
         <li class="nav-item">
@@ -80,7 +79,7 @@
   <div class="modal-dialog">
       <div class="modal-content">
           <div class="modal-header">
-              <h1 class="modal-title fs-5" id="staticBackdropLabel">Change entry</h1>
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">{{ch_tr["Change entry"]}}</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
@@ -91,11 +90,18 @@
                   </div>
 
                   <div class="input-group">
-                      <span class="input-group-text">Definição</span>
+                      <span class="input-group-text">{{ch_tr.Definicao}}</span>
                       <textarea class="form-control" aria-label="Definição" name="def">{{conceito.Definicao}}</textarea>
                   </div>
 
-                  <label for="exampleDataList" class="form-label">Áreas de aplicação</label>
+                  <br>
+                  <label  class="form-label"></label>
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">{{ch_tr["Variante"]}}</span>
+                    <textarea class="form-control" aria-label="Definição" name="var">{{conceito.Variante}}</textarea>
+                </div>
+
+                  <label for="exampleDataList" class="form-label">{{ch_tr["Área(s) de aplicação"]}}</label>
                   <input class="form-control mb-3" list="datalistOptions" id="areasInput" placeholder="Type to search...">
                   <datalist id="datalistOptions">
                       {% for area in areas %}
@@ -113,7 +119,7 @@
                       <span class="badge rounded-pill text-bg-{{b}}">{{a}}</span>
                     {% endfor %}
                   </div>
-                  <label for="exampleDataList" class="form-label">Fontes</label>
+                  <label for="exampleDataList" class="form-label">{{ch_tr.Fontes}}</label>
                   <input class="form-control mb-3" id="fontesInput" placeholder="Source 1">
                   <div class="input-group-append">
                       <button class="btn btn-outline-secondary" type="button" id="addFonte" onclick="addBadge('fontesInput', 'selectedFontes')">+</button>
@@ -130,7 +136,7 @@
 
                   <br>
 
-                  <label for="exampleDataList" class="form-label">Sinónimos</label>
+                  <label for="exampleDataList" class="form-label">{{ch_tr.Sinonimos}}</label>
 
                   <input class="form-control" id="SinInput" name="sinonimos" placeholder="SIN 1">
                   <br>
@@ -148,25 +154,48 @@
 
                   <br>
 
+
+                  <label for="exampleDataList" class="form-label">{{ch_tr.Relacionado}}</label>
+                  <input class="form-control mb-3" id="relacionadoInput" placeholder="Related 1">
+                  <div class="input-group-append">
+                      <button class="btn btn-outline-secondary" type="button" id="addFonte" onclick="addBadge('relacionadoInput', 'selectedRelacionados')">+</button>
+                  </div>
+                  <br>
+                  <input type="hidden" name="relacionadoAp" id="relacionadoAp">
+                  <div id="selectedRelacionados" class="mb-3">
+
+                    {% for r in conceito.Relacionado %}
+                      {% set b = batches[loop.index-1] %}
+                      <span class="badge rounded-pill text-bg-{{b}}">{{r}}</span>
+                    {% endfor %}
+                  </div>
+
+                  <br>
+
                   <div class="input-group mb-3">
-                      <span class="input-group-text" id="basic-addon1">Index Remissivo</span>
+                      <span class="input-group-text" id="basic-addon1">{{ch_tr["Index Remissivo"]}}</span>
                       <input type="text" class="form-control" placeholder="{{conceito.Index_Remissivo}}" name="index_rem" aria-label="Index remissivo" aria-describedby="basic-addon1">
                   </div>
 
 
+                  <div class="input-group">
+                    <span class="input-group-text">{{ch_tr.Nota}}</span>
+                    <textarea class="form-control" aria-label="Nota" name="nota">{{conceito.Nota}}</textarea>
+                </div>
+                <br>
                   <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
                     <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                    <label class="btn btn-outline-warning" for="btnradio1">Change this idiom: {{lang}}</label>
+                    <label class="btn btn-outline-warning" for="btnradio1">{{ch_tr["Change this idiom"]}}: {{lang}}</label>
                   
                     <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-                    <label class="btn btn-outline-danger" for="btnradio2">Change all idioms</label>
+                    <label class="btn btn-outline-danger" for="btnradio2">{{ch_tr["Change all idioms"]}}</label>
                   
                   </div>
 
                   <input type="hidden" id="selectedRadio" name="selectedRadio" value="btnradio1">
                   <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button id='submitButton' class="btn btn-primary" onclick="handleSubmit(event)">Submit</button>
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">{{ch_tr.Close}}</button>
+                      <button id='submitButton' class="btn btn-primary" onclick="handleSubmit(event)">{{ch_tr.Submit}}</button>
                   </div>
               </form>
           </div>
@@ -210,6 +239,17 @@
     </div>
   </div>
 
+  <div class="mb-3">
+    <div class="card-body d-flex align-content-center align-items-center">
+      <img style="width: 50px; margin-right: 1%;" src="https://cdn1.iconfinder.com/data/icons/website-library-part-3/48/Website-Check-Spelling-Grammar-512.png">
+      <h2 class="card-title" style="margin-right: 1%;">{{ch_tr.Variante}}:</h2>
+      {% if conceito.Variante %}
+        <p style="margin: 0%;" class="lead"><b>{{conceito.Variante}}</b></p>
+      {% else %}
+        <p style="margin: 0%;" class="lead"> {{ch_tr.Variante}} {{ch_tr['não disponível']}}</p>
+      {% endif %}
+    </div>
+  </div>
 
   <div class="mb-3">
     <div class="card-body d-flex align-content-center align-items-center">
