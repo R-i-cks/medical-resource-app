@@ -51,6 +51,10 @@ def getTemasRelevantes(pergunta, temas):
 
 app = Flask(__name__)
 
+if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
+
 def trocar_ficheiro(lang):
     if lang == "en":
         file = open("dicionarios/doc_conc_en_V_GMS_outros_relacionados.json", 'r', encoding='UTF-8')
