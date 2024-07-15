@@ -649,9 +649,9 @@ def qa():
         else:
             notmatch = False
             nmr = ""
-        return render_template("qa.html", pesquisa = True, resposta=resposta, mostsimilar=mostsimilar, notmatch=notmatch, nmr=nmr, ms=ms, rr=rr)
+        return render_template("qa.html", pesquisa = True, resposta=resposta, mostsimilar=mostsimilar, notmatch=notmatch, nmr=nmr, ms=ms, rr=rr, warning="The model isn´t available on this web preview, sorry")
     else:
-        return render_template("qa.html", pesquisa = False)
+        return render_template("qa.html", pesquisa = False, warning="The model isn´t available on this web preview, sorry")
 
 
 
