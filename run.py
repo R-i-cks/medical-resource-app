@@ -52,9 +52,6 @@ def getTemasRelevantes(pergunta, temas):
 """
 app = Flask(__name__)
 
-if __name__ == '__main__':
-
-    port = int(os.environ.get('PORT', 5000))
     
 
 def trocar_ficheiro(lang):
@@ -663,4 +660,7 @@ def qa():
 
 #app.run(host="localhost", port=4002, debug=True)
 
-app.run(host='0.0.0.0', port=port)
+if __name__ == '__main__':
+
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
