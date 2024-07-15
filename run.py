@@ -1,20 +1,21 @@
 from flask import Flask, render_template, redirect, url_for, request
 import json
 from deep_translator import GoogleTranslator
+import os
 import re
-from transformers import pipeline
-from gensim.models import Word2Vec
-from gensim.utils import tokenize
+#from transformers import pipeline
+#from gensim.models import Word2Vec
+#from gensim.utils import tokenize
 import numpy as np
-from nltk.corpus import stopwords
-import nltk
+#from nltk.corpus import stopwords
+#import nltk
 
 
-nltk.download('stopwords')
-stop_words = set(stopwords.words('portuguese'))
+#nltk.download('stopwords')
+#stop_words = set(stopwords.words('portuguese'))
 
-model = Word2Vec.load("similaridade/modelo.w2v")
-
+#model = Word2Vec.load("similaridade/modelo.w2v")
+"""
 def get_mean_vector(text):
     tokens = list(tokenize(text, lower=True))
     vectors = [model.wv[token] for token in tokens if token not in stop_words and token in model.wv]
@@ -48,12 +49,13 @@ def getTemasRelevantes(pergunta, temas):
     relevantes = [tema for tema, sim in sorted_sims[:5]]
     return ' '.join(relevantes)
 
-
+"""
 app = Flask(__name__)
 
 if __name__ == '__main__':
+
     port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)
+    
 
 def trocar_ficheiro(lang):
     if lang == "en":
@@ -605,7 +607,7 @@ def pesquisa_detalhada():
         return render_template("pesquisaDetalhada.html", pesquisa=False)
 
 
-
+""" 
 
 @app.route("/qa", methods=['GET', 'POST'])
 
@@ -653,12 +655,12 @@ def qa():
         return render_template("qa.html", pesquisa = False)
 
 
+"""
 
 
 
 
 
+#app.run(host="localhost", port=4002, debug=True)
 
-app.run(host="localhost", port=4002, debug=True)
-
-
+app.run(host='0.0.0.0', port=port)
