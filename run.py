@@ -15,7 +15,9 @@ import numpy as np
 #stop_words = set(stopwords.words('portuguese'))
 
 #model = Word2Vec.load("similaridade/modelo.w2v")
-"""
+
+""" 
+
 def get_mean_vector(text):
     tokens = list(tokenize(text, lower=True))
     vectors = [model.wv[token] for token in tokens if token not in stop_words and token in model.wv]
@@ -50,8 +52,8 @@ def getTemasRelevantes(pergunta, temas):
     return ' '.join(relevantes)
 
 """
-app = Flask(__name__)
 
+app = Flask(__name__)
     
 
 def trocar_ficheiro(lang):
@@ -604,7 +606,7 @@ def pesquisa_detalhada():
         return render_template("pesquisaDetalhada.html", pesquisa=False)
 
 
-""" 
+ 
 
 @app.route("/qa", methods=['GET', 'POST'])
 
@@ -614,7 +616,7 @@ def qa():
         termo = request.form.get("termo")
         ms = request.form.get("mostsimilar")
         nm = request.form.get("doesnotmatch")
-        if termo:
+        if termo and False: # fechar o if
             qa_pipeline = pipeline("question-answering", model="lfcc/bert-portuguese-squad")
             f = open("similaridade/Livro-de-Resumos-2024_novo.xml", 'r', encoding='UTF-8')
             texto = f.read()
@@ -652,7 +654,7 @@ def qa():
         return render_template("qa.html", pesquisa = False)
 
 
-"""
+
 
 
 
