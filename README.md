@@ -7,7 +7,7 @@ A Flask web application for browsing and searching a multilingual medical termin
 - Browse medical concepts in Portuguese, English, and Spanish
 - Full-text search across concept names and definitions
 - On-demand translation to any language via Google Translate
-- Word2Vec model for semantic similarity between medical terms (available in extended version)
+- Word2Vec-based semantic similarity between medical terms (pre-computed; Gensim not required at runtime)
 - Concept detail pages showing definitions, synonyms, related terms, sources, and grammatical category
 - Q&A interface scaffolding for NLP-based question answering
 - Deployed on Render with Gunicorn
@@ -16,16 +16,16 @@ A Flask web application for browsing and searching a multilingual medical termin
 
 | Layer | Technology |
 |---|---|
-| Web framework | Flask 3.0 |
-| NLP / embeddings | Gensim Word2Vec, NumPy |
+| Web framework | Flask 3.0.3 |
+| NLP / embeddings | NumPy |
 | Translation | deep-translator (Google Translate) |
 | Templating | Jinja2 |
 | Server | Gunicorn |
-| Runtime | Python 3.11 |
+| Runtime | Python 3.11.5 |
 
 ## Run Locally
 
-**Prerequisites:** Python 3.11+
+**Prerequisites:** Python 3.11.5
 
 ```bash
 # 1. Clone the repository
@@ -57,15 +57,18 @@ medical-resource-app/
 ├── requirements.txt                    # Python dependencies
 ├── runtime.txt                         # Python version for Render
 ├── Procfile                            # Gunicorn startup command for Render
+├── modelo.w2v                          # Pre-computed Word2Vec model
 ├── medicina.json                       # Core medical data
 ├── conceitos_relacoes_e_sinonimos.json # Concept relationships and synonyms
 ├── dicionarios/                        # Multilingual concept dictionaries (pt/en/es)
-├── similaridade/                       # Word2Vec model files
+├── similaridade/                       # Word2Vec similarity scripts and models
 ├── templates/                          # Jinja2 HTML templates
 │   ├── layout.html
 │   ├── home.html
 │   ├── conceitos.html                  # Concept search/browse page
 │   ├── conc.html                       # Individual concept detail page
+│   ├── pesquisaDetalhada.html          # Detailed search results page
+│   ├── table.html                      # Tabular results view
 │   └── qa.html                         # Q&A interface
 └── static/                             # CSS, JS, and other static assets
 ```
