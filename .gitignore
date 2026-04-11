@@ -1,0 +1,33 @@
+# Python virtual environment
+env/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Flask
+instance/
+.env
+
+# Build / packaging
+*.egg-info/
+dist/
+
+# Testing
+.pytest_cache/
+htmlcov/
+
+# Logs
+*.log
+
+# Type checking
+.mypy_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
